@@ -1,0 +1,674 @@
+{
+    "20000": {
+        "Name": "\u950b\u955d",
+        "Rarity": 3,
+        "BaseHp": 38.40000000037253,
+        "BaseAtk": 14.400000000372529,
+        "BaseDef": 12
+    },
+    "20001": {
+        "Name": "\u7269\u7a70",
+        "Rarity": 3,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 12,
+        "BaseDef": 12
+    },
+    "20002": {
+        "Name": "\u5929\u503e",
+        "Rarity": 3,
+        "BaseHp": 38.40000000037253,
+        "BaseAtk": 16.800000000745058,
+        "BaseDef": 9
+    },
+    "20003": {
+        "Name": "\u7425\u73c0",
+        "Rarity": 3,
+        "BaseHp": 38.40000000037253,
+        "BaseAtk": 12,
+        "BaseDef": 15
+    },
+    "20004": {
+        "Name": "\u5e7d\u9083",
+        "Rarity": 3,
+        "BaseHp": 38.40000000037253,
+        "BaseAtk": 14.400000000372529,
+        "BaseDef": 12
+    },
+    "20005": {
+        "Name": "\u9f50\u9882",
+        "Rarity": 3,
+        "BaseHp": 38.40000000037253,
+        "BaseAtk": 14.400000000372529,
+        "BaseDef": 12
+    },
+    "20006": {
+        "Name": "\u667a\u5e93",
+        "Rarity": 3,
+        "BaseHp": 33.60000000055879,
+        "BaseAtk": 16.800000000745058,
+        "BaseDef": 12
+    },
+    "20007": {
+        "Name": "\u79bb\u5f26",
+        "Rarity": 3,
+        "BaseHp": 33.60000000055879,
+        "BaseAtk": 16.800000000745058,
+        "BaseDef": 12
+    },
+    "20008": {
+        "Name": "\u5609\u679c",
+        "Rarity": 3,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 14.400000000372529,
+        "BaseDef": 9
+    },
+    "20009": {
+        "Name": "\u4e50\u572e",
+        "Rarity": 3,
+        "BaseHp": 38.40000000037253,
+        "BaseAtk": 16.800000000745058,
+        "BaseDef": 9
+    },
+    "20010": {
+        "Name": "\u620d\u5fa1",
+        "Rarity": 3,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 12,
+        "BaseDef": 12
+    },
+    "20011": {
+        "Name": "\u6e0a\u73af",
+        "Rarity": 3,
+        "BaseHp": 38.40000000037253,
+        "BaseAtk": 14.400000000372529,
+        "BaseDef": 12
+    },
+    "20012": {
+        "Name": "\u8f6e\u5951",
+        "Rarity": 3,
+        "BaseHp": 38.40000000037253,
+        "BaseAtk": 14.400000000372529,
+        "BaseDef": 12
+    },
+    "20013": {
+        "Name": "\u7075\u94a5",
+        "Rarity": 3,
+        "BaseHp": 33.60000000055879,
+        "BaseAtk": 16.800000000745058,
+        "BaseDef": 12
+    },
+    "20014": {
+        "Name": "\u76f8\u6297",
+        "Rarity": 3,
+        "BaseHp": 33.60000000055879,
+        "BaseAtk": 16.800000000745058,
+        "BaseDef": 12
+    },
+    "20015": {
+        "Name": "\u8543\u606f",
+        "Rarity": 3,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 14.400000000372529,
+        "BaseDef": 9
+    },
+    "20016": {
+        "Name": "\u4ff1\u6b81",
+        "Rarity": 3,
+        "BaseHp": 38.40000000037253,
+        "BaseAtk": 16.800000000745058,
+        "BaseDef": 9
+    },
+    "20017": {
+        "Name": "\u5f00\u7586",
+        "Rarity": 3,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 12,
+        "BaseDef": 12
+    },
+    "20018": {
+        "Name": "\u533f\u5f71",
+        "Rarity": 3,
+        "BaseHp": 38.40000000037253,
+        "BaseAtk": 14.400000000372529,
+        "BaseDef": 12
+    },
+    "20019": {
+        "Name": "\u8c03\u548c",
+        "Rarity": 3,
+        "BaseHp": 38.40000000037253,
+        "BaseAtk": 14.400000000372529,
+        "BaseDef": 12
+    },
+    "20020": {
+        "Name": "\u777f\u89c1",
+        "Rarity": 3,
+        "BaseHp": 33.60000000055879,
+        "BaseAtk": 16.800000000745058,
+        "BaseDef": 12
+    },
+    "21000": {
+        "Name": "\u4e00\u573a\u672f\u540e\u5bf9\u8bdd",
+        "Rarity": 4,
+        "BaseHp": 48,
+        "BaseAtk": 19.200000000186265,
+        "BaseDef": 15
+    },
+    "21001": {
+        "Name": "\u665a\u5b89\u4e0e\u7761\u989c",
+        "Rarity": 4,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 21.600000000558794,
+        "BaseDef": 15
+    },
+    "21002": {
+        "Name": "\u4f59\u751f\u7684\u7b2c\u4e00\u5929",
+        "Rarity": 4,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 16.800000000745058,
+        "BaseDef": 21
+    },
+    "21003": {
+        "Name": "\u552f\u6709\u6c89\u9ed8",
+        "Rarity": 4,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 21.600000000558794,
+        "BaseDef": 15
+    },
+    "21004": {
+        "Name": "\u8bb0\u5fc6\u4e2d\u7684\u6a21\u6837",
+        "Rarity": 4,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 19.200000000186265,
+        "BaseDef": 18
+    },
+    "21005": {
+        "Name": "\u9f39\u9f20\u515a\u6b22\u8fce\u4f60",
+        "Rarity": 4,
+        "BaseHp": 48,
+        "BaseAtk": 21.600000000558794,
+        "BaseDef": 12
+    },
+    "21006": {
+        "Name": "\u300c\u6211\u300d\u7684\u8bde\u751f",
+        "Rarity": 4,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 21.600000000558794,
+        "BaseDef": 15
+    },
+    "21007": {
+        "Name": "\u540c\u4e00\u79cd\u5fc3\u60c5",
+        "Rarity": 4,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 19.200000000186265,
+        "BaseDef": 18
+    },
+    "21008": {
+        "Name": "\u730e\u7269\u7684\u89c6\u7ebf",
+        "Rarity": 4,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 21.600000000558794,
+        "BaseDef": 15
+    },
+    "21009": {
+        "Name": "\u6717\u9053\u7684\u9009\u62e9",
+        "Rarity": 4,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 19.200000000186265,
+        "BaseDef": 18
+    },
+    "21010": {
+        "Name": "\u8bba\u5251",
+        "Rarity": 4,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 21.600000000558794,
+        "BaseDef": 15
+    },
+    "21011": {
+        "Name": "\u4e0e\u884c\u661f\u76f8\u4f1a",
+        "Rarity": 4,
+        "BaseHp": 48,
+        "BaseAtk": 19.200000000186265,
+        "BaseDef": 15
+    },
+    "21012": {
+        "Name": "\u79d8\u5bc6\u8a93\u5fc3",
+        "Rarity": 4,
+        "BaseHp": 48,
+        "BaseAtk": 21.600000000558794,
+        "BaseDef": 12
+    },
+    "21013": {
+        "Name": "\u522b\u8ba9\u4e16\u754c\u9759\u4e0b\u6765",
+        "Rarity": 4,
+        "BaseHp": 38.40000000037253,
+        "BaseAtk": 21.600000000558794,
+        "BaseDef": 18
+    },
+    "21014": {
+        "Name": "\u6b64\u65f6\u6070\u597d",
+        "Rarity": 4,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 19.200000000186265,
+        "BaseDef": 18
+    },
+    "21015": {
+        "Name": "\u51b3\u5fc3\u5982\u6c57\u73e0\u822c\u95ea\u8000",
+        "Rarity": 4,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 21.600000000558794,
+        "BaseDef": 15
+    },
+    "21016": {
+        "Name": "\u5b87\u5b99\u5e02\u573a\u8d8b\u52bf",
+        "Rarity": 4,
+        "BaseHp": 48,
+        "BaseAtk": 16.800000000745058,
+        "BaseDef": 18
+    },
+    "21017": {
+        "Name": "\u70b9\u4e2a\u5173\u6ce8\u5427\uff01",
+        "Rarity": 4,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 21.600000000558794,
+        "BaseDef": 15
+    },
+    "21018": {
+        "Name": "\u821e\uff01\u821e\uff01\u821e\uff01",
+        "Rarity": 4,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 19.200000000186265,
+        "BaseDef": 18
+    },
+    "21019": {
+        "Name": "\u5728\u84dd\u5929\u4e0b",
+        "Rarity": 4,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 21.600000000558794,
+        "BaseDef": 15
+    },
+    "21020": {
+        "Name": "\u5929\u624d\u4eec\u7684\u4f11\u61a9",
+        "Rarity": 4,
+        "BaseHp": 38.40000000037253,
+        "BaseAtk": 21.600000000558794,
+        "BaseDef": 18
+    },
+    "21021": {
+        "Name": "\u7b49\u4ef7\u4ea4\u6362",
+        "Rarity": 4,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 19.200000000186265,
+        "BaseDef": 18
+    },
+    "21022": {
+        "Name": "\u5ef6\u957f\u8bb0\u53f7",
+        "Rarity": 4,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 21.600000000558794,
+        "BaseDef": 15
+    },
+    "21023": {
+        "Name": "\u6211\u4eec\u662f\u5730\u706b",
+        "Rarity": 4,
+        "BaseHp": 33.60000000055879,
+        "BaseAtk": 21.600000000558794,
+        "BaseDef": 21
+    },
+    "21024": {
+        "Name": "\u6625\u6c34\u521d\u751f",
+        "Rarity": 4,
+        "BaseHp": 38.40000000037253,
+        "BaseAtk": 21.600000000558794,
+        "BaseDef": 18
+    },
+    "21025": {
+        "Name": "\u8fc7\u5f80\u672a\u6765",
+        "Rarity": 4,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 19.200000000186265,
+        "BaseDef": 18
+    },
+    "21026": {
+        "Name": "\u6c6a\uff01\u6563\u6b65\u65f6\u95f4\uff01",
+        "Rarity": 4,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 21.600000000558794,
+        "BaseDef": 15
+    },
+    "21027": {
+        "Name": "\u65e9\u9910\u7684\u4eea\u5f0f\u611f",
+        "Rarity": 4,
+        "BaseHp": 38.40000000037253,
+        "BaseAtk": 21.600000000558794,
+        "BaseDef": 18
+    },
+    "21028": {
+        "Name": "\u6696\u591c\u4e0d\u4f1a\u6f2b\u957f",
+        "Rarity": 4,
+        "BaseHp": 48,
+        "BaseAtk": 16.800000000745058,
+        "BaseDef": 18
+    },
+    "21029": {
+        "Name": "\u540e\u4f1a\u6709\u671f",
+        "Rarity": 4,
+        "BaseHp": 38.40000000037253,
+        "BaseAtk": 24,
+        "BaseDef": 15
+    },
+    "21030": {
+        "Name": "\u8fd9\u5c31\u662f\u6211\u5566\uff01",
+        "Rarity": 4,
+        "BaseHp": 38.40000000037253,
+        "BaseAtk": 16.800000000745058,
+        "BaseDef": 24
+    },
+    "21031": {
+        "Name": "\u91cd\u8fd4\u5e7d\u51a5",
+        "Rarity": 4,
+        "BaseHp": 38.40000000037253,
+        "BaseAtk": 24,
+        "BaseDef": 15
+    },
+    "21032": {
+        "Name": "\u9542\u6708\u88c1\u4e91\u4e4b\u610f",
+        "Rarity": 4,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 21.600000000558794,
+        "BaseDef": 15
+    },
+    "21033": {
+        "Name": "\u65e0\u5904\u53ef\u9003",
+        "Rarity": 4,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 24,
+        "BaseDef": 12
+    },
+    "21034": {
+        "Name": "\u4eca\u65e5\u4ea6\u662f\u548c\u5e73\u7684\u4e00\u65e5",
+        "Rarity": 4,
+        "BaseHp": 38.40000000037253,
+        "BaseAtk": 24,
+        "BaseDef": 15
+    },
+    "21035": {
+        "Name": "\u4f55\u7269\u4e3a\u771f",
+        "Rarity": 4,
+        "BaseHp": 48,
+        "BaseAtk": 19.200000000186265,
+        "BaseDef": 15
+    },
+    "21036": {
+        "Name": "\u7f8e\u68a6\u5c0f\u9547\u5927\u5192\u9669",
+        "Rarity": 4,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 19.200000000186265,
+        "BaseDef": 18
+    },
+    "21037": {
+        "Name": "\u6700\u540e\u7684\u8d62\u5bb6",
+        "Rarity": 4,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 21.600000000558794,
+        "BaseDef": 15
+    },
+    "21038": {
+        "Name": "\u5728\u706b\u7684\u8fdc\u5904",
+        "Rarity": 4,
+        "BaseHp": 48,
+        "BaseAtk": 21.600000000558794,
+        "BaseDef": 12
+    },
+    "21039": {
+        "Name": "\u7ec7\u9020\u547d\u8fd0\u4e4b\u7ebf",
+        "Rarity": 4,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 16.800000000745058,
+        "BaseDef": 21
+    },
+    "21040": {
+        "Name": "\u94f6\u6cb3\u6ca6\u9677\u65e5",
+        "Rarity": 4,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 21.600000000558794,
+        "BaseDef": 15
+    },
+    "21041": {
+        "Name": "\u597d\u620f\u5f00\u6f14",
+        "Rarity": 4,
+        "BaseHp": 48,
+        "BaseAtk": 21.600000000558794,
+        "BaseDef": 12
+    },
+    "21042": {
+        "Name": "\u94ed\u8bb0\u4e8e\u5fc3\u7684\u7ea6\u5b9a",
+        "Rarity": 4,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 21.600000000558794,
+        "BaseDef": 15
+    },
+    "21043": {
+        "Name": "\u4e24\u4e2a\u4eba\u7684\u6f14\u5531\u4f1a",
+        "Rarity": 4,
+        "BaseHp": 38.40000000037253,
+        "BaseAtk": 16.800000000745058,
+        "BaseDef": 24
+    },
+    "22000": {
+        "Name": "\u65b0\u624b\u4efb\u52a1\u5f00\u59cb\u524d",
+        "Rarity": 4,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 21.600000000558794,
+        "BaseDef": 15
+    },
+    "22001": {
+        "Name": "\u563f\uff0c\u6211\u5728\u8fd9\u513f",
+        "Rarity": 4,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 19.200000000186265,
+        "BaseDef": 18
+    },
+    "23000": {
+        "Name": "\u94f6\u6cb3\u94c1\u9053\u4e4b\u591c",
+        "Rarity": 5,
+        "BaseHp": 52.80000000074506,
+        "BaseAtk": 26.40000000037253,
+        "BaseDef": 18
+    },
+    "23001": {
+        "Name": "\u4e8e\u591c\u8272\u4e2d",
+        "Rarity": 5,
+        "BaseHp": 48,
+        "BaseAtk": 26.40000000037253,
+        "BaseDef": 21
+    },
+    "23002": {
+        "Name": "\u65e0\u53ef\u53d6\u4ee3\u7684\u4e1c\u897f",
+        "Rarity": 5,
+        "BaseHp": 52.80000000074506,
+        "BaseAtk": 26.40000000037253,
+        "BaseDef": 18
+    },
+    "23003": {
+        "Name": "\u4f46\u6218\u6597\u8fd8\u672a\u7ed3\u675f",
+        "Rarity": 5,
+        "BaseHp": 52.80000000074506,
+        "BaseAtk": 24,
+        "BaseDef": 21
+    },
+    "23004": {
+        "Name": "\u4ee5\u4e16\u754c\u4e4b\u540d",
+        "Rarity": 5,
+        "BaseHp": 48,
+        "BaseAtk": 26.40000000037253,
+        "BaseDef": 21
+    },
+    "23005": {
+        "Name": "\u5236\u80dc\u7684\u77ac\u95f4",
+        "Rarity": 5,
+        "BaseHp": 48,
+        "BaseAtk": 21.600000000558794,
+        "BaseDef": 27
+    },
+    "23006": {
+        "Name": "\u53ea\u9700\u7b49\u5f85",
+        "Rarity": 5,
+        "BaseHp": 48,
+        "BaseAtk": 26.40000000037253,
+        "BaseDef": 21
+    },
+    "23007": {
+        "Name": "\u96e8\u4e00\u76f4\u4e0b",
+        "Rarity": 5,
+        "BaseHp": 48,
+        "BaseAtk": 26.40000000037253,
+        "BaseDef": 21
+    },
+    "23008": {
+        "Name": "\u68fa\u7684\u56de\u54cd",
+        "Rarity": 5,
+        "BaseHp": 52.80000000074506,
+        "BaseAtk": 26.40000000037253,
+        "BaseDef": 18
+    },
+    "23009": {
+        "Name": "\u5230\u4e0d\u4e86\u7684\u5f7c\u5cb8",
+        "Rarity": 5,
+        "BaseHp": 57.60000000055879,
+        "BaseAtk": 26.40000000037253,
+        "BaseDef": 15
+    },
+    "23010": {
+        "Name": "\u62c2\u6653\u4e4b\u524d",
+        "Rarity": 5,
+        "BaseHp": 48,
+        "BaseAtk": 26.40000000037253,
+        "BaseDef": 21
+    },
+    "23011": {
+        "Name": "\u5979\u5df2\u95ed\u4e0a\u53cc\u773c",
+        "Rarity": 5,
+        "BaseHp": 57.60000000055879,
+        "BaseAtk": 19.200000000186265,
+        "BaseDef": 24
+    },
+    "23012": {
+        "Name": "\u5982\u6ce5\u9163\u7720",
+        "Rarity": 5,
+        "BaseHp": 48,
+        "BaseAtk": 26.40000000037253,
+        "BaseDef": 21
+    },
+    "23013": {
+        "Name": "\u65f6\u8282\u4e0d\u5c45",
+        "Rarity": 5,
+        "BaseHp": 57.60000000055879,
+        "BaseAtk": 21.600000000558794,
+        "BaseDef": 21
+    },
+    "23014": {
+        "Name": "\u6b64\u8eab\u4e3a\u5251",
+        "Rarity": 5,
+        "BaseHp": 52.80000000074506,
+        "BaseAtk": 26.40000000037253,
+        "BaseDef": 18
+    },
+    "23015": {
+        "Name": "\u6bd4\u9633\u5149\u66f4\u660e\u4eae\u7684",
+        "Rarity": 5,
+        "BaseHp": 48,
+        "BaseAtk": 28.800000000745058,
+        "BaseDef": 18
+    },
+    "23016": {
+        "Name": "\u70e6\u607c\u7740\uff0c\u5e78\u798f\u7740",
+        "Rarity": 5,
+        "BaseHp": 48,
+        "BaseAtk": 26.40000000037253,
+        "BaseDef": 21
+    },
+    "23017": {
+        "Name": "\u60ca\u9b42\u591c",
+        "Rarity": 5,
+        "BaseHp": 52.80000000074506,
+        "BaseAtk": 21.600000000558794,
+        "BaseDef": 24
+    },
+    "23018": {
+        "Name": "\u7247\u523b\uff0c\u7559\u5728\u773c\u5e95",
+        "Rarity": 5,
+        "BaseHp": 48,
+        "BaseAtk": 26.40000000037253,
+        "BaseDef": 21
+    },
+    "23019": {
+        "Name": "\u955c\u4e2d\u6545\u6211",
+        "Rarity": 5,
+        "BaseHp": 48,
+        "BaseAtk": 24,
+        "BaseDef": 24
+    },
+    "23020": {
+        "Name": "\u7eaf\u7cb9\u601d\u7ef4\u7684\u6d17\u793c",
+        "Rarity": 5,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 26.40000000037253,
+        "BaseDef": 24
+    },
+    "23021": {
+        "Name": "\u6e38\u620f\u5c18\u5bf0",
+        "Rarity": 5,
+        "BaseHp": 52.80000000074506,
+        "BaseAtk": 24,
+        "BaseDef": 21
+    },
+    "23022": {
+        "Name": "\u91cd\u5851\u65f6\u5149\u4e4b\u5fc6",
+        "Rarity": 5,
+        "BaseHp": 48,
+        "BaseAtk": 26.40000000037253,
+        "BaseDef": 21
+    },
+    "23023": {
+        "Name": "\u547d\u8fd0\u4ece\u672a\u516c\u5e73",
+        "Rarity": 5,
+        "BaseHp": 48,
+        "BaseAtk": 19.200000000186265,
+        "BaseDef": 30
+    },
+    "23024": {
+        "Name": "\u884c\u4e8e\u6d41\u901d\u7684\u5cb8",
+        "Rarity": 5,
+        "BaseHp": 48,
+        "BaseAtk": 28.800000000745058,
+        "BaseDef": 18
+    },
+    "24000": {
+        "Name": "\u8bb0\u4e00\u4f4d\u661f\u795e\u7684\u9668\u843d",
+        "Rarity": 5,
+        "BaseHp": 48,
+        "BaseAtk": 24,
+        "BaseDef": 18
+    },
+    "24001": {
+        "Name": "\u661f\u6d77\u5de1\u822a",
+        "Rarity": 5,
+        "BaseHp": 43.200000000186265,
+        "BaseAtk": 24,
+        "BaseDef": 21
+    },
+    "24002": {
+        "Name": "\u8bb0\u5fc6\u7684\u8d28\u6599",
+        "Rarity": 5,
+        "BaseHp": 48,
+        "BaseAtk": 19.200000000186265,
+        "BaseDef": 24
+    },
+    "24003": {
+        "Name": "\u5b64\u72ec\u7684\u7597\u6108",
+        "Rarity": 5,
+        "BaseHp": 48,
+        "BaseAtk": 24,
+        "BaseDef": 18
+    }
+}

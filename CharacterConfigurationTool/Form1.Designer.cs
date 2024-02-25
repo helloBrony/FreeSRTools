@@ -1,5 +1,5 @@
 ﻿namespace CharacterConfigurationTool {
-    partial class fMain {
+    partial class MainForm {
         /// <summary>
         ///  Required designer variable.
         /// </summary>
@@ -88,20 +88,20 @@
             splitContainer4 = new SplitContainer();
             splitContainer6 = new SplitContainer();
             groupBox5 = new GroupBox();
+            nudRelicHeadSubAffixStep4 = new NumericUpDown();
+            nudRelicHeadSubAffixCnt4 = new NumericUpDown();
+            nudRelicHeadSubAffixStep3 = new NumericUpDown();
+            nudRelicHeadSubAffixCnt3 = new NumericUpDown();
+            nudRelicHeadSubAffixStep2 = new NumericUpDown();
+            nudRelicHeadSubAffixCnt2 = new NumericUpDown();
+            nudRelicHeadSubAffixStep1 = new NumericUpDown();
+            nudRelicHeadSubAffixCnt1 = new NumericUpDown();
             cboxRelicHeadSet = new ComboBox();
             label76 = new Label();
-            label21 = new Label();
-            label20 = new Label();
-            label19 = new Label();
-            label18 = new Label();
-            cboxRelicHeadSubAffixStep4 = new TextBox();
-            cboxRelicHeadSubAffixStep3 = new TextBox();
-            cboxRelicHeadSubAffixStep2 = new TextBox();
-            cboxRelicHeadSubAffixStep1 = new TextBox();
-            cboxRelicHeadSubAffixCnt4 = new TextBox();
-            cboxRelicHeadSubAffixCnt3 = new TextBox();
-            cboxRelicHeadSubAffixCnt2 = new TextBox();
-            cboxRelicHeadSubAffixCnt1 = new TextBox();
+            lblRelicHeadSubAffixValue4 = new Label();
+            lblRelicHeadSubAffixValue3 = new Label();
+            lblRelicHeadSubAffixValue2 = new Label();
+            lblRelicHeadSubAffixValue1 = new Label();
             cboxRelicHeadSubAffix4 = new ComboBox();
             cboxRelicHeadSubAffix3 = new ComboBox();
             cboxRelicHeadSubAffix2 = new ComboBox();
@@ -114,137 +114,137 @@
             cboxRelicHeadMainAffix = new ComboBox();
             label14 = new Label();
             groupBox6 = new GroupBox();
+            nudRelicHandSubAffixStep4 = new NumericUpDown();
+            nudRelicHeadSubAffixCnt14 = new NumericUpDown();
+            nudRelicHandSubAffixStep3 = new NumericUpDown();
+            nudRelicHeadSubAffixCnt13 = new NumericUpDown();
+            nudRelicHandSubAffixStep2 = new NumericUpDown();
+            nudRelicHeadSubAffixCnt12 = new NumericUpDown();
+            nudRelicHandSubAffixStep1 = new NumericUpDown();
+            nudRelicHandSubAffixCnt1 = new NumericUpDown();
             cboxRelicHandSet = new ComboBox();
             label22 = new Label();
-            label32 = new Label();
-            label33 = new Label();
-            label34 = new Label();
-            label35 = new Label();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
-            textBox6 = new TextBox();
-            textBox7 = new TextBox();
-            textBox8 = new TextBox();
-            textBox9 = new TextBox();
-            textBox10 = new TextBox();
-            comboBox2 = new ComboBox();
-            comboBox3 = new ComboBox();
-            comboBox4 = new ComboBox();
+            lblRelicHandSubAffixValue4 = new Label();
+            lblRelicHandSubAffixValue3 = new Label();
+            lblRelicHandSubAffixValue2 = new Label();
+            lblRelicHandSubAffixValue1 = new Label();
+            cboxRelicHandSubAffix4 = new ComboBox();
+            cboxRelicHandSubAffix3 = new ComboBox();
+            cboxRelicHandSubAffix2 = new ComboBox();
             cboxRelicHandSubAffix1 = new ComboBox();
             label36 = new Label();
             label37 = new Label();
             label38 = new Label();
-            label39 = new Label();
+            lblRelicHandMainAffixValue = new Label();
             cboxRelicHandLevel = new ComboBox();
             cboxRelicHandMainAffix = new ComboBox();
             label40 = new Label();
             splitContainer5 = new SplitContainer();
             splitContainer7 = new SplitContainer();
             groupBox7 = new GroupBox();
-            comboBox8 = new ComboBox();
+            nudRelicBodySubAffixStep4 = new NumericUpDown();
+            nudRelicBodySubAffixCnt4 = new NumericUpDown();
+            nudRelicBodySubAffixStep3 = new NumericUpDown();
+            nudRelicBodySubAffixCnt3 = new NumericUpDown();
+            nudRelicBodySubAffixStep2 = new NumericUpDown();
+            nudRelicBodySubAffixCnt2 = new NumericUpDown();
+            nudRelicBodySubAffixStep1 = new NumericUpDown();
+            nudRelicBodySubAffixCnt1 = new NumericUpDown();
+            cboxRelicBodySet = new ComboBox();
             label41 = new Label();
-            label42 = new Label();
-            label43 = new Label();
-            label44 = new Label();
-            label45 = new Label();
-            textBox11 = new TextBox();
-            textBox12 = new TextBox();
-            textBox13 = new TextBox();
-            textBox14 = new TextBox();
-            textBox15 = new TextBox();
-            textBox16 = new TextBox();
-            textBox17 = new TextBox();
-            textBox18 = new TextBox();
-            comboBox9 = new ComboBox();
-            comboBox10 = new ComboBox();
-            comboBox11 = new ComboBox();
-            comboBox12 = new ComboBox();
+            lblRelicBodySubAffixValue4 = new Label();
+            lblRelicBodySubAffixValue3 = new Label();
+            lblRelicBodySubAffixValue2 = new Label();
+            lblRelicBodySubAffixValue1 = new Label();
+            cboxRelicBodySubAffix4 = new ComboBox();
+            cboxRelicBodySubAffix3 = new ComboBox();
+            cboxRelicBodySubAffix2 = new ComboBox();
+            cboxRelicBodySubAffix1 = new ComboBox();
             label46 = new Label();
             label47 = new Label();
             label48 = new Label();
-            label49 = new Label();
-            comboBox13 = new ComboBox();
-            comboBox14 = new ComboBox();
+            lblRelicBodyMainAffixValue = new Label();
+            cboxRelicBodyLevel = new ComboBox();
+            cboxRelicBodyMainAffix = new ComboBox();
             label50 = new Label();
             groupBox8 = new GroupBox();
-            comboBox15 = new ComboBox();
+            nudRelicFootSubAffixStep4 = new NumericUpDown();
+            nudRelicFootSubAffixCnt4 = new NumericUpDown();
+            nudRelicFootSubAffixStep3 = new NumericUpDown();
+            nudRelicFootSubAffixCnt3 = new NumericUpDown();
+            nudRelicFootSubAffixStep2 = new NumericUpDown();
+            nudRelicFootSubAffixCnt2 = new NumericUpDown();
+            nudRelicFootSubAffixStep1 = new NumericUpDown();
+            nudRelicFootSubAffixCnt1 = new NumericUpDown();
+            cboxRelicFootSet = new ComboBox();
             label51 = new Label();
-            label52 = new Label();
-            label53 = new Label();
-            label54 = new Label();
-            label55 = new Label();
-            textBox19 = new TextBox();
-            textBox20 = new TextBox();
-            textBox21 = new TextBox();
-            textBox22 = new TextBox();
-            textBox23 = new TextBox();
-            textBox24 = new TextBox();
-            textBox25 = new TextBox();
-            textBox26 = new TextBox();
-            comboBox16 = new ComboBox();
-            comboBox17 = new ComboBox();
-            comboBox18 = new ComboBox();
-            comboBox19 = new ComboBox();
+            lblRelicFootSubAffixValue4 = new Label();
+            lblRelicFootSubAffixValue3 = new Label();
+            lblRelicFootSubAffixValue2 = new Label();
+            lblRelicFootSubAffixValue1 = new Label();
+            cboxRelicFootSubAffix4 = new ComboBox();
+            cboxRelicFootSubAffix3 = new ComboBox();
+            cboxRelicFootSubAffix2 = new ComboBox();
+            cboxRelicFootSubAffix1 = new ComboBox();
             label56 = new Label();
             label57 = new Label();
             label58 = new Label();
-            label59 = new Label();
-            comboBox20 = new ComboBox();
-            comboBox21 = new ComboBox();
+            lblRelicFootMainAffixValue = new Label();
+            cboxRelicFootLevel = new ComboBox();
+            cboxRelicFootMainAffix = new ComboBox();
             label60 = new Label();
             splitContainer8 = new SplitContainer();
             groupBox9 = new GroupBox();
-            comboBox22 = new ComboBox();
+            nudRelicNeckSubAffixStep4 = new NumericUpDown();
+            nudRelicNeckSubAffixCnt4 = new NumericUpDown();
+            nudRelicNeckSubAffixStep3 = new NumericUpDown();
+            nudRelicNeckSubAffixCnt3 = new NumericUpDown();
+            nudRelicNeckSubAffixStep2 = new NumericUpDown();
+            nudRelicNeckSubAffixCnt2 = new NumericUpDown();
+            nudRelicNeckSubAffixStep1 = new NumericUpDown();
+            nudRelicNeckSubAffixCnt1 = new NumericUpDown();
+            cboxNeckBodySet = new ComboBox();
             label61 = new Label();
-            label62 = new Label();
-            label63 = new Label();
-            label64 = new Label();
-            label65 = new Label();
-            textBox27 = new TextBox();
-            textBox28 = new TextBox();
-            textBox29 = new TextBox();
-            textBox30 = new TextBox();
-            textBox31 = new TextBox();
-            textBox32 = new TextBox();
-            textBox33 = new TextBox();
-            textBox34 = new TextBox();
-            comboBox23 = new ComboBox();
-            comboBox24 = new ComboBox();
-            comboBox25 = new ComboBox();
-            comboBox26 = new ComboBox();
+            lblRelicNeckSubAffixValue4 = new Label();
+            lblRelicNeckSubAffixValue3 = new Label();
+            lblRelicNeckSubAffixValue2 = new Label();
+            lblRelicNeckSubAffixValue1 = new Label();
+            cboxRelicNeckSubAffix4 = new ComboBox();
+            cboxRelicNeckSubAffix3 = new ComboBox();
+            cboxRelicNeckSubAffix2 = new ComboBox();
+            cboxRelicNeckSubAffix1 = new ComboBox();
             label66 = new Label();
             label67 = new Label();
             label68 = new Label();
-            label69 = new Label();
-            comboBox27 = new ComboBox();
-            comboBox28 = new ComboBox();
+            lblRelicNeckMainAffixValue = new Label();
+            cboxRelicNeckLevel = new ComboBox();
+            cboxRelicNeckMainAffix = new ComboBox();
             label70 = new Label();
             groupBox10 = new GroupBox();
-            comboBox29 = new ComboBox();
+            nudRelicObjectSubAffixStep4 = new NumericUpDown();
+            nudRelicObjectSubAffixCnt4 = new NumericUpDown();
+            nudRelicObjectSubAffixStep3 = new NumericUpDown();
+            nudRelicObjectSubAffixCnt3 = new NumericUpDown();
+            nudRelicObjectSubAffixStep2 = new NumericUpDown();
+            nudRelicObjectSubAffixCnt2 = new NumericUpDown();
+            nudRelicObjectSubAffixStep1 = new NumericUpDown();
+            nudRelicObjectSubAffixCnt1 = new NumericUpDown();
+            cboxRelicObjectSet = new ComboBox();
             label71 = new Label();
-            label72 = new Label();
-            label73 = new Label();
-            label74 = new Label();
-            label75 = new Label();
-            textBox35 = new TextBox();
-            textBox36 = new TextBox();
-            textBox37 = new TextBox();
-            textBox38 = new TextBox();
-            textBox39 = new TextBox();
-            textBox40 = new TextBox();
-            textBox41 = new TextBox();
-            textBox42 = new TextBox();
-            comboBox30 = new ComboBox();
-            comboBox32 = new ComboBox();
-            comboBox33 = new ComboBox();
-            comboBox34 = new ComboBox();
+            lblRelicObjectSubAffixValue4 = new Label();
+            lblRelicObjectSubAffixValue3 = new Label();
+            lblRelicObjectSubAffixValue2 = new Label();
+            lblRelicObjectSubAffixValue1 = new Label();
+            cboxRelicObjectSubAffix4 = new ComboBox();
+            cboxRelicObjectSubAffix3 = new ComboBox();
+            cboxRelicObjectSubAffix2 = new ComboBox();
+            cboxRelicObjectSubAffix1 = new ComboBox();
             label77 = new Label();
             label78 = new Label();
             label79 = new Label();
-            label80 = new Label();
-            comboBox35 = new ComboBox();
-            comboBox36 = new ComboBox();
+            lblRelicObjectMainAffixValue = new Label();
+            cboxRelicObjectLevel = new ComboBox();
+            cboxRelicObjectMainAffix = new ComboBox();
             label81 = new Label();
             menuStrip1 = new MenuStrip();
             菜单ToolStripMenuItem = new ToolStripMenuItem();
@@ -288,7 +288,23 @@
             splitContainer6.Panel2.SuspendLayout();
             splitContainer6.SuspendLayout();
             groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHeadSubAffixStep4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHeadSubAffixCnt4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHeadSubAffixStep3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHeadSubAffixCnt3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHeadSubAffixStep2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHeadSubAffixCnt2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHeadSubAffixStep1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHeadSubAffixCnt1).BeginInit();
             groupBox6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHandSubAffixStep4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHeadSubAffixCnt14).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHandSubAffixStep3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHeadSubAffixCnt13).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHandSubAffixStep2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHeadSubAffixCnt12).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHandSubAffixStep1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHandSubAffixCnt1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)splitContainer5).BeginInit();
             splitContainer5.Panel1.SuspendLayout();
             splitContainer5.Panel2.SuspendLayout();
@@ -298,13 +314,45 @@
             splitContainer7.Panel2.SuspendLayout();
             splitContainer7.SuspendLayout();
             groupBox7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)nudRelicBodySubAffixStep4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicBodySubAffixCnt4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicBodySubAffixStep3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicBodySubAffixCnt3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicBodySubAffixStep2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicBodySubAffixCnt2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicBodySubAffixStep1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicBodySubAffixCnt1).BeginInit();
             groupBox8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)nudRelicFootSubAffixStep4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicFootSubAffixCnt4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicFootSubAffixStep3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicFootSubAffixCnt3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicFootSubAffixStep2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicFootSubAffixCnt2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicFootSubAffixStep1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicFootSubAffixCnt1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)splitContainer8).BeginInit();
             splitContainer8.Panel1.SuspendLayout();
             splitContainer8.Panel2.SuspendLayout();
             splitContainer8.SuspendLayout();
             groupBox9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)nudRelicNeckSubAffixStep4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicNeckSubAffixCnt4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicNeckSubAffixStep3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicNeckSubAffixCnt3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicNeckSubAffixStep2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicNeckSubAffixCnt2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicNeckSubAffixStep1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicNeckSubAffixCnt1).BeginInit();
             groupBox10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)nudRelicObjectSubAffixStep4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicObjectSubAffixCnt4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicObjectSubAffixStep3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicObjectSubAffixCnt3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicObjectSubAffixStep2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicObjectSubAffixCnt2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicObjectSubAffixStep1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicObjectSubAffixCnt1).BeginInit();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -405,11 +453,11 @@
             cboxCharacterSelect.AutoCompleteSource = AutoCompleteSource.ListItems;
             cboxCharacterSelect.Font = new Font("Microsoft YaHei UI", 11F, FontStyle.Regular, GraphicsUnit.Point, 134);
             cboxCharacterSelect.FormattingEnabled = true;
-            cboxCharacterSelect.Items.AddRange(new object[] { "测试值1", "测试值2", "男开拓者（物理•毁灭）" });
             cboxCharacterSelect.Location = new Point(135, 45);
             cboxCharacterSelect.Name = "cboxCharacterSelect";
             cboxCharacterSelect.Size = new Size(196, 38);
             cboxCharacterSelect.TabIndex = 1;
+            cboxCharacterSelect.SelectedIndexChanged += cboxCharacterSelect_SelectedIndexChanged;
             // 
             // textBox1
             // 
@@ -434,6 +482,7 @@
             cboxCharacterRank.Name = "cboxCharacterRank";
             cboxCharacterRank.Size = new Size(196, 38);
             cboxCharacterRank.TabIndex = 3;
+            cboxCharacterRank.SelectedIndexChanged += cboxCharacterRank_SelectedIndexChanged;
             // 
             // groupBox2
             // 
@@ -484,6 +533,7 @@
             cboxLightconeRank.Name = "cboxLightconeRank";
             cboxLightconeRank.Size = new Size(196, 38);
             cboxLightconeRank.TabIndex = 8;
+            cboxLightconeRank.SelectedIndexChanged += cboxLightconeRank_SelectedIndexChanged;
             // 
             // cboxLightconeSelect
             // 
@@ -491,11 +541,12 @@
             cboxLightconeSelect.AutoCompleteSource = AutoCompleteSource.ListItems;
             cboxLightconeSelect.Font = new Font("Microsoft YaHei UI", 11F, FontStyle.Regular, GraphicsUnit.Point, 134);
             cboxLightconeSelect.FormattingEnabled = true;
-            cboxLightconeSelect.Items.AddRange(new object[] { "测试值1", "测试值2" });
+            cboxLightconeSelect.Items.AddRange(new object[] { "未装备" });
             cboxLightconeSelect.Location = new Point(133, 45);
             cboxLightconeSelect.Name = "cboxLightconeSelect";
             cboxLightconeSelect.Size = new Size(196, 38);
             cboxLightconeSelect.TabIndex = 6;
+            cboxLightconeSelect.SelectedIndexChanged += cboxLightconeSelect_SelectedIndexChanged;
             // 
             // label4
             // 
@@ -1006,20 +1057,20 @@
             // 
             // groupBox5
             // 
+            groupBox5.Controls.Add(nudRelicHeadSubAffixStep4);
+            groupBox5.Controls.Add(nudRelicHeadSubAffixCnt4);
+            groupBox5.Controls.Add(nudRelicHeadSubAffixStep3);
+            groupBox5.Controls.Add(nudRelicHeadSubAffixCnt3);
+            groupBox5.Controls.Add(nudRelicHeadSubAffixStep2);
+            groupBox5.Controls.Add(nudRelicHeadSubAffixCnt2);
+            groupBox5.Controls.Add(nudRelicHeadSubAffixStep1);
+            groupBox5.Controls.Add(nudRelicHeadSubAffixCnt1);
             groupBox5.Controls.Add(cboxRelicHeadSet);
             groupBox5.Controls.Add(label76);
-            groupBox5.Controls.Add(label21);
-            groupBox5.Controls.Add(label20);
-            groupBox5.Controls.Add(label19);
-            groupBox5.Controls.Add(label18);
-            groupBox5.Controls.Add(cboxRelicHeadSubAffixStep4);
-            groupBox5.Controls.Add(cboxRelicHeadSubAffixStep3);
-            groupBox5.Controls.Add(cboxRelicHeadSubAffixStep2);
-            groupBox5.Controls.Add(cboxRelicHeadSubAffixStep1);
-            groupBox5.Controls.Add(cboxRelicHeadSubAffixCnt4);
-            groupBox5.Controls.Add(cboxRelicHeadSubAffixCnt3);
-            groupBox5.Controls.Add(cboxRelicHeadSubAffixCnt2);
-            groupBox5.Controls.Add(cboxRelicHeadSubAffixCnt1);
+            groupBox5.Controls.Add(lblRelicHeadSubAffixValue4);
+            groupBox5.Controls.Add(lblRelicHeadSubAffixValue3);
+            groupBox5.Controls.Add(lblRelicHeadSubAffixValue2);
+            groupBox5.Controls.Add(lblRelicHeadSubAffixValue1);
             groupBox5.Controls.Add(cboxRelicHeadSubAffix4);
             groupBox5.Controls.Add(cboxRelicHeadSubAffix3);
             groupBox5.Controls.Add(cboxRelicHeadSubAffix2);
@@ -1038,6 +1089,70 @@
             groupBox5.TabIndex = 0;
             groupBox5.TabStop = false;
             groupBox5.Text = "头部";
+            // 
+            // nudRelicHeadSubAffixStep4
+            // 
+            nudRelicHeadSubAffixStep4.Location = new Point(300, 307);
+            nudRelicHeadSubAffixStep4.Name = "nudRelicHeadSubAffixStep4";
+            nudRelicHeadSubAffixStep4.Size = new Size(101, 35);
+            nudRelicHeadSubAffixStep4.TabIndex = 30;
+            // 
+            // nudRelicHeadSubAffixCnt4
+            // 
+            nudRelicHeadSubAffixCnt4.Location = new Point(188, 307);
+            nudRelicHeadSubAffixCnt4.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicHeadSubAffixCnt4.Name = "nudRelicHeadSubAffixCnt4";
+            nudRelicHeadSubAffixCnt4.Size = new Size(101, 35);
+            nudRelicHeadSubAffixCnt4.TabIndex = 29;
+            nudRelicHeadSubAffixCnt4.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // nudRelicHeadSubAffixStep3
+            // 
+            nudRelicHeadSubAffixStep3.Location = new Point(300, 263);
+            nudRelicHeadSubAffixStep3.Name = "nudRelicHeadSubAffixStep3";
+            nudRelicHeadSubAffixStep3.Size = new Size(101, 35);
+            nudRelicHeadSubAffixStep3.TabIndex = 28;
+            // 
+            // nudRelicHeadSubAffixCnt3
+            // 
+            nudRelicHeadSubAffixCnt3.Location = new Point(188, 263);
+            nudRelicHeadSubAffixCnt3.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicHeadSubAffixCnt3.Name = "nudRelicHeadSubAffixCnt3";
+            nudRelicHeadSubAffixCnt3.Size = new Size(101, 35);
+            nudRelicHeadSubAffixCnt3.TabIndex = 27;
+            nudRelicHeadSubAffixCnt3.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // nudRelicHeadSubAffixStep2
+            // 
+            nudRelicHeadSubAffixStep2.Location = new Point(300, 219);
+            nudRelicHeadSubAffixStep2.Name = "nudRelicHeadSubAffixStep2";
+            nudRelicHeadSubAffixStep2.Size = new Size(101, 35);
+            nudRelicHeadSubAffixStep2.TabIndex = 26;
+            // 
+            // nudRelicHeadSubAffixCnt2
+            // 
+            nudRelicHeadSubAffixCnt2.Location = new Point(188, 219);
+            nudRelicHeadSubAffixCnt2.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicHeadSubAffixCnt2.Name = "nudRelicHeadSubAffixCnt2";
+            nudRelicHeadSubAffixCnt2.Size = new Size(101, 35);
+            nudRelicHeadSubAffixCnt2.TabIndex = 25;
+            nudRelicHeadSubAffixCnt2.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // nudRelicHeadSubAffixStep1
+            // 
+            nudRelicHeadSubAffixStep1.Location = new Point(300, 175);
+            nudRelicHeadSubAffixStep1.Name = "nudRelicHeadSubAffixStep1";
+            nudRelicHeadSubAffixStep1.Size = new Size(101, 35);
+            nudRelicHeadSubAffixStep1.TabIndex = 11;
+            // 
+            // nudRelicHeadSubAffixCnt1
+            // 
+            nudRelicHeadSubAffixCnt1.Location = new Point(188, 175);
+            nudRelicHeadSubAffixCnt1.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicHeadSubAffixCnt1.Name = "nudRelicHeadSubAffixCnt1";
+            nudRelicHeadSubAffixCnt1.Size = new Size(101, 35);
+            nudRelicHeadSubAffixCnt1.TabIndex = 10;
+            nudRelicHeadSubAffixCnt1.Value = new decimal(new int[] { 1, 0, 0, 0 });
             // 
             // cboxRelicHeadSet
             // 
@@ -1059,121 +1174,41 @@
             label76.TabIndex = 23;
             label76.Text = "套装";
             // 
-            // label21
+            // lblRelicHeadSubAffixValue4
             // 
-            label21.Location = new Point(407, 309);
-            label21.Name = "label21";
-            label21.Size = new Size(90, 30);
-            label21.TabIndex = 22;
-            label21.Text = "0";
-            label21.TextAlign = ContentAlignment.MiddleRight;
+            lblRelicHeadSubAffixValue4.Location = new Point(407, 309);
+            lblRelicHeadSubAffixValue4.Name = "lblRelicHeadSubAffixValue4";
+            lblRelicHeadSubAffixValue4.Size = new Size(90, 30);
+            lblRelicHeadSubAffixValue4.TabIndex = 22;
+            lblRelicHeadSubAffixValue4.Text = "0";
+            lblRelicHeadSubAffixValue4.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // label20
+            // lblRelicHeadSubAffixValue3
             // 
-            label20.Location = new Point(407, 267);
-            label20.Name = "label20";
-            label20.Size = new Size(90, 30);
-            label20.TabIndex = 21;
-            label20.Text = "0";
-            label20.TextAlign = ContentAlignment.MiddleRight;
+            lblRelicHeadSubAffixValue3.Location = new Point(407, 267);
+            lblRelicHeadSubAffixValue3.Name = "lblRelicHeadSubAffixValue3";
+            lblRelicHeadSubAffixValue3.Size = new Size(90, 30);
+            lblRelicHeadSubAffixValue3.TabIndex = 21;
+            lblRelicHeadSubAffixValue3.Text = "0";
+            lblRelicHeadSubAffixValue3.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // label19
+            // lblRelicHeadSubAffixValue2
             // 
-            label19.Location = new Point(407, 223);
-            label19.Name = "label19";
-            label19.Size = new Size(90, 30);
-            label19.TabIndex = 20;
-            label19.Text = "0";
-            label19.TextAlign = ContentAlignment.MiddleRight;
+            lblRelicHeadSubAffixValue2.Location = new Point(407, 223);
+            lblRelicHeadSubAffixValue2.Name = "lblRelicHeadSubAffixValue2";
+            lblRelicHeadSubAffixValue2.Size = new Size(90, 30);
+            lblRelicHeadSubAffixValue2.TabIndex = 20;
+            lblRelicHeadSubAffixValue2.Text = "0";
+            lblRelicHeadSubAffixValue2.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // label18
+            // lblRelicHeadSubAffixValue1
             // 
-            label18.Location = new Point(407, 179);
-            label18.Name = "label18";
-            label18.Size = new Size(90, 30);
-            label18.TabIndex = 19;
-            label18.Text = "0";
-            label18.TextAlign = ContentAlignment.MiddleRight;
-            // 
-            // cboxRelicHeadSubAffixStep4
-            // 
-            cboxRelicHeadSubAffixStep4.BorderStyle = BorderStyle.FixedSingle;
-            cboxRelicHeadSubAffixStep4.Location = new Point(300, 307);
-            cboxRelicHeadSubAffixStep4.Name = "cboxRelicHeadSubAffixStep4";
-            cboxRelicHeadSubAffixStep4.Size = new Size(101, 35);
-            cboxRelicHeadSubAffixStep4.TabIndex = 18;
-            cboxRelicHeadSubAffixStep4.Text = "0";
-            cboxRelicHeadSubAffixStep4.TextAlign = HorizontalAlignment.Center;
-            // 
-            // cboxRelicHeadSubAffixStep3
-            // 
-            cboxRelicHeadSubAffixStep3.BorderStyle = BorderStyle.FixedSingle;
-            cboxRelicHeadSubAffixStep3.Location = new Point(300, 265);
-            cboxRelicHeadSubAffixStep3.Name = "cboxRelicHeadSubAffixStep3";
-            cboxRelicHeadSubAffixStep3.Size = new Size(101, 35);
-            cboxRelicHeadSubAffixStep3.TabIndex = 17;
-            cboxRelicHeadSubAffixStep3.Text = "0";
-            cboxRelicHeadSubAffixStep3.TextAlign = HorizontalAlignment.Center;
-            // 
-            // cboxRelicHeadSubAffixStep2
-            // 
-            cboxRelicHeadSubAffixStep2.BorderStyle = BorderStyle.FixedSingle;
-            cboxRelicHeadSubAffixStep2.Location = new Point(300, 221);
-            cboxRelicHeadSubAffixStep2.Name = "cboxRelicHeadSubAffixStep2";
-            cboxRelicHeadSubAffixStep2.Size = new Size(101, 35);
-            cboxRelicHeadSubAffixStep2.TabIndex = 16;
-            cboxRelicHeadSubAffixStep2.Text = "0";
-            cboxRelicHeadSubAffixStep2.TextAlign = HorizontalAlignment.Center;
-            // 
-            // cboxRelicHeadSubAffixStep1
-            // 
-            cboxRelicHeadSubAffixStep1.BorderStyle = BorderStyle.FixedSingle;
-            cboxRelicHeadSubAffixStep1.Location = new Point(300, 177);
-            cboxRelicHeadSubAffixStep1.Name = "cboxRelicHeadSubAffixStep1";
-            cboxRelicHeadSubAffixStep1.Size = new Size(101, 35);
-            cboxRelicHeadSubAffixStep1.TabIndex = 15;
-            cboxRelicHeadSubAffixStep1.Text = "0";
-            cboxRelicHeadSubAffixStep1.TextAlign = HorizontalAlignment.Center;
-            // 
-            // cboxRelicHeadSubAffixCnt4
-            // 
-            cboxRelicHeadSubAffixCnt4.BorderStyle = BorderStyle.FixedSingle;
-            cboxRelicHeadSubAffixCnt4.Location = new Point(188, 309);
-            cboxRelicHeadSubAffixCnt4.Name = "cboxRelicHeadSubAffixCnt4";
-            cboxRelicHeadSubAffixCnt4.Size = new Size(101, 35);
-            cboxRelicHeadSubAffixCnt4.TabIndex = 14;
-            cboxRelicHeadSubAffixCnt4.Text = "1";
-            cboxRelicHeadSubAffixCnt4.TextAlign = HorizontalAlignment.Center;
-            // 
-            // cboxRelicHeadSubAffixCnt3
-            // 
-            cboxRelicHeadSubAffixCnt3.BorderStyle = BorderStyle.FixedSingle;
-            cboxRelicHeadSubAffixCnt3.Location = new Point(188, 265);
-            cboxRelicHeadSubAffixCnt3.Name = "cboxRelicHeadSubAffixCnt3";
-            cboxRelicHeadSubAffixCnt3.Size = new Size(101, 35);
-            cboxRelicHeadSubAffixCnt3.TabIndex = 13;
-            cboxRelicHeadSubAffixCnt3.Text = "1";
-            cboxRelicHeadSubAffixCnt3.TextAlign = HorizontalAlignment.Center;
-            // 
-            // cboxRelicHeadSubAffixCnt2
-            // 
-            cboxRelicHeadSubAffixCnt2.BorderStyle = BorderStyle.FixedSingle;
-            cboxRelicHeadSubAffixCnt2.Location = new Point(188, 221);
-            cboxRelicHeadSubAffixCnt2.Name = "cboxRelicHeadSubAffixCnt2";
-            cboxRelicHeadSubAffixCnt2.Size = new Size(101, 35);
-            cboxRelicHeadSubAffixCnt2.TabIndex = 12;
-            cboxRelicHeadSubAffixCnt2.Text = "1";
-            cboxRelicHeadSubAffixCnt2.TextAlign = HorizontalAlignment.Center;
-            // 
-            // cboxRelicHeadSubAffixCnt1
-            // 
-            cboxRelicHeadSubAffixCnt1.BorderStyle = BorderStyle.FixedSingle;
-            cboxRelicHeadSubAffixCnt1.Location = new Point(188, 177);
-            cboxRelicHeadSubAffixCnt1.Name = "cboxRelicHeadSubAffixCnt1";
-            cboxRelicHeadSubAffixCnt1.Size = new Size(101, 35);
-            cboxRelicHeadSubAffixCnt1.TabIndex = 11;
-            cboxRelicHeadSubAffixCnt1.Text = "1";
-            cboxRelicHeadSubAffixCnt1.TextAlign = HorizontalAlignment.Center;
+            lblRelicHeadSubAffixValue1.Location = new Point(407, 179);
+            lblRelicHeadSubAffixValue1.Name = "lblRelicHeadSubAffixValue1";
+            lblRelicHeadSubAffixValue1.Size = new Size(90, 30);
+            lblRelicHeadSubAffixValue1.TabIndex = 19;
+            lblRelicHeadSubAffixValue1.Text = "0";
+            lblRelicHeadSubAffixValue1.TextAlign = ContentAlignment.MiddleRight;
             // 
             // cboxRelicHeadSubAffix4
             // 
@@ -1282,28 +1317,28 @@
             // 
             // groupBox6
             // 
+            groupBox6.Controls.Add(nudRelicHandSubAffixStep4);
+            groupBox6.Controls.Add(nudRelicHeadSubAffixCnt14);
+            groupBox6.Controls.Add(nudRelicHandSubAffixStep3);
+            groupBox6.Controls.Add(nudRelicHeadSubAffixCnt13);
+            groupBox6.Controls.Add(nudRelicHandSubAffixStep2);
+            groupBox6.Controls.Add(nudRelicHeadSubAffixCnt12);
+            groupBox6.Controls.Add(nudRelicHandSubAffixStep1);
+            groupBox6.Controls.Add(nudRelicHandSubAffixCnt1);
             groupBox6.Controls.Add(cboxRelicHandSet);
             groupBox6.Controls.Add(label22);
-            groupBox6.Controls.Add(label32);
-            groupBox6.Controls.Add(label33);
-            groupBox6.Controls.Add(label34);
-            groupBox6.Controls.Add(label35);
-            groupBox6.Controls.Add(textBox3);
-            groupBox6.Controls.Add(textBox4);
-            groupBox6.Controls.Add(textBox5);
-            groupBox6.Controls.Add(textBox6);
-            groupBox6.Controls.Add(textBox7);
-            groupBox6.Controls.Add(textBox8);
-            groupBox6.Controls.Add(textBox9);
-            groupBox6.Controls.Add(textBox10);
-            groupBox6.Controls.Add(comboBox2);
-            groupBox6.Controls.Add(comboBox3);
-            groupBox6.Controls.Add(comboBox4);
+            groupBox6.Controls.Add(lblRelicHandSubAffixValue4);
+            groupBox6.Controls.Add(lblRelicHandSubAffixValue3);
+            groupBox6.Controls.Add(lblRelicHandSubAffixValue2);
+            groupBox6.Controls.Add(lblRelicHandSubAffixValue1);
+            groupBox6.Controls.Add(cboxRelicHandSubAffix4);
+            groupBox6.Controls.Add(cboxRelicHandSubAffix3);
+            groupBox6.Controls.Add(cboxRelicHandSubAffix2);
             groupBox6.Controls.Add(cboxRelicHandSubAffix1);
             groupBox6.Controls.Add(label36);
             groupBox6.Controls.Add(label37);
             groupBox6.Controls.Add(label38);
-            groupBox6.Controls.Add(label39);
+            groupBox6.Controls.Add(lblRelicHandMainAffixValue);
             groupBox6.Controls.Add(cboxRelicHandLevel);
             groupBox6.Controls.Add(cboxRelicHandMainAffix);
             groupBox6.Controls.Add(label40);
@@ -1314,6 +1349,70 @@
             groupBox6.TabIndex = 0;
             groupBox6.TabStop = false;
             groupBox6.Text = "手部";
+            // 
+            // nudRelicHandSubAffixStep4
+            // 
+            nudRelicHandSubAffixStep4.Location = new Point(299, 309);
+            nudRelicHandSubAffixStep4.Name = "nudRelicHandSubAffixStep4";
+            nudRelicHandSubAffixStep4.Size = new Size(101, 35);
+            nudRelicHandSubAffixStep4.TabIndex = 57;
+            // 
+            // nudRelicHeadSubAffixCnt14
+            // 
+            nudRelicHeadSubAffixCnt14.Location = new Point(187, 309);
+            nudRelicHeadSubAffixCnt14.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicHeadSubAffixCnt14.Name = "nudRelicHeadSubAffixCnt14";
+            nudRelicHeadSubAffixCnt14.Size = new Size(101, 35);
+            nudRelicHeadSubAffixCnt14.TabIndex = 56;
+            nudRelicHeadSubAffixCnt14.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // nudRelicHandSubAffixStep3
+            // 
+            nudRelicHandSubAffixStep3.Location = new Point(299, 265);
+            nudRelicHandSubAffixStep3.Name = "nudRelicHandSubAffixStep3";
+            nudRelicHandSubAffixStep3.Size = new Size(101, 35);
+            nudRelicHandSubAffixStep3.TabIndex = 55;
+            // 
+            // nudRelicHeadSubAffixCnt13
+            // 
+            nudRelicHeadSubAffixCnt13.Location = new Point(187, 265);
+            nudRelicHeadSubAffixCnt13.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicHeadSubAffixCnt13.Name = "nudRelicHeadSubAffixCnt13";
+            nudRelicHeadSubAffixCnt13.Size = new Size(101, 35);
+            nudRelicHeadSubAffixCnt13.TabIndex = 54;
+            nudRelicHeadSubAffixCnt13.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // nudRelicHandSubAffixStep2
+            // 
+            nudRelicHandSubAffixStep2.Location = new Point(299, 221);
+            nudRelicHandSubAffixStep2.Name = "nudRelicHandSubAffixStep2";
+            nudRelicHandSubAffixStep2.Size = new Size(101, 35);
+            nudRelicHandSubAffixStep2.TabIndex = 53;
+            // 
+            // nudRelicHeadSubAffixCnt12
+            // 
+            nudRelicHeadSubAffixCnt12.Location = new Point(187, 221);
+            nudRelicHeadSubAffixCnt12.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicHeadSubAffixCnt12.Name = "nudRelicHeadSubAffixCnt12";
+            nudRelicHeadSubAffixCnt12.Size = new Size(101, 35);
+            nudRelicHeadSubAffixCnt12.TabIndex = 52;
+            nudRelicHeadSubAffixCnt12.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // nudRelicHandSubAffixStep1
+            // 
+            nudRelicHandSubAffixStep1.Location = new Point(299, 177);
+            nudRelicHandSubAffixStep1.Name = "nudRelicHandSubAffixStep1";
+            nudRelicHandSubAffixStep1.Size = new Size(101, 35);
+            nudRelicHandSubAffixStep1.TabIndex = 51;
+            // 
+            // nudRelicHandSubAffixCnt1
+            // 
+            nudRelicHandSubAffixCnt1.Location = new Point(187, 177);
+            nudRelicHandSubAffixCnt1.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicHandSubAffixCnt1.Name = "nudRelicHandSubAffixCnt1";
+            nudRelicHandSubAffixCnt1.Size = new Size(101, 35);
+            nudRelicHandSubAffixCnt1.TabIndex = 50;
+            nudRelicHandSubAffixCnt1.Value = new decimal(new int[] { 1, 0, 0, 0 });
             // 
             // cboxRelicHandSet
             // 
@@ -1335,151 +1434,71 @@
             label22.TabIndex = 48;
             label22.Text = "套装";
             // 
-            // label32
+            // lblRelicHandSubAffixValue4
             // 
-            label32.Location = new Point(406, 309);
-            label32.Name = "label32";
-            label32.Size = new Size(90, 30);
-            label32.TabIndex = 47;
-            label32.Text = "0";
-            label32.TextAlign = ContentAlignment.MiddleRight;
+            lblRelicHandSubAffixValue4.Location = new Point(406, 309);
+            lblRelicHandSubAffixValue4.Name = "lblRelicHandSubAffixValue4";
+            lblRelicHandSubAffixValue4.Size = new Size(90, 30);
+            lblRelicHandSubAffixValue4.TabIndex = 47;
+            lblRelicHandSubAffixValue4.Text = "0";
+            lblRelicHandSubAffixValue4.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // label33
+            // lblRelicHandSubAffixValue3
             // 
-            label33.Location = new Point(406, 267);
-            label33.Name = "label33";
-            label33.Size = new Size(90, 30);
-            label33.TabIndex = 46;
-            label33.Text = "0";
-            label33.TextAlign = ContentAlignment.MiddleRight;
+            lblRelicHandSubAffixValue3.Location = new Point(406, 267);
+            lblRelicHandSubAffixValue3.Name = "lblRelicHandSubAffixValue3";
+            lblRelicHandSubAffixValue3.Size = new Size(90, 30);
+            lblRelicHandSubAffixValue3.TabIndex = 46;
+            lblRelicHandSubAffixValue3.Text = "0";
+            lblRelicHandSubAffixValue3.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // label34
+            // lblRelicHandSubAffixValue2
             // 
-            label34.Location = new Point(406, 223);
-            label34.Name = "label34";
-            label34.Size = new Size(90, 30);
-            label34.TabIndex = 45;
-            label34.Text = "0";
-            label34.TextAlign = ContentAlignment.MiddleRight;
+            lblRelicHandSubAffixValue2.Location = new Point(406, 223);
+            lblRelicHandSubAffixValue2.Name = "lblRelicHandSubAffixValue2";
+            lblRelicHandSubAffixValue2.Size = new Size(90, 30);
+            lblRelicHandSubAffixValue2.TabIndex = 45;
+            lblRelicHandSubAffixValue2.Text = "0";
+            lblRelicHandSubAffixValue2.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // label35
+            // lblRelicHandSubAffixValue1
             // 
-            label35.Location = new Point(406, 179);
-            label35.Name = "label35";
-            label35.Size = new Size(90, 30);
-            label35.TabIndex = 44;
-            label35.Text = "0";
-            label35.TextAlign = ContentAlignment.MiddleRight;
+            lblRelicHandSubAffixValue1.Location = new Point(406, 179);
+            lblRelicHandSubAffixValue1.Name = "lblRelicHandSubAffixValue1";
+            lblRelicHandSubAffixValue1.Size = new Size(90, 30);
+            lblRelicHandSubAffixValue1.TabIndex = 44;
+            lblRelicHandSubAffixValue1.Text = "0";
+            lblRelicHandSubAffixValue1.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // textBox3
+            // cboxRelicHandSubAffix4
             // 
-            textBox3.BorderStyle = BorderStyle.FixedSingle;
-            textBox3.Location = new Point(299, 307);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(101, 35);
-            textBox3.TabIndex = 43;
-            textBox3.Text = "0";
-            textBox3.TextAlign = HorizontalAlignment.Center;
+            cboxRelicHandSubAffix4.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboxRelicHandSubAffix4.FormattingEnabled = true;
+            cboxRelicHandSubAffix4.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
+            cboxRelicHandSubAffix4.Location = new Point(9, 306);
+            cboxRelicHandSubAffix4.Name = "cboxRelicHandSubAffix4";
+            cboxRelicHandSubAffix4.Size = new Size(167, 38);
+            cboxRelicHandSubAffix4.TabIndex = 35;
             // 
-            // textBox4
+            // cboxRelicHandSubAffix3
             // 
-            textBox4.BorderStyle = BorderStyle.FixedSingle;
-            textBox4.Location = new Point(299, 265);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(101, 35);
-            textBox4.TabIndex = 42;
-            textBox4.Text = "0";
-            textBox4.TextAlign = HorizontalAlignment.Center;
+            cboxRelicHandSubAffix3.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboxRelicHandSubAffix3.FormattingEnabled = true;
+            cboxRelicHandSubAffix3.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
+            cboxRelicHandSubAffix3.Location = new Point(9, 262);
+            cboxRelicHandSubAffix3.Name = "cboxRelicHandSubAffix3";
+            cboxRelicHandSubAffix3.Size = new Size(167, 38);
+            cboxRelicHandSubAffix3.TabIndex = 34;
             // 
-            // textBox5
+            // cboxRelicHandSubAffix2
             // 
-            textBox5.BorderStyle = BorderStyle.FixedSingle;
-            textBox5.Location = new Point(299, 221);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(101, 35);
-            textBox5.TabIndex = 41;
-            textBox5.Text = "0";
-            textBox5.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox6
-            // 
-            textBox6.BorderStyle = BorderStyle.FixedSingle;
-            textBox6.Location = new Point(299, 177);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(101, 35);
-            textBox6.TabIndex = 40;
-            textBox6.Text = "0";
-            textBox6.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox7
-            // 
-            textBox7.BorderStyle = BorderStyle.FixedSingle;
-            textBox7.Location = new Point(187, 309);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(101, 35);
-            textBox7.TabIndex = 39;
-            textBox7.Text = "1";
-            textBox7.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox8
-            // 
-            textBox8.BorderStyle = BorderStyle.FixedSingle;
-            textBox8.Location = new Point(187, 265);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(101, 35);
-            textBox8.TabIndex = 38;
-            textBox8.Text = "1";
-            textBox8.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox9
-            // 
-            textBox9.BorderStyle = BorderStyle.FixedSingle;
-            textBox9.Location = new Point(187, 221);
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(101, 35);
-            textBox9.TabIndex = 37;
-            textBox9.Text = "1";
-            textBox9.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox10
-            // 
-            textBox10.BorderStyle = BorderStyle.FixedSingle;
-            textBox10.Location = new Point(187, 177);
-            textBox10.Name = "textBox10";
-            textBox10.Size = new Size(101, 35);
-            textBox10.TabIndex = 36;
-            textBox10.Text = "1";
-            textBox10.TextAlign = HorizontalAlignment.Center;
-            // 
-            // comboBox2
-            // 
-            comboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
-            comboBox2.Location = new Point(9, 306);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(167, 38);
-            comboBox2.TabIndex = 35;
-            // 
-            // comboBox3
-            // 
-            comboBox3.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox3.FormattingEnabled = true;
-            comboBox3.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
-            comboBox3.Location = new Point(9, 262);
-            comboBox3.Name = "comboBox3";
-            comboBox3.Size = new Size(167, 38);
-            comboBox3.TabIndex = 34;
-            // 
-            // comboBox4
-            // 
-            comboBox4.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox4.FormattingEnabled = true;
-            comboBox4.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
-            comboBox4.Location = new Point(9, 218);
-            comboBox4.Name = "comboBox4";
-            comboBox4.Size = new Size(167, 38);
-            comboBox4.TabIndex = 33;
+            cboxRelicHandSubAffix2.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboxRelicHandSubAffix2.FormattingEnabled = true;
+            cboxRelicHandSubAffix2.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
+            cboxRelicHandSubAffix2.Location = new Point(9, 218);
+            cboxRelicHandSubAffix2.Name = "cboxRelicHandSubAffix2";
+            cboxRelicHandSubAffix2.Size = new Size(167, 38);
+            cboxRelicHandSubAffix2.TabIndex = 33;
             // 
             // cboxRelicHandSubAffix1
             // 
@@ -1518,14 +1537,14 @@
             label38.TabIndex = 29;
             label38.Text = "副属性修饰名称";
             // 
-            // label39
+            // lblRelicHandMainAffixValue
             // 
-            label39.Location = new Point(406, 99);
-            label39.Name = "label39";
-            label39.Size = new Size(90, 30);
-            label39.TabIndex = 28;
-            label39.Text = "0";
-            label39.TextAlign = ContentAlignment.MiddleRight;
+            lblRelicHandMainAffixValue.Location = new Point(406, 99);
+            lblRelicHandMainAffixValue.Name = "lblRelicHandMainAffixValue";
+            lblRelicHandMainAffixValue.Size = new Size(90, 30);
+            lblRelicHandMainAffixValue.TabIndex = 28;
+            lblRelicHandMainAffixValue.Text = "0";
+            lblRelicHandMainAffixValue.TextAlign = ContentAlignment.MiddleRight;
             // 
             // cboxRelicHandLevel
             // 
@@ -1595,30 +1614,30 @@
             // 
             // groupBox7
             // 
-            groupBox7.Controls.Add(comboBox8);
+            groupBox7.Controls.Add(nudRelicBodySubAffixStep4);
+            groupBox7.Controls.Add(nudRelicBodySubAffixCnt4);
+            groupBox7.Controls.Add(nudRelicBodySubAffixStep3);
+            groupBox7.Controls.Add(nudRelicBodySubAffixCnt3);
+            groupBox7.Controls.Add(nudRelicBodySubAffixStep2);
+            groupBox7.Controls.Add(nudRelicBodySubAffixCnt2);
+            groupBox7.Controls.Add(nudRelicBodySubAffixStep1);
+            groupBox7.Controls.Add(nudRelicBodySubAffixCnt1);
+            groupBox7.Controls.Add(cboxRelicBodySet);
             groupBox7.Controls.Add(label41);
-            groupBox7.Controls.Add(label42);
-            groupBox7.Controls.Add(label43);
-            groupBox7.Controls.Add(label44);
-            groupBox7.Controls.Add(label45);
-            groupBox7.Controls.Add(textBox11);
-            groupBox7.Controls.Add(textBox12);
-            groupBox7.Controls.Add(textBox13);
-            groupBox7.Controls.Add(textBox14);
-            groupBox7.Controls.Add(textBox15);
-            groupBox7.Controls.Add(textBox16);
-            groupBox7.Controls.Add(textBox17);
-            groupBox7.Controls.Add(textBox18);
-            groupBox7.Controls.Add(comboBox9);
-            groupBox7.Controls.Add(comboBox10);
-            groupBox7.Controls.Add(comboBox11);
-            groupBox7.Controls.Add(comboBox12);
+            groupBox7.Controls.Add(lblRelicBodySubAffixValue4);
+            groupBox7.Controls.Add(lblRelicBodySubAffixValue3);
+            groupBox7.Controls.Add(lblRelicBodySubAffixValue2);
+            groupBox7.Controls.Add(lblRelicBodySubAffixValue1);
+            groupBox7.Controls.Add(cboxRelicBodySubAffix4);
+            groupBox7.Controls.Add(cboxRelicBodySubAffix3);
+            groupBox7.Controls.Add(cboxRelicBodySubAffix2);
+            groupBox7.Controls.Add(cboxRelicBodySubAffix1);
             groupBox7.Controls.Add(label46);
             groupBox7.Controls.Add(label47);
             groupBox7.Controls.Add(label48);
-            groupBox7.Controls.Add(label49);
-            groupBox7.Controls.Add(comboBox13);
-            groupBox7.Controls.Add(comboBox14);
+            groupBox7.Controls.Add(lblRelicBodyMainAffixValue);
+            groupBox7.Controls.Add(cboxRelicBodyLevel);
+            groupBox7.Controls.Add(cboxRelicBodyMainAffix);
             groupBox7.Controls.Add(label50);
             groupBox7.Dock = DockStyle.Fill;
             groupBox7.Location = new Point(0, 0);
@@ -1628,16 +1647,80 @@
             groupBox7.TabStop = false;
             groupBox7.Text = "躯干";
             // 
-            // comboBox8
+            // nudRelicBodySubAffixStep4
             // 
-            comboBox8.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
-            comboBox8.AutoCompleteSource = AutoCompleteSource.ListItems;
-            comboBox8.FormattingEnabled = true;
-            comboBox8.Items.AddRange(new object[] { "套装1", "套装2", "梦想之地匹诺康尼" });
-            comboBox8.Location = new Point(95, 57);
-            comboBox8.Name = "comboBox8";
-            comboBox8.Size = new Size(306, 38);
-            comboBox8.TabIndex = 49;
+            nudRelicBodySubAffixStep4.Location = new Point(300, 319);
+            nudRelicBodySubAffixStep4.Name = "nudRelicBodySubAffixStep4";
+            nudRelicBodySubAffixStep4.Size = new Size(101, 35);
+            nudRelicBodySubAffixStep4.TabIndex = 57;
+            // 
+            // nudRelicBodySubAffixCnt4
+            // 
+            nudRelicBodySubAffixCnt4.Location = new Point(188, 319);
+            nudRelicBodySubAffixCnt4.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicBodySubAffixCnt4.Name = "nudRelicBodySubAffixCnt4";
+            nudRelicBodySubAffixCnt4.Size = new Size(101, 35);
+            nudRelicBodySubAffixCnt4.TabIndex = 56;
+            nudRelicBodySubAffixCnt4.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // nudRelicBodySubAffixStep3
+            // 
+            nudRelicBodySubAffixStep3.Location = new Point(300, 275);
+            nudRelicBodySubAffixStep3.Name = "nudRelicBodySubAffixStep3";
+            nudRelicBodySubAffixStep3.Size = new Size(101, 35);
+            nudRelicBodySubAffixStep3.TabIndex = 55;
+            // 
+            // nudRelicBodySubAffixCnt3
+            // 
+            nudRelicBodySubAffixCnt3.Location = new Point(188, 275);
+            nudRelicBodySubAffixCnt3.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicBodySubAffixCnt3.Name = "nudRelicBodySubAffixCnt3";
+            nudRelicBodySubAffixCnt3.Size = new Size(101, 35);
+            nudRelicBodySubAffixCnt3.TabIndex = 54;
+            nudRelicBodySubAffixCnt3.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // nudRelicBodySubAffixStep2
+            // 
+            nudRelicBodySubAffixStep2.Location = new Point(300, 231);
+            nudRelicBodySubAffixStep2.Name = "nudRelicBodySubAffixStep2";
+            nudRelicBodySubAffixStep2.Size = new Size(101, 35);
+            nudRelicBodySubAffixStep2.TabIndex = 53;
+            // 
+            // nudRelicBodySubAffixCnt2
+            // 
+            nudRelicBodySubAffixCnt2.Location = new Point(188, 231);
+            nudRelicBodySubAffixCnt2.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicBodySubAffixCnt2.Name = "nudRelicBodySubAffixCnt2";
+            nudRelicBodySubAffixCnt2.Size = new Size(101, 35);
+            nudRelicBodySubAffixCnt2.TabIndex = 52;
+            nudRelicBodySubAffixCnt2.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // nudRelicBodySubAffixStep1
+            // 
+            nudRelicBodySubAffixStep1.Location = new Point(300, 187);
+            nudRelicBodySubAffixStep1.Name = "nudRelicBodySubAffixStep1";
+            nudRelicBodySubAffixStep1.Size = new Size(101, 35);
+            nudRelicBodySubAffixStep1.TabIndex = 51;
+            // 
+            // nudRelicBodySubAffixCnt1
+            // 
+            nudRelicBodySubAffixCnt1.Location = new Point(188, 187);
+            nudRelicBodySubAffixCnt1.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicBodySubAffixCnt1.Name = "nudRelicBodySubAffixCnt1";
+            nudRelicBodySubAffixCnt1.Size = new Size(101, 35);
+            nudRelicBodySubAffixCnt1.TabIndex = 50;
+            nudRelicBodySubAffixCnt1.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // cboxRelicBodySet
+            // 
+            cboxRelicBodySet.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            cboxRelicBodySet.AutoCompleteSource = AutoCompleteSource.ListItems;
+            cboxRelicBodySet.FormattingEnabled = true;
+            cboxRelicBodySet.Items.AddRange(new object[] { "套装1", "套装2", "梦想之地匹诺康尼" });
+            cboxRelicBodySet.Location = new Point(95, 57);
+            cboxRelicBodySet.Name = "cboxRelicBodySet";
+            cboxRelicBodySet.Size = new Size(306, 38);
+            cboxRelicBodySet.TabIndex = 49;
             // 
             // label41
             // 
@@ -1648,161 +1731,81 @@
             label41.TabIndex = 48;
             label41.Text = "套装";
             // 
-            // label42
+            // lblRelicBodySubAffixValue4
             // 
-            label42.Location = new Point(407, 321);
-            label42.Name = "label42";
-            label42.Size = new Size(90, 30);
-            label42.TabIndex = 47;
-            label42.Text = "0";
-            label42.TextAlign = ContentAlignment.MiddleRight;
+            lblRelicBodySubAffixValue4.Location = new Point(407, 321);
+            lblRelicBodySubAffixValue4.Name = "lblRelicBodySubAffixValue4";
+            lblRelicBodySubAffixValue4.Size = new Size(90, 30);
+            lblRelicBodySubAffixValue4.TabIndex = 47;
+            lblRelicBodySubAffixValue4.Text = "0";
+            lblRelicBodySubAffixValue4.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // label43
+            // lblRelicBodySubAffixValue3
             // 
-            label43.Location = new Point(407, 279);
-            label43.Name = "label43";
-            label43.Size = new Size(90, 30);
-            label43.TabIndex = 46;
-            label43.Text = "0";
-            label43.TextAlign = ContentAlignment.MiddleRight;
+            lblRelicBodySubAffixValue3.Location = new Point(407, 279);
+            lblRelicBodySubAffixValue3.Name = "lblRelicBodySubAffixValue3";
+            lblRelicBodySubAffixValue3.Size = new Size(90, 30);
+            lblRelicBodySubAffixValue3.TabIndex = 46;
+            lblRelicBodySubAffixValue3.Text = "0";
+            lblRelicBodySubAffixValue3.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // label44
+            // lblRelicBodySubAffixValue2
             // 
-            label44.Location = new Point(407, 235);
-            label44.Name = "label44";
-            label44.Size = new Size(90, 30);
-            label44.TabIndex = 45;
-            label44.Text = "0";
-            label44.TextAlign = ContentAlignment.MiddleRight;
+            lblRelicBodySubAffixValue2.Location = new Point(407, 235);
+            lblRelicBodySubAffixValue2.Name = "lblRelicBodySubAffixValue2";
+            lblRelicBodySubAffixValue2.Size = new Size(90, 30);
+            lblRelicBodySubAffixValue2.TabIndex = 45;
+            lblRelicBodySubAffixValue2.Text = "0";
+            lblRelicBodySubAffixValue2.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // label45
+            // lblRelicBodySubAffixValue1
             // 
-            label45.Location = new Point(407, 191);
-            label45.Name = "label45";
-            label45.Size = new Size(90, 30);
-            label45.TabIndex = 44;
-            label45.Text = "0";
-            label45.TextAlign = ContentAlignment.MiddleRight;
+            lblRelicBodySubAffixValue1.Location = new Point(407, 191);
+            lblRelicBodySubAffixValue1.Name = "lblRelicBodySubAffixValue1";
+            lblRelicBodySubAffixValue1.Size = new Size(90, 30);
+            lblRelicBodySubAffixValue1.TabIndex = 44;
+            lblRelicBodySubAffixValue1.Text = "0";
+            lblRelicBodySubAffixValue1.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // textBox11
+            // cboxRelicBodySubAffix4
             // 
-            textBox11.BorderStyle = BorderStyle.FixedSingle;
-            textBox11.Location = new Point(300, 319);
-            textBox11.Name = "textBox11";
-            textBox11.Size = new Size(101, 35);
-            textBox11.TabIndex = 43;
-            textBox11.Text = "0";
-            textBox11.TextAlign = HorizontalAlignment.Center;
+            cboxRelicBodySubAffix4.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboxRelicBodySubAffix4.FormattingEnabled = true;
+            cboxRelicBodySubAffix4.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
+            cboxRelicBodySubAffix4.Location = new Point(10, 318);
+            cboxRelicBodySubAffix4.Name = "cboxRelicBodySubAffix4";
+            cboxRelicBodySubAffix4.Size = new Size(167, 38);
+            cboxRelicBodySubAffix4.TabIndex = 35;
             // 
-            // textBox12
+            // cboxRelicBodySubAffix3
             // 
-            textBox12.BorderStyle = BorderStyle.FixedSingle;
-            textBox12.Location = new Point(300, 277);
-            textBox12.Name = "textBox12";
-            textBox12.Size = new Size(101, 35);
-            textBox12.TabIndex = 42;
-            textBox12.Text = "0";
-            textBox12.TextAlign = HorizontalAlignment.Center;
+            cboxRelicBodySubAffix3.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboxRelicBodySubAffix3.FormattingEnabled = true;
+            cboxRelicBodySubAffix3.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
+            cboxRelicBodySubAffix3.Location = new Point(10, 274);
+            cboxRelicBodySubAffix3.Name = "cboxRelicBodySubAffix3";
+            cboxRelicBodySubAffix3.Size = new Size(167, 38);
+            cboxRelicBodySubAffix3.TabIndex = 34;
             // 
-            // textBox13
+            // cboxRelicBodySubAffix2
             // 
-            textBox13.BorderStyle = BorderStyle.FixedSingle;
-            textBox13.Location = new Point(300, 233);
-            textBox13.Name = "textBox13";
-            textBox13.Size = new Size(101, 35);
-            textBox13.TabIndex = 41;
-            textBox13.Text = "0";
-            textBox13.TextAlign = HorizontalAlignment.Center;
+            cboxRelicBodySubAffix2.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboxRelicBodySubAffix2.FormattingEnabled = true;
+            cboxRelicBodySubAffix2.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
+            cboxRelicBodySubAffix2.Location = new Point(10, 230);
+            cboxRelicBodySubAffix2.Name = "cboxRelicBodySubAffix2";
+            cboxRelicBodySubAffix2.Size = new Size(167, 38);
+            cboxRelicBodySubAffix2.TabIndex = 33;
             // 
-            // textBox14
+            // cboxRelicBodySubAffix1
             // 
-            textBox14.BorderStyle = BorderStyle.FixedSingle;
-            textBox14.Location = new Point(300, 189);
-            textBox14.Name = "textBox14";
-            textBox14.Size = new Size(101, 35);
-            textBox14.TabIndex = 40;
-            textBox14.Text = "0";
-            textBox14.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox15
-            // 
-            textBox15.BorderStyle = BorderStyle.FixedSingle;
-            textBox15.Location = new Point(188, 321);
-            textBox15.Name = "textBox15";
-            textBox15.Size = new Size(101, 35);
-            textBox15.TabIndex = 39;
-            textBox15.Text = "1";
-            textBox15.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox16
-            // 
-            textBox16.BorderStyle = BorderStyle.FixedSingle;
-            textBox16.Location = new Point(188, 277);
-            textBox16.Name = "textBox16";
-            textBox16.Size = new Size(101, 35);
-            textBox16.TabIndex = 38;
-            textBox16.Text = "1";
-            textBox16.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox17
-            // 
-            textBox17.BorderStyle = BorderStyle.FixedSingle;
-            textBox17.Location = new Point(188, 233);
-            textBox17.Name = "textBox17";
-            textBox17.Size = new Size(101, 35);
-            textBox17.TabIndex = 37;
-            textBox17.Text = "1";
-            textBox17.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox18
-            // 
-            textBox18.BorderStyle = BorderStyle.FixedSingle;
-            textBox18.Location = new Point(188, 189);
-            textBox18.Name = "textBox18";
-            textBox18.Size = new Size(101, 35);
-            textBox18.TabIndex = 36;
-            textBox18.Text = "1";
-            textBox18.TextAlign = HorizontalAlignment.Center;
-            // 
-            // comboBox9
-            // 
-            comboBox9.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox9.FormattingEnabled = true;
-            comboBox9.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
-            comboBox9.Location = new Point(10, 318);
-            comboBox9.Name = "comboBox9";
-            comboBox9.Size = new Size(167, 38);
-            comboBox9.TabIndex = 35;
-            // 
-            // comboBox10
-            // 
-            comboBox10.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox10.FormattingEnabled = true;
-            comboBox10.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
-            comboBox10.Location = new Point(10, 274);
-            comboBox10.Name = "comboBox10";
-            comboBox10.Size = new Size(167, 38);
-            comboBox10.TabIndex = 34;
-            // 
-            // comboBox11
-            // 
-            comboBox11.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox11.FormattingEnabled = true;
-            comboBox11.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
-            comboBox11.Location = new Point(10, 230);
-            comboBox11.Name = "comboBox11";
-            comboBox11.Size = new Size(167, 38);
-            comboBox11.TabIndex = 33;
-            // 
-            // comboBox12
-            // 
-            comboBox12.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox12.FormattingEnabled = true;
-            comboBox12.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
-            comboBox12.Location = new Point(10, 186);
-            comboBox12.Name = "comboBox12";
-            comboBox12.Size = new Size(167, 38);
-            comboBox12.TabIndex = 32;
+            cboxRelicBodySubAffix1.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboxRelicBodySubAffix1.FormattingEnabled = true;
+            cboxRelicBodySubAffix1.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
+            cboxRelicBodySubAffix1.Location = new Point(10, 186);
+            cboxRelicBodySubAffix1.Name = "cboxRelicBodySubAffix1";
+            cboxRelicBodySubAffix1.Size = new Size(167, 38);
+            cboxRelicBodySubAffix1.TabIndex = 32;
             // 
             // label46
             // 
@@ -1831,34 +1834,34 @@
             label48.TabIndex = 29;
             label48.Text = "副属性修饰名称";
             // 
-            // label49
+            // lblRelicBodyMainAffixValue
             // 
-            label49.Location = new Point(407, 111);
-            label49.Name = "label49";
-            label49.Size = new Size(90, 30);
-            label49.TabIndex = 28;
-            label49.Text = "0";
-            label49.TextAlign = ContentAlignment.MiddleRight;
+            lblRelicBodyMainAffixValue.Location = new Point(407, 111);
+            lblRelicBodyMainAffixValue.Name = "lblRelicBodyMainAffixValue";
+            lblRelicBodyMainAffixValue.Size = new Size(90, 30);
+            lblRelicBodyMainAffixValue.TabIndex = 28;
+            lblRelicBodyMainAffixValue.Text = "0";
+            lblRelicBodyMainAffixValue.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // comboBox13
+            // cboxRelicBodyLevel
             // 
-            comboBox13.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox13.FormattingEnabled = true;
-            comboBox13.Items.AddRange(new object[] { "Lv.0", "Lv.1", "Lv.2", "Lv.3", "Lv.4", "Lv.5", "Lv.6", "Lv.7", "Lv.8", "Lv.9", "Lv.10", "Lv.11", "Lv.12", "Lv.13", "Lv.14", "Lv.15" });
-            comboBox13.Location = new Point(311, 108);
-            comboBox13.Name = "comboBox13";
-            comboBox13.Size = new Size(90, 38);
-            comboBox13.TabIndex = 27;
+            cboxRelicBodyLevel.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboxRelicBodyLevel.FormattingEnabled = true;
+            cboxRelicBodyLevel.Items.AddRange(new object[] { "Lv.0", "Lv.1", "Lv.2", "Lv.3", "Lv.4", "Lv.5", "Lv.6", "Lv.7", "Lv.8", "Lv.9", "Lv.10", "Lv.11", "Lv.12", "Lv.13", "Lv.14", "Lv.15" });
+            cboxRelicBodyLevel.Location = new Point(311, 108);
+            cboxRelicBodyLevel.Name = "cboxRelicBodyLevel";
+            cboxRelicBodyLevel.Size = new Size(90, 38);
+            cboxRelicBodyLevel.TabIndex = 27;
             // 
-            // comboBox14
+            // cboxRelicBodyMainAffix
             // 
-            comboBox14.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox14.FormattingEnabled = true;
-            comboBox14.Items.AddRange(new object[] { "生命值", "物理属性伤害提高" });
-            comboBox14.Location = new Point(95, 108);
-            comboBox14.Name = "comboBox14";
-            comboBox14.Size = new Size(210, 38);
-            comboBox14.TabIndex = 26;
+            cboxRelicBodyMainAffix.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboxRelicBodyMainAffix.FormattingEnabled = true;
+            cboxRelicBodyMainAffix.Items.AddRange(new object[] { "生命值", "物理属性伤害提高" });
+            cboxRelicBodyMainAffix.Location = new Point(95, 108);
+            cboxRelicBodyMainAffix.Name = "cboxRelicBodyMainAffix";
+            cboxRelicBodyMainAffix.Size = new Size(210, 38);
+            cboxRelicBodyMainAffix.TabIndex = 26;
             // 
             // label50
             // 
@@ -1871,30 +1874,30 @@
             // 
             // groupBox8
             // 
-            groupBox8.Controls.Add(comboBox15);
+            groupBox8.Controls.Add(nudRelicFootSubAffixStep4);
+            groupBox8.Controls.Add(nudRelicFootSubAffixCnt4);
+            groupBox8.Controls.Add(nudRelicFootSubAffixStep3);
+            groupBox8.Controls.Add(nudRelicFootSubAffixCnt3);
+            groupBox8.Controls.Add(nudRelicFootSubAffixStep2);
+            groupBox8.Controls.Add(nudRelicFootSubAffixCnt2);
+            groupBox8.Controls.Add(nudRelicFootSubAffixStep1);
+            groupBox8.Controls.Add(nudRelicFootSubAffixCnt1);
+            groupBox8.Controls.Add(cboxRelicFootSet);
             groupBox8.Controls.Add(label51);
-            groupBox8.Controls.Add(label52);
-            groupBox8.Controls.Add(label53);
-            groupBox8.Controls.Add(label54);
-            groupBox8.Controls.Add(label55);
-            groupBox8.Controls.Add(textBox19);
-            groupBox8.Controls.Add(textBox20);
-            groupBox8.Controls.Add(textBox21);
-            groupBox8.Controls.Add(textBox22);
-            groupBox8.Controls.Add(textBox23);
-            groupBox8.Controls.Add(textBox24);
-            groupBox8.Controls.Add(textBox25);
-            groupBox8.Controls.Add(textBox26);
-            groupBox8.Controls.Add(comboBox16);
-            groupBox8.Controls.Add(comboBox17);
-            groupBox8.Controls.Add(comboBox18);
-            groupBox8.Controls.Add(comboBox19);
+            groupBox8.Controls.Add(lblRelicFootSubAffixValue4);
+            groupBox8.Controls.Add(lblRelicFootSubAffixValue3);
+            groupBox8.Controls.Add(lblRelicFootSubAffixValue2);
+            groupBox8.Controls.Add(lblRelicFootSubAffixValue1);
+            groupBox8.Controls.Add(cboxRelicFootSubAffix4);
+            groupBox8.Controls.Add(cboxRelicFootSubAffix3);
+            groupBox8.Controls.Add(cboxRelicFootSubAffix2);
+            groupBox8.Controls.Add(cboxRelicFootSubAffix1);
             groupBox8.Controls.Add(label56);
             groupBox8.Controls.Add(label57);
             groupBox8.Controls.Add(label58);
-            groupBox8.Controls.Add(label59);
-            groupBox8.Controls.Add(comboBox20);
-            groupBox8.Controls.Add(comboBox21);
+            groupBox8.Controls.Add(lblRelicFootMainAffixValue);
+            groupBox8.Controls.Add(cboxRelicFootLevel);
+            groupBox8.Controls.Add(cboxRelicFootMainAffix);
             groupBox8.Controls.Add(label60);
             groupBox8.Dock = DockStyle.Fill;
             groupBox8.Location = new Point(0, 0);
@@ -1904,16 +1907,80 @@
             groupBox8.TabStop = false;
             groupBox8.Text = "脚部";
             // 
-            // comboBox15
+            // nudRelicFootSubAffixStep4
             // 
-            comboBox15.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
-            comboBox15.AutoCompleteSource = AutoCompleteSource.ListItems;
-            comboBox15.FormattingEnabled = true;
-            comboBox15.Items.AddRange(new object[] { "套装1", "套装2", "梦想之地匹诺康尼" });
-            comboBox15.Location = new Point(94, 55);
-            comboBox15.Name = "comboBox15";
-            comboBox15.Size = new Size(306, 38);
-            comboBox15.TabIndex = 49;
+            nudRelicFootSubAffixStep4.Location = new Point(299, 318);
+            nudRelicFootSubAffixStep4.Name = "nudRelicFootSubAffixStep4";
+            nudRelicFootSubAffixStep4.Size = new Size(101, 35);
+            nudRelicFootSubAffixStep4.TabIndex = 57;
+            // 
+            // nudRelicFootSubAffixCnt4
+            // 
+            nudRelicFootSubAffixCnt4.Location = new Point(187, 318);
+            nudRelicFootSubAffixCnt4.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicFootSubAffixCnt4.Name = "nudRelicFootSubAffixCnt4";
+            nudRelicFootSubAffixCnt4.Size = new Size(101, 35);
+            nudRelicFootSubAffixCnt4.TabIndex = 56;
+            nudRelicFootSubAffixCnt4.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // nudRelicFootSubAffixStep3
+            // 
+            nudRelicFootSubAffixStep3.Location = new Point(299, 274);
+            nudRelicFootSubAffixStep3.Name = "nudRelicFootSubAffixStep3";
+            nudRelicFootSubAffixStep3.Size = new Size(101, 35);
+            nudRelicFootSubAffixStep3.TabIndex = 55;
+            // 
+            // nudRelicFootSubAffixCnt3
+            // 
+            nudRelicFootSubAffixCnt3.Location = new Point(187, 274);
+            nudRelicFootSubAffixCnt3.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicFootSubAffixCnt3.Name = "nudRelicFootSubAffixCnt3";
+            nudRelicFootSubAffixCnt3.Size = new Size(101, 35);
+            nudRelicFootSubAffixCnt3.TabIndex = 54;
+            nudRelicFootSubAffixCnt3.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // nudRelicFootSubAffixStep2
+            // 
+            nudRelicFootSubAffixStep2.Location = new Point(299, 230);
+            nudRelicFootSubAffixStep2.Name = "nudRelicFootSubAffixStep2";
+            nudRelicFootSubAffixStep2.Size = new Size(101, 35);
+            nudRelicFootSubAffixStep2.TabIndex = 53;
+            // 
+            // nudRelicFootSubAffixCnt2
+            // 
+            nudRelicFootSubAffixCnt2.Location = new Point(187, 230);
+            nudRelicFootSubAffixCnt2.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicFootSubAffixCnt2.Name = "nudRelicFootSubAffixCnt2";
+            nudRelicFootSubAffixCnt2.Size = new Size(101, 35);
+            nudRelicFootSubAffixCnt2.TabIndex = 52;
+            nudRelicFootSubAffixCnt2.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // nudRelicFootSubAffixStep1
+            // 
+            nudRelicFootSubAffixStep1.Location = new Point(299, 186);
+            nudRelicFootSubAffixStep1.Name = "nudRelicFootSubAffixStep1";
+            nudRelicFootSubAffixStep1.Size = new Size(101, 35);
+            nudRelicFootSubAffixStep1.TabIndex = 51;
+            // 
+            // nudRelicFootSubAffixCnt1
+            // 
+            nudRelicFootSubAffixCnt1.Location = new Point(187, 186);
+            nudRelicFootSubAffixCnt1.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicFootSubAffixCnt1.Name = "nudRelicFootSubAffixCnt1";
+            nudRelicFootSubAffixCnt1.Size = new Size(101, 35);
+            nudRelicFootSubAffixCnt1.TabIndex = 50;
+            nudRelicFootSubAffixCnt1.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // cboxRelicFootSet
+            // 
+            cboxRelicFootSet.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            cboxRelicFootSet.AutoCompleteSource = AutoCompleteSource.ListItems;
+            cboxRelicFootSet.FormattingEnabled = true;
+            cboxRelicFootSet.Items.AddRange(new object[] { "套装1", "套装2", "梦想之地匹诺康尼" });
+            cboxRelicFootSet.Location = new Point(94, 55);
+            cboxRelicFootSet.Name = "cboxRelicFootSet";
+            cboxRelicFootSet.Size = new Size(306, 38);
+            cboxRelicFootSet.TabIndex = 49;
             // 
             // label51
             // 
@@ -1924,161 +1991,81 @@
             label51.TabIndex = 48;
             label51.Text = "套装";
             // 
-            // label52
+            // lblRelicFootSubAffixValue4
             // 
-            label52.Location = new Point(406, 319);
-            label52.Name = "label52";
-            label52.Size = new Size(90, 30);
-            label52.TabIndex = 47;
-            label52.Text = "0";
-            label52.TextAlign = ContentAlignment.MiddleRight;
+            lblRelicFootSubAffixValue4.Location = new Point(406, 319);
+            lblRelicFootSubAffixValue4.Name = "lblRelicFootSubAffixValue4";
+            lblRelicFootSubAffixValue4.Size = new Size(90, 30);
+            lblRelicFootSubAffixValue4.TabIndex = 47;
+            lblRelicFootSubAffixValue4.Text = "0";
+            lblRelicFootSubAffixValue4.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // label53
+            // lblRelicFootSubAffixValue3
             // 
-            label53.Location = new Point(406, 277);
-            label53.Name = "label53";
-            label53.Size = new Size(90, 30);
-            label53.TabIndex = 46;
-            label53.Text = "0";
-            label53.TextAlign = ContentAlignment.MiddleRight;
+            lblRelicFootSubAffixValue3.Location = new Point(406, 277);
+            lblRelicFootSubAffixValue3.Name = "lblRelicFootSubAffixValue3";
+            lblRelicFootSubAffixValue3.Size = new Size(90, 30);
+            lblRelicFootSubAffixValue3.TabIndex = 46;
+            lblRelicFootSubAffixValue3.Text = "0";
+            lblRelicFootSubAffixValue3.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // label54
+            // lblRelicFootSubAffixValue2
             // 
-            label54.Location = new Point(406, 233);
-            label54.Name = "label54";
-            label54.Size = new Size(90, 30);
-            label54.TabIndex = 45;
-            label54.Text = "0";
-            label54.TextAlign = ContentAlignment.MiddleRight;
+            lblRelicFootSubAffixValue2.Location = new Point(406, 233);
+            lblRelicFootSubAffixValue2.Name = "lblRelicFootSubAffixValue2";
+            lblRelicFootSubAffixValue2.Size = new Size(90, 30);
+            lblRelicFootSubAffixValue2.TabIndex = 45;
+            lblRelicFootSubAffixValue2.Text = "0";
+            lblRelicFootSubAffixValue2.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // label55
+            // lblRelicFootSubAffixValue1
             // 
-            label55.Location = new Point(406, 189);
-            label55.Name = "label55";
-            label55.Size = new Size(90, 30);
-            label55.TabIndex = 44;
-            label55.Text = "0";
-            label55.TextAlign = ContentAlignment.MiddleRight;
+            lblRelicFootSubAffixValue1.Location = new Point(406, 189);
+            lblRelicFootSubAffixValue1.Name = "lblRelicFootSubAffixValue1";
+            lblRelicFootSubAffixValue1.Size = new Size(90, 30);
+            lblRelicFootSubAffixValue1.TabIndex = 44;
+            lblRelicFootSubAffixValue1.Text = "0";
+            lblRelicFootSubAffixValue1.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // textBox19
+            // cboxRelicFootSubAffix4
             // 
-            textBox19.BorderStyle = BorderStyle.FixedSingle;
-            textBox19.Location = new Point(299, 317);
-            textBox19.Name = "textBox19";
-            textBox19.Size = new Size(101, 35);
-            textBox19.TabIndex = 43;
-            textBox19.Text = "0";
-            textBox19.TextAlign = HorizontalAlignment.Center;
+            cboxRelicFootSubAffix4.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboxRelicFootSubAffix4.FormattingEnabled = true;
+            cboxRelicFootSubAffix4.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
+            cboxRelicFootSubAffix4.Location = new Point(9, 316);
+            cboxRelicFootSubAffix4.Name = "cboxRelicFootSubAffix4";
+            cboxRelicFootSubAffix4.Size = new Size(167, 38);
+            cboxRelicFootSubAffix4.TabIndex = 35;
             // 
-            // textBox20
+            // cboxRelicFootSubAffix3
             // 
-            textBox20.BorderStyle = BorderStyle.FixedSingle;
-            textBox20.Location = new Point(299, 275);
-            textBox20.Name = "textBox20";
-            textBox20.Size = new Size(101, 35);
-            textBox20.TabIndex = 42;
-            textBox20.Text = "0";
-            textBox20.TextAlign = HorizontalAlignment.Center;
+            cboxRelicFootSubAffix3.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboxRelicFootSubAffix3.FormattingEnabled = true;
+            cboxRelicFootSubAffix3.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
+            cboxRelicFootSubAffix3.Location = new Point(9, 272);
+            cboxRelicFootSubAffix3.Name = "cboxRelicFootSubAffix3";
+            cboxRelicFootSubAffix3.Size = new Size(167, 38);
+            cboxRelicFootSubAffix3.TabIndex = 34;
             // 
-            // textBox21
+            // cboxRelicFootSubAffix2
             // 
-            textBox21.BorderStyle = BorderStyle.FixedSingle;
-            textBox21.Location = new Point(299, 231);
-            textBox21.Name = "textBox21";
-            textBox21.Size = new Size(101, 35);
-            textBox21.TabIndex = 41;
-            textBox21.Text = "0";
-            textBox21.TextAlign = HorizontalAlignment.Center;
+            cboxRelicFootSubAffix2.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboxRelicFootSubAffix2.FormattingEnabled = true;
+            cboxRelicFootSubAffix2.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
+            cboxRelicFootSubAffix2.Location = new Point(9, 228);
+            cboxRelicFootSubAffix2.Name = "cboxRelicFootSubAffix2";
+            cboxRelicFootSubAffix2.Size = new Size(167, 38);
+            cboxRelicFootSubAffix2.TabIndex = 33;
             // 
-            // textBox22
+            // cboxRelicFootSubAffix1
             // 
-            textBox22.BorderStyle = BorderStyle.FixedSingle;
-            textBox22.Location = new Point(299, 187);
-            textBox22.Name = "textBox22";
-            textBox22.Size = new Size(101, 35);
-            textBox22.TabIndex = 40;
-            textBox22.Text = "0";
-            textBox22.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox23
-            // 
-            textBox23.BorderStyle = BorderStyle.FixedSingle;
-            textBox23.Location = new Point(187, 319);
-            textBox23.Name = "textBox23";
-            textBox23.Size = new Size(101, 35);
-            textBox23.TabIndex = 39;
-            textBox23.Text = "1";
-            textBox23.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox24
-            // 
-            textBox24.BorderStyle = BorderStyle.FixedSingle;
-            textBox24.Location = new Point(187, 275);
-            textBox24.Name = "textBox24";
-            textBox24.Size = new Size(101, 35);
-            textBox24.TabIndex = 38;
-            textBox24.Text = "1";
-            textBox24.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox25
-            // 
-            textBox25.BorderStyle = BorderStyle.FixedSingle;
-            textBox25.Location = new Point(187, 231);
-            textBox25.Name = "textBox25";
-            textBox25.Size = new Size(101, 35);
-            textBox25.TabIndex = 37;
-            textBox25.Text = "1";
-            textBox25.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox26
-            // 
-            textBox26.BorderStyle = BorderStyle.FixedSingle;
-            textBox26.Location = new Point(187, 187);
-            textBox26.Name = "textBox26";
-            textBox26.Size = new Size(101, 35);
-            textBox26.TabIndex = 36;
-            textBox26.Text = "1";
-            textBox26.TextAlign = HorizontalAlignment.Center;
-            // 
-            // comboBox16
-            // 
-            comboBox16.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox16.FormattingEnabled = true;
-            comboBox16.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
-            comboBox16.Location = new Point(9, 316);
-            comboBox16.Name = "comboBox16";
-            comboBox16.Size = new Size(167, 38);
-            comboBox16.TabIndex = 35;
-            // 
-            // comboBox17
-            // 
-            comboBox17.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox17.FormattingEnabled = true;
-            comboBox17.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
-            comboBox17.Location = new Point(9, 272);
-            comboBox17.Name = "comboBox17";
-            comboBox17.Size = new Size(167, 38);
-            comboBox17.TabIndex = 34;
-            // 
-            // comboBox18
-            // 
-            comboBox18.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox18.FormattingEnabled = true;
-            comboBox18.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
-            comboBox18.Location = new Point(9, 228);
-            comboBox18.Name = "comboBox18";
-            comboBox18.Size = new Size(167, 38);
-            comboBox18.TabIndex = 33;
-            // 
-            // comboBox19
-            // 
-            comboBox19.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox19.FormattingEnabled = true;
-            comboBox19.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
-            comboBox19.Location = new Point(9, 184);
-            comboBox19.Name = "comboBox19";
-            comboBox19.Size = new Size(167, 38);
-            comboBox19.TabIndex = 32;
+            cboxRelicFootSubAffix1.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboxRelicFootSubAffix1.FormattingEnabled = true;
+            cboxRelicFootSubAffix1.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
+            cboxRelicFootSubAffix1.Location = new Point(9, 184);
+            cboxRelicFootSubAffix1.Name = "cboxRelicFootSubAffix1";
+            cboxRelicFootSubAffix1.Size = new Size(167, 38);
+            cboxRelicFootSubAffix1.TabIndex = 32;
             // 
             // label56
             // 
@@ -2107,34 +2094,34 @@
             label58.TabIndex = 29;
             label58.Text = "副属性修饰名称";
             // 
-            // label59
+            // lblRelicFootMainAffixValue
             // 
-            label59.Location = new Point(406, 109);
-            label59.Name = "label59";
-            label59.Size = new Size(90, 30);
-            label59.TabIndex = 28;
-            label59.Text = "0";
-            label59.TextAlign = ContentAlignment.MiddleRight;
+            lblRelicFootMainAffixValue.Location = new Point(406, 109);
+            lblRelicFootMainAffixValue.Name = "lblRelicFootMainAffixValue";
+            lblRelicFootMainAffixValue.Size = new Size(90, 30);
+            lblRelicFootMainAffixValue.TabIndex = 28;
+            lblRelicFootMainAffixValue.Text = "0";
+            lblRelicFootMainAffixValue.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // comboBox20
+            // cboxRelicFootLevel
             // 
-            comboBox20.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox20.FormattingEnabled = true;
-            comboBox20.Items.AddRange(new object[] { "Lv.0", "Lv.1", "Lv.2", "Lv.3", "Lv.4", "Lv.5", "Lv.6", "Lv.7", "Lv.8", "Lv.9", "Lv.10", "Lv.11", "Lv.12", "Lv.13", "Lv.14", "Lv.15" });
-            comboBox20.Location = new Point(310, 106);
-            comboBox20.Name = "comboBox20";
-            comboBox20.Size = new Size(90, 38);
-            comboBox20.TabIndex = 27;
+            cboxRelicFootLevel.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboxRelicFootLevel.FormattingEnabled = true;
+            cboxRelicFootLevel.Items.AddRange(new object[] { "Lv.0", "Lv.1", "Lv.2", "Lv.3", "Lv.4", "Lv.5", "Lv.6", "Lv.7", "Lv.8", "Lv.9", "Lv.10", "Lv.11", "Lv.12", "Lv.13", "Lv.14", "Lv.15" });
+            cboxRelicFootLevel.Location = new Point(310, 106);
+            cboxRelicFootLevel.Name = "cboxRelicFootLevel";
+            cboxRelicFootLevel.Size = new Size(90, 38);
+            cboxRelicFootLevel.TabIndex = 27;
             // 
-            // comboBox21
+            // cboxRelicFootMainAffix
             // 
-            comboBox21.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox21.FormattingEnabled = true;
-            comboBox21.Items.AddRange(new object[] { "生命值", "物理属性伤害提高" });
-            comboBox21.Location = new Point(94, 106);
-            comboBox21.Name = "comboBox21";
-            comboBox21.Size = new Size(210, 38);
-            comboBox21.TabIndex = 26;
+            cboxRelicFootMainAffix.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboxRelicFootMainAffix.FormattingEnabled = true;
+            cboxRelicFootMainAffix.Items.AddRange(new object[] { "生命值", "物理属性伤害提高" });
+            cboxRelicFootMainAffix.Location = new Point(94, 106);
+            cboxRelicFootMainAffix.Name = "cboxRelicFootMainAffix";
+            cboxRelicFootMainAffix.Size = new Size(210, 38);
+            cboxRelicFootMainAffix.TabIndex = 26;
             // 
             // label60
             // 
@@ -2165,30 +2152,30 @@
             // 
             // groupBox9
             // 
-            groupBox9.Controls.Add(comboBox22);
+            groupBox9.Controls.Add(nudRelicNeckSubAffixStep4);
+            groupBox9.Controls.Add(nudRelicNeckSubAffixCnt4);
+            groupBox9.Controls.Add(nudRelicNeckSubAffixStep3);
+            groupBox9.Controls.Add(nudRelicNeckSubAffixCnt3);
+            groupBox9.Controls.Add(nudRelicNeckSubAffixStep2);
+            groupBox9.Controls.Add(nudRelicNeckSubAffixCnt2);
+            groupBox9.Controls.Add(nudRelicNeckSubAffixStep1);
+            groupBox9.Controls.Add(nudRelicNeckSubAffixCnt1);
+            groupBox9.Controls.Add(cboxNeckBodySet);
             groupBox9.Controls.Add(label61);
-            groupBox9.Controls.Add(label62);
-            groupBox9.Controls.Add(label63);
-            groupBox9.Controls.Add(label64);
-            groupBox9.Controls.Add(label65);
-            groupBox9.Controls.Add(textBox27);
-            groupBox9.Controls.Add(textBox28);
-            groupBox9.Controls.Add(textBox29);
-            groupBox9.Controls.Add(textBox30);
-            groupBox9.Controls.Add(textBox31);
-            groupBox9.Controls.Add(textBox32);
-            groupBox9.Controls.Add(textBox33);
-            groupBox9.Controls.Add(textBox34);
-            groupBox9.Controls.Add(comboBox23);
-            groupBox9.Controls.Add(comboBox24);
-            groupBox9.Controls.Add(comboBox25);
-            groupBox9.Controls.Add(comboBox26);
+            groupBox9.Controls.Add(lblRelicNeckSubAffixValue4);
+            groupBox9.Controls.Add(lblRelicNeckSubAffixValue3);
+            groupBox9.Controls.Add(lblRelicNeckSubAffixValue2);
+            groupBox9.Controls.Add(lblRelicNeckSubAffixValue1);
+            groupBox9.Controls.Add(cboxRelicNeckSubAffix4);
+            groupBox9.Controls.Add(cboxRelicNeckSubAffix3);
+            groupBox9.Controls.Add(cboxRelicNeckSubAffix2);
+            groupBox9.Controls.Add(cboxRelicNeckSubAffix1);
             groupBox9.Controls.Add(label66);
             groupBox9.Controls.Add(label67);
             groupBox9.Controls.Add(label68);
-            groupBox9.Controls.Add(label69);
-            groupBox9.Controls.Add(comboBox27);
-            groupBox9.Controls.Add(comboBox28);
+            groupBox9.Controls.Add(lblRelicNeckMainAffixValue);
+            groupBox9.Controls.Add(cboxRelicNeckLevel);
+            groupBox9.Controls.Add(cboxRelicNeckMainAffix);
             groupBox9.Controls.Add(label70);
             groupBox9.Dock = DockStyle.Fill;
             groupBox9.Location = new Point(0, 0);
@@ -2198,16 +2185,80 @@
             groupBox9.TabStop = false;
             groupBox9.Text = "位面球";
             // 
-            // comboBox22
+            // nudRelicNeckSubAffixStep4
             // 
-            comboBox22.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
-            comboBox22.AutoCompleteSource = AutoCompleteSource.ListItems;
-            comboBox22.FormattingEnabled = true;
-            comboBox22.Items.AddRange(new object[] { "套装1", "套装2", "梦想之地匹诺康尼" });
-            comboBox22.Location = new Point(95, 51);
-            comboBox22.Name = "comboBox22";
-            comboBox22.Size = new Size(306, 38);
-            comboBox22.TabIndex = 49;
+            nudRelicNeckSubAffixStep4.Location = new Point(300, 313);
+            nudRelicNeckSubAffixStep4.Name = "nudRelicNeckSubAffixStep4";
+            nudRelicNeckSubAffixStep4.Size = new Size(101, 35);
+            nudRelicNeckSubAffixStep4.TabIndex = 57;
+            // 
+            // nudRelicNeckSubAffixCnt4
+            // 
+            nudRelicNeckSubAffixCnt4.Location = new Point(188, 313);
+            nudRelicNeckSubAffixCnt4.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicNeckSubAffixCnt4.Name = "nudRelicNeckSubAffixCnt4";
+            nudRelicNeckSubAffixCnt4.Size = new Size(101, 35);
+            nudRelicNeckSubAffixCnt4.TabIndex = 56;
+            nudRelicNeckSubAffixCnt4.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // nudRelicNeckSubAffixStep3
+            // 
+            nudRelicNeckSubAffixStep3.Location = new Point(300, 269);
+            nudRelicNeckSubAffixStep3.Name = "nudRelicNeckSubAffixStep3";
+            nudRelicNeckSubAffixStep3.Size = new Size(101, 35);
+            nudRelicNeckSubAffixStep3.TabIndex = 55;
+            // 
+            // nudRelicNeckSubAffixCnt3
+            // 
+            nudRelicNeckSubAffixCnt3.Location = new Point(188, 269);
+            nudRelicNeckSubAffixCnt3.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicNeckSubAffixCnt3.Name = "nudRelicNeckSubAffixCnt3";
+            nudRelicNeckSubAffixCnt3.Size = new Size(101, 35);
+            nudRelicNeckSubAffixCnt3.TabIndex = 54;
+            nudRelicNeckSubAffixCnt3.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // nudRelicNeckSubAffixStep2
+            // 
+            nudRelicNeckSubAffixStep2.Location = new Point(300, 225);
+            nudRelicNeckSubAffixStep2.Name = "nudRelicNeckSubAffixStep2";
+            nudRelicNeckSubAffixStep2.Size = new Size(101, 35);
+            nudRelicNeckSubAffixStep2.TabIndex = 53;
+            // 
+            // nudRelicNeckSubAffixCnt2
+            // 
+            nudRelicNeckSubAffixCnt2.Location = new Point(188, 225);
+            nudRelicNeckSubAffixCnt2.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicNeckSubAffixCnt2.Name = "nudRelicNeckSubAffixCnt2";
+            nudRelicNeckSubAffixCnt2.Size = new Size(101, 35);
+            nudRelicNeckSubAffixCnt2.TabIndex = 52;
+            nudRelicNeckSubAffixCnt2.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // nudRelicNeckSubAffixStep1
+            // 
+            nudRelicNeckSubAffixStep1.Location = new Point(300, 181);
+            nudRelicNeckSubAffixStep1.Name = "nudRelicNeckSubAffixStep1";
+            nudRelicNeckSubAffixStep1.Size = new Size(101, 35);
+            nudRelicNeckSubAffixStep1.TabIndex = 51;
+            // 
+            // nudRelicNeckSubAffixCnt1
+            // 
+            nudRelicNeckSubAffixCnt1.Location = new Point(188, 181);
+            nudRelicNeckSubAffixCnt1.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicNeckSubAffixCnt1.Name = "nudRelicNeckSubAffixCnt1";
+            nudRelicNeckSubAffixCnt1.Size = new Size(101, 35);
+            nudRelicNeckSubAffixCnt1.TabIndex = 50;
+            nudRelicNeckSubAffixCnt1.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // cboxNeckBodySet
+            // 
+            cboxNeckBodySet.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            cboxNeckBodySet.AutoCompleteSource = AutoCompleteSource.ListItems;
+            cboxNeckBodySet.FormattingEnabled = true;
+            cboxNeckBodySet.Items.AddRange(new object[] { "套装1", "套装2", "梦想之地匹诺康尼" });
+            cboxNeckBodySet.Location = new Point(95, 51);
+            cboxNeckBodySet.Name = "cboxNeckBodySet";
+            cboxNeckBodySet.Size = new Size(306, 38);
+            cboxNeckBodySet.TabIndex = 49;
             // 
             // label61
             // 
@@ -2218,161 +2269,81 @@
             label61.TabIndex = 48;
             label61.Text = "套装";
             // 
-            // label62
+            // lblRelicNeckSubAffixValue4
             // 
-            label62.Location = new Point(407, 315);
-            label62.Name = "label62";
-            label62.Size = new Size(90, 30);
-            label62.TabIndex = 47;
-            label62.Text = "0";
-            label62.TextAlign = ContentAlignment.MiddleRight;
+            lblRelicNeckSubAffixValue4.Location = new Point(407, 315);
+            lblRelicNeckSubAffixValue4.Name = "lblRelicNeckSubAffixValue4";
+            lblRelicNeckSubAffixValue4.Size = new Size(90, 30);
+            lblRelicNeckSubAffixValue4.TabIndex = 47;
+            lblRelicNeckSubAffixValue4.Text = "0";
+            lblRelicNeckSubAffixValue4.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // label63
+            // lblRelicNeckSubAffixValue3
             // 
-            label63.Location = new Point(407, 273);
-            label63.Name = "label63";
-            label63.Size = new Size(90, 30);
-            label63.TabIndex = 46;
-            label63.Text = "0";
-            label63.TextAlign = ContentAlignment.MiddleRight;
+            lblRelicNeckSubAffixValue3.Location = new Point(407, 273);
+            lblRelicNeckSubAffixValue3.Name = "lblRelicNeckSubAffixValue3";
+            lblRelicNeckSubAffixValue3.Size = new Size(90, 30);
+            lblRelicNeckSubAffixValue3.TabIndex = 46;
+            lblRelicNeckSubAffixValue3.Text = "0";
+            lblRelicNeckSubAffixValue3.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // label64
+            // lblRelicNeckSubAffixValue2
             // 
-            label64.Location = new Point(407, 229);
-            label64.Name = "label64";
-            label64.Size = new Size(90, 30);
-            label64.TabIndex = 45;
-            label64.Text = "0";
-            label64.TextAlign = ContentAlignment.MiddleRight;
+            lblRelicNeckSubAffixValue2.Location = new Point(407, 229);
+            lblRelicNeckSubAffixValue2.Name = "lblRelicNeckSubAffixValue2";
+            lblRelicNeckSubAffixValue2.Size = new Size(90, 30);
+            lblRelicNeckSubAffixValue2.TabIndex = 45;
+            lblRelicNeckSubAffixValue2.Text = "0";
+            lblRelicNeckSubAffixValue2.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // label65
+            // lblRelicNeckSubAffixValue1
             // 
-            label65.Location = new Point(407, 185);
-            label65.Name = "label65";
-            label65.Size = new Size(90, 30);
-            label65.TabIndex = 44;
-            label65.Text = "0";
-            label65.TextAlign = ContentAlignment.MiddleRight;
+            lblRelicNeckSubAffixValue1.Location = new Point(407, 185);
+            lblRelicNeckSubAffixValue1.Name = "lblRelicNeckSubAffixValue1";
+            lblRelicNeckSubAffixValue1.Size = new Size(90, 30);
+            lblRelicNeckSubAffixValue1.TabIndex = 44;
+            lblRelicNeckSubAffixValue1.Text = "0";
+            lblRelicNeckSubAffixValue1.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // textBox27
+            // cboxRelicNeckSubAffix4
             // 
-            textBox27.BorderStyle = BorderStyle.FixedSingle;
-            textBox27.Location = new Point(300, 313);
-            textBox27.Name = "textBox27";
-            textBox27.Size = new Size(101, 35);
-            textBox27.TabIndex = 43;
-            textBox27.Text = "0";
-            textBox27.TextAlign = HorizontalAlignment.Center;
+            cboxRelicNeckSubAffix4.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboxRelicNeckSubAffix4.FormattingEnabled = true;
+            cboxRelicNeckSubAffix4.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
+            cboxRelicNeckSubAffix4.Location = new Point(10, 312);
+            cboxRelicNeckSubAffix4.Name = "cboxRelicNeckSubAffix4";
+            cboxRelicNeckSubAffix4.Size = new Size(167, 38);
+            cboxRelicNeckSubAffix4.TabIndex = 35;
             // 
-            // textBox28
+            // cboxRelicNeckSubAffix3
             // 
-            textBox28.BorderStyle = BorderStyle.FixedSingle;
-            textBox28.Location = new Point(300, 271);
-            textBox28.Name = "textBox28";
-            textBox28.Size = new Size(101, 35);
-            textBox28.TabIndex = 42;
-            textBox28.Text = "0";
-            textBox28.TextAlign = HorizontalAlignment.Center;
+            cboxRelicNeckSubAffix3.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboxRelicNeckSubAffix3.FormattingEnabled = true;
+            cboxRelicNeckSubAffix3.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
+            cboxRelicNeckSubAffix3.Location = new Point(10, 268);
+            cboxRelicNeckSubAffix3.Name = "cboxRelicNeckSubAffix3";
+            cboxRelicNeckSubAffix3.Size = new Size(167, 38);
+            cboxRelicNeckSubAffix3.TabIndex = 34;
             // 
-            // textBox29
+            // cboxRelicNeckSubAffix2
             // 
-            textBox29.BorderStyle = BorderStyle.FixedSingle;
-            textBox29.Location = new Point(300, 227);
-            textBox29.Name = "textBox29";
-            textBox29.Size = new Size(101, 35);
-            textBox29.TabIndex = 41;
-            textBox29.Text = "0";
-            textBox29.TextAlign = HorizontalAlignment.Center;
+            cboxRelicNeckSubAffix2.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboxRelicNeckSubAffix2.FormattingEnabled = true;
+            cboxRelicNeckSubAffix2.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
+            cboxRelicNeckSubAffix2.Location = new Point(10, 224);
+            cboxRelicNeckSubAffix2.Name = "cboxRelicNeckSubAffix2";
+            cboxRelicNeckSubAffix2.Size = new Size(167, 38);
+            cboxRelicNeckSubAffix2.TabIndex = 33;
             // 
-            // textBox30
+            // cboxRelicNeckSubAffix1
             // 
-            textBox30.BorderStyle = BorderStyle.FixedSingle;
-            textBox30.Location = new Point(300, 183);
-            textBox30.Name = "textBox30";
-            textBox30.Size = new Size(101, 35);
-            textBox30.TabIndex = 40;
-            textBox30.Text = "0";
-            textBox30.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox31
-            // 
-            textBox31.BorderStyle = BorderStyle.FixedSingle;
-            textBox31.Location = new Point(188, 315);
-            textBox31.Name = "textBox31";
-            textBox31.Size = new Size(101, 35);
-            textBox31.TabIndex = 39;
-            textBox31.Text = "1";
-            textBox31.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox32
-            // 
-            textBox32.BorderStyle = BorderStyle.FixedSingle;
-            textBox32.Location = new Point(188, 271);
-            textBox32.Name = "textBox32";
-            textBox32.Size = new Size(101, 35);
-            textBox32.TabIndex = 38;
-            textBox32.Text = "1";
-            textBox32.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox33
-            // 
-            textBox33.BorderStyle = BorderStyle.FixedSingle;
-            textBox33.Location = new Point(188, 227);
-            textBox33.Name = "textBox33";
-            textBox33.Size = new Size(101, 35);
-            textBox33.TabIndex = 37;
-            textBox33.Text = "1";
-            textBox33.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox34
-            // 
-            textBox34.BorderStyle = BorderStyle.FixedSingle;
-            textBox34.Location = new Point(188, 183);
-            textBox34.Name = "textBox34";
-            textBox34.Size = new Size(101, 35);
-            textBox34.TabIndex = 36;
-            textBox34.Text = "1";
-            textBox34.TextAlign = HorizontalAlignment.Center;
-            // 
-            // comboBox23
-            // 
-            comboBox23.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox23.FormattingEnabled = true;
-            comboBox23.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
-            comboBox23.Location = new Point(10, 312);
-            comboBox23.Name = "comboBox23";
-            comboBox23.Size = new Size(167, 38);
-            comboBox23.TabIndex = 35;
-            // 
-            // comboBox24
-            // 
-            comboBox24.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox24.FormattingEnabled = true;
-            comboBox24.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
-            comboBox24.Location = new Point(10, 268);
-            comboBox24.Name = "comboBox24";
-            comboBox24.Size = new Size(167, 38);
-            comboBox24.TabIndex = 34;
-            // 
-            // comboBox25
-            // 
-            comboBox25.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox25.FormattingEnabled = true;
-            comboBox25.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
-            comboBox25.Location = new Point(10, 224);
-            comboBox25.Name = "comboBox25";
-            comboBox25.Size = new Size(167, 38);
-            comboBox25.TabIndex = 33;
-            // 
-            // comboBox26
-            // 
-            comboBox26.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox26.FormattingEnabled = true;
-            comboBox26.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
-            comboBox26.Location = new Point(10, 180);
-            comboBox26.Name = "comboBox26";
-            comboBox26.Size = new Size(167, 38);
-            comboBox26.TabIndex = 32;
+            cboxRelicNeckSubAffix1.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboxRelicNeckSubAffix1.FormattingEnabled = true;
+            cboxRelicNeckSubAffix1.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
+            cboxRelicNeckSubAffix1.Location = new Point(10, 180);
+            cboxRelicNeckSubAffix1.Name = "cboxRelicNeckSubAffix1";
+            cboxRelicNeckSubAffix1.Size = new Size(167, 38);
+            cboxRelicNeckSubAffix1.TabIndex = 32;
             // 
             // label66
             // 
@@ -2401,34 +2372,34 @@
             label68.TabIndex = 29;
             label68.Text = "副属性修饰名称";
             // 
-            // label69
+            // lblRelicNeckMainAffixValue
             // 
-            label69.Location = new Point(407, 105);
-            label69.Name = "label69";
-            label69.Size = new Size(90, 30);
-            label69.TabIndex = 28;
-            label69.Text = "0";
-            label69.TextAlign = ContentAlignment.MiddleRight;
+            lblRelicNeckMainAffixValue.Location = new Point(407, 105);
+            lblRelicNeckMainAffixValue.Name = "lblRelicNeckMainAffixValue";
+            lblRelicNeckMainAffixValue.Size = new Size(90, 30);
+            lblRelicNeckMainAffixValue.TabIndex = 28;
+            lblRelicNeckMainAffixValue.Text = "0";
+            lblRelicNeckMainAffixValue.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // comboBox27
+            // cboxRelicNeckLevel
             // 
-            comboBox27.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox27.FormattingEnabled = true;
-            comboBox27.Items.AddRange(new object[] { "Lv.0", "Lv.1", "Lv.2", "Lv.3", "Lv.4", "Lv.5", "Lv.6", "Lv.7", "Lv.8", "Lv.9", "Lv.10", "Lv.11", "Lv.12", "Lv.13", "Lv.14", "Lv.15" });
-            comboBox27.Location = new Point(311, 102);
-            comboBox27.Name = "comboBox27";
-            comboBox27.Size = new Size(90, 38);
-            comboBox27.TabIndex = 27;
+            cboxRelicNeckLevel.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboxRelicNeckLevel.FormattingEnabled = true;
+            cboxRelicNeckLevel.Items.AddRange(new object[] { "Lv.0", "Lv.1", "Lv.2", "Lv.3", "Lv.4", "Lv.5", "Lv.6", "Lv.7", "Lv.8", "Lv.9", "Lv.10", "Lv.11", "Lv.12", "Lv.13", "Lv.14", "Lv.15" });
+            cboxRelicNeckLevel.Location = new Point(311, 102);
+            cboxRelicNeckLevel.Name = "cboxRelicNeckLevel";
+            cboxRelicNeckLevel.Size = new Size(90, 38);
+            cboxRelicNeckLevel.TabIndex = 27;
             // 
-            // comboBox28
+            // cboxRelicNeckMainAffix
             // 
-            comboBox28.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox28.FormattingEnabled = true;
-            comboBox28.Items.AddRange(new object[] { "生命值", "物理属性伤害提高" });
-            comboBox28.Location = new Point(95, 102);
-            comboBox28.Name = "comboBox28";
-            comboBox28.Size = new Size(210, 38);
-            comboBox28.TabIndex = 26;
+            cboxRelicNeckMainAffix.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboxRelicNeckMainAffix.FormattingEnabled = true;
+            cboxRelicNeckMainAffix.Items.AddRange(new object[] { "生命值", "物理属性伤害提高" });
+            cboxRelicNeckMainAffix.Location = new Point(95, 102);
+            cboxRelicNeckMainAffix.Name = "cboxRelicNeckMainAffix";
+            cboxRelicNeckMainAffix.Size = new Size(210, 38);
+            cboxRelicNeckMainAffix.TabIndex = 26;
             // 
             // label70
             // 
@@ -2441,30 +2412,30 @@
             // 
             // groupBox10
             // 
-            groupBox10.Controls.Add(comboBox29);
+            groupBox10.Controls.Add(nudRelicObjectSubAffixStep4);
+            groupBox10.Controls.Add(nudRelicObjectSubAffixCnt4);
+            groupBox10.Controls.Add(nudRelicObjectSubAffixStep3);
+            groupBox10.Controls.Add(nudRelicObjectSubAffixCnt3);
+            groupBox10.Controls.Add(nudRelicObjectSubAffixStep2);
+            groupBox10.Controls.Add(nudRelicObjectSubAffixCnt2);
+            groupBox10.Controls.Add(nudRelicObjectSubAffixStep1);
+            groupBox10.Controls.Add(nudRelicObjectSubAffixCnt1);
+            groupBox10.Controls.Add(cboxRelicObjectSet);
             groupBox10.Controls.Add(label71);
-            groupBox10.Controls.Add(label72);
-            groupBox10.Controls.Add(label73);
-            groupBox10.Controls.Add(label74);
-            groupBox10.Controls.Add(label75);
-            groupBox10.Controls.Add(textBox35);
-            groupBox10.Controls.Add(textBox36);
-            groupBox10.Controls.Add(textBox37);
-            groupBox10.Controls.Add(textBox38);
-            groupBox10.Controls.Add(textBox39);
-            groupBox10.Controls.Add(textBox40);
-            groupBox10.Controls.Add(textBox41);
-            groupBox10.Controls.Add(textBox42);
-            groupBox10.Controls.Add(comboBox30);
-            groupBox10.Controls.Add(comboBox32);
-            groupBox10.Controls.Add(comboBox33);
-            groupBox10.Controls.Add(comboBox34);
+            groupBox10.Controls.Add(lblRelicObjectSubAffixValue4);
+            groupBox10.Controls.Add(lblRelicObjectSubAffixValue3);
+            groupBox10.Controls.Add(lblRelicObjectSubAffixValue2);
+            groupBox10.Controls.Add(lblRelicObjectSubAffixValue1);
+            groupBox10.Controls.Add(cboxRelicObjectSubAffix4);
+            groupBox10.Controls.Add(cboxRelicObjectSubAffix3);
+            groupBox10.Controls.Add(cboxRelicObjectSubAffix2);
+            groupBox10.Controls.Add(cboxRelicObjectSubAffix1);
             groupBox10.Controls.Add(label77);
             groupBox10.Controls.Add(label78);
             groupBox10.Controls.Add(label79);
-            groupBox10.Controls.Add(label80);
-            groupBox10.Controls.Add(comboBox35);
-            groupBox10.Controls.Add(comboBox36);
+            groupBox10.Controls.Add(lblRelicObjectMainAffixValue);
+            groupBox10.Controls.Add(cboxRelicObjectLevel);
+            groupBox10.Controls.Add(cboxRelicObjectMainAffix);
             groupBox10.Controls.Add(label81);
             groupBox10.Dock = DockStyle.Fill;
             groupBox10.Location = new Point(0, 0);
@@ -2474,16 +2445,80 @@
             groupBox10.TabStop = false;
             groupBox10.Text = "连结绳";
             // 
-            // comboBox29
+            // nudRelicObjectSubAffixStep4
             // 
-            comboBox29.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
-            comboBox29.AutoCompleteSource = AutoCompleteSource.ListItems;
-            comboBox29.FormattingEnabled = true;
-            comboBox29.Items.AddRange(new object[] { "套装1", "套装2", "梦想之地匹诺康尼" });
-            comboBox29.Location = new Point(94, 49);
-            comboBox29.Name = "comboBox29";
-            comboBox29.Size = new Size(306, 38);
-            comboBox29.TabIndex = 49;
+            nudRelicObjectSubAffixStep4.Location = new Point(299, 313);
+            nudRelicObjectSubAffixStep4.Name = "nudRelicObjectSubAffixStep4";
+            nudRelicObjectSubAffixStep4.Size = new Size(101, 35);
+            nudRelicObjectSubAffixStep4.TabIndex = 57;
+            // 
+            // nudRelicObjectSubAffixCnt4
+            // 
+            nudRelicObjectSubAffixCnt4.Location = new Point(187, 313);
+            nudRelicObjectSubAffixCnt4.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicObjectSubAffixCnt4.Name = "nudRelicObjectSubAffixCnt4";
+            nudRelicObjectSubAffixCnt4.Size = new Size(101, 35);
+            nudRelicObjectSubAffixCnt4.TabIndex = 56;
+            nudRelicObjectSubAffixCnt4.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // nudRelicObjectSubAffixStep3
+            // 
+            nudRelicObjectSubAffixStep3.Location = new Point(299, 269);
+            nudRelicObjectSubAffixStep3.Name = "nudRelicObjectSubAffixStep3";
+            nudRelicObjectSubAffixStep3.Size = new Size(101, 35);
+            nudRelicObjectSubAffixStep3.TabIndex = 55;
+            // 
+            // nudRelicObjectSubAffixCnt3
+            // 
+            nudRelicObjectSubAffixCnt3.Location = new Point(187, 269);
+            nudRelicObjectSubAffixCnt3.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicObjectSubAffixCnt3.Name = "nudRelicObjectSubAffixCnt3";
+            nudRelicObjectSubAffixCnt3.Size = new Size(101, 35);
+            nudRelicObjectSubAffixCnt3.TabIndex = 54;
+            nudRelicObjectSubAffixCnt3.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // nudRelicObjectSubAffixStep2
+            // 
+            nudRelicObjectSubAffixStep2.Location = new Point(299, 225);
+            nudRelicObjectSubAffixStep2.Name = "nudRelicObjectSubAffixStep2";
+            nudRelicObjectSubAffixStep2.Size = new Size(101, 35);
+            nudRelicObjectSubAffixStep2.TabIndex = 53;
+            // 
+            // nudRelicObjectSubAffixCnt2
+            // 
+            nudRelicObjectSubAffixCnt2.Location = new Point(187, 225);
+            nudRelicObjectSubAffixCnt2.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicObjectSubAffixCnt2.Name = "nudRelicObjectSubAffixCnt2";
+            nudRelicObjectSubAffixCnt2.Size = new Size(101, 35);
+            nudRelicObjectSubAffixCnt2.TabIndex = 52;
+            nudRelicObjectSubAffixCnt2.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // nudRelicObjectSubAffixStep1
+            // 
+            nudRelicObjectSubAffixStep1.Location = new Point(299, 181);
+            nudRelicObjectSubAffixStep1.Name = "nudRelicObjectSubAffixStep1";
+            nudRelicObjectSubAffixStep1.Size = new Size(101, 35);
+            nudRelicObjectSubAffixStep1.TabIndex = 51;
+            // 
+            // nudRelicObjectSubAffixCnt1
+            // 
+            nudRelicObjectSubAffixCnt1.Location = new Point(187, 181);
+            nudRelicObjectSubAffixCnt1.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicObjectSubAffixCnt1.Name = "nudRelicObjectSubAffixCnt1";
+            nudRelicObjectSubAffixCnt1.Size = new Size(101, 35);
+            nudRelicObjectSubAffixCnt1.TabIndex = 50;
+            nudRelicObjectSubAffixCnt1.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            // 
+            // cboxRelicObjectSet
+            // 
+            cboxRelicObjectSet.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            cboxRelicObjectSet.AutoCompleteSource = AutoCompleteSource.ListItems;
+            cboxRelicObjectSet.FormattingEnabled = true;
+            cboxRelicObjectSet.Items.AddRange(new object[] { "套装1", "套装2", "梦想之地匹诺康尼" });
+            cboxRelicObjectSet.Location = new Point(94, 49);
+            cboxRelicObjectSet.Name = "cboxRelicObjectSet";
+            cboxRelicObjectSet.Size = new Size(306, 38);
+            cboxRelicObjectSet.TabIndex = 49;
             // 
             // label71
             // 
@@ -2494,161 +2529,81 @@
             label71.TabIndex = 48;
             label71.Text = "套装";
             // 
-            // label72
+            // lblRelicObjectSubAffixValue4
             // 
-            label72.Location = new Point(406, 313);
-            label72.Name = "label72";
-            label72.Size = new Size(90, 30);
-            label72.TabIndex = 47;
-            label72.Text = "0";
-            label72.TextAlign = ContentAlignment.MiddleRight;
+            lblRelicObjectSubAffixValue4.Location = new Point(406, 313);
+            lblRelicObjectSubAffixValue4.Name = "lblRelicObjectSubAffixValue4";
+            lblRelicObjectSubAffixValue4.Size = new Size(90, 30);
+            lblRelicObjectSubAffixValue4.TabIndex = 47;
+            lblRelicObjectSubAffixValue4.Text = "0";
+            lblRelicObjectSubAffixValue4.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // label73
+            // lblRelicObjectSubAffixValue3
             // 
-            label73.Location = new Point(406, 271);
-            label73.Name = "label73";
-            label73.Size = new Size(90, 30);
-            label73.TabIndex = 46;
-            label73.Text = "0";
-            label73.TextAlign = ContentAlignment.MiddleRight;
+            lblRelicObjectSubAffixValue3.Location = new Point(406, 271);
+            lblRelicObjectSubAffixValue3.Name = "lblRelicObjectSubAffixValue3";
+            lblRelicObjectSubAffixValue3.Size = new Size(90, 30);
+            lblRelicObjectSubAffixValue3.TabIndex = 46;
+            lblRelicObjectSubAffixValue3.Text = "0";
+            lblRelicObjectSubAffixValue3.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // label74
+            // lblRelicObjectSubAffixValue2
             // 
-            label74.Location = new Point(406, 227);
-            label74.Name = "label74";
-            label74.Size = new Size(90, 30);
-            label74.TabIndex = 45;
-            label74.Text = "0";
-            label74.TextAlign = ContentAlignment.MiddleRight;
+            lblRelicObjectSubAffixValue2.Location = new Point(406, 227);
+            lblRelicObjectSubAffixValue2.Name = "lblRelicObjectSubAffixValue2";
+            lblRelicObjectSubAffixValue2.Size = new Size(90, 30);
+            lblRelicObjectSubAffixValue2.TabIndex = 45;
+            lblRelicObjectSubAffixValue2.Text = "0";
+            lblRelicObjectSubAffixValue2.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // label75
+            // lblRelicObjectSubAffixValue1
             // 
-            label75.Location = new Point(406, 183);
-            label75.Name = "label75";
-            label75.Size = new Size(90, 30);
-            label75.TabIndex = 44;
-            label75.Text = "0";
-            label75.TextAlign = ContentAlignment.MiddleRight;
+            lblRelicObjectSubAffixValue1.Location = new Point(406, 183);
+            lblRelicObjectSubAffixValue1.Name = "lblRelicObjectSubAffixValue1";
+            lblRelicObjectSubAffixValue1.Size = new Size(90, 30);
+            lblRelicObjectSubAffixValue1.TabIndex = 44;
+            lblRelicObjectSubAffixValue1.Text = "0";
+            lblRelicObjectSubAffixValue1.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // textBox35
+            // cboxRelicObjectSubAffix4
             // 
-            textBox35.BorderStyle = BorderStyle.FixedSingle;
-            textBox35.Location = new Point(299, 311);
-            textBox35.Name = "textBox35";
-            textBox35.Size = new Size(101, 35);
-            textBox35.TabIndex = 43;
-            textBox35.Text = "0";
-            textBox35.TextAlign = HorizontalAlignment.Center;
+            cboxRelicObjectSubAffix4.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboxRelicObjectSubAffix4.FormattingEnabled = true;
+            cboxRelicObjectSubAffix4.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
+            cboxRelicObjectSubAffix4.Location = new Point(9, 310);
+            cboxRelicObjectSubAffix4.Name = "cboxRelicObjectSubAffix4";
+            cboxRelicObjectSubAffix4.Size = new Size(167, 38);
+            cboxRelicObjectSubAffix4.TabIndex = 35;
             // 
-            // textBox36
+            // cboxRelicObjectSubAffix3
             // 
-            textBox36.BorderStyle = BorderStyle.FixedSingle;
-            textBox36.Location = new Point(299, 269);
-            textBox36.Name = "textBox36";
-            textBox36.Size = new Size(101, 35);
-            textBox36.TabIndex = 42;
-            textBox36.Text = "0";
-            textBox36.TextAlign = HorizontalAlignment.Center;
+            cboxRelicObjectSubAffix3.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboxRelicObjectSubAffix3.FormattingEnabled = true;
+            cboxRelicObjectSubAffix3.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
+            cboxRelicObjectSubAffix3.Location = new Point(9, 266);
+            cboxRelicObjectSubAffix3.Name = "cboxRelicObjectSubAffix3";
+            cboxRelicObjectSubAffix3.Size = new Size(167, 38);
+            cboxRelicObjectSubAffix3.TabIndex = 34;
             // 
-            // textBox37
+            // cboxRelicObjectSubAffix2
             // 
-            textBox37.BorderStyle = BorderStyle.FixedSingle;
-            textBox37.Location = new Point(299, 225);
-            textBox37.Name = "textBox37";
-            textBox37.Size = new Size(101, 35);
-            textBox37.TabIndex = 41;
-            textBox37.Text = "0";
-            textBox37.TextAlign = HorizontalAlignment.Center;
+            cboxRelicObjectSubAffix2.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboxRelicObjectSubAffix2.FormattingEnabled = true;
+            cboxRelicObjectSubAffix2.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
+            cboxRelicObjectSubAffix2.Location = new Point(9, 222);
+            cboxRelicObjectSubAffix2.Name = "cboxRelicObjectSubAffix2";
+            cboxRelicObjectSubAffix2.Size = new Size(167, 38);
+            cboxRelicObjectSubAffix2.TabIndex = 33;
             // 
-            // textBox38
+            // cboxRelicObjectSubAffix1
             // 
-            textBox38.BorderStyle = BorderStyle.FixedSingle;
-            textBox38.Location = new Point(299, 181);
-            textBox38.Name = "textBox38";
-            textBox38.Size = new Size(101, 35);
-            textBox38.TabIndex = 40;
-            textBox38.Text = "0";
-            textBox38.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox39
-            // 
-            textBox39.BorderStyle = BorderStyle.FixedSingle;
-            textBox39.Location = new Point(187, 313);
-            textBox39.Name = "textBox39";
-            textBox39.Size = new Size(101, 35);
-            textBox39.TabIndex = 39;
-            textBox39.Text = "1";
-            textBox39.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox40
-            // 
-            textBox40.BorderStyle = BorderStyle.FixedSingle;
-            textBox40.Location = new Point(187, 269);
-            textBox40.Name = "textBox40";
-            textBox40.Size = new Size(101, 35);
-            textBox40.TabIndex = 38;
-            textBox40.Text = "1";
-            textBox40.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox41
-            // 
-            textBox41.BorderStyle = BorderStyle.FixedSingle;
-            textBox41.Location = new Point(187, 225);
-            textBox41.Name = "textBox41";
-            textBox41.Size = new Size(101, 35);
-            textBox41.TabIndex = 37;
-            textBox41.Text = "1";
-            textBox41.TextAlign = HorizontalAlignment.Center;
-            // 
-            // textBox42
-            // 
-            textBox42.BorderStyle = BorderStyle.FixedSingle;
-            textBox42.Location = new Point(187, 181);
-            textBox42.Name = "textBox42";
-            textBox42.Size = new Size(101, 35);
-            textBox42.TabIndex = 36;
-            textBox42.Text = "1";
-            textBox42.TextAlign = HorizontalAlignment.Center;
-            // 
-            // comboBox30
-            // 
-            comboBox30.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox30.FormattingEnabled = true;
-            comboBox30.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
-            comboBox30.Location = new Point(9, 310);
-            comboBox30.Name = "comboBox30";
-            comboBox30.Size = new Size(167, 38);
-            comboBox30.TabIndex = 35;
-            // 
-            // comboBox32
-            // 
-            comboBox32.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox32.FormattingEnabled = true;
-            comboBox32.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
-            comboBox32.Location = new Point(9, 266);
-            comboBox32.Name = "comboBox32";
-            comboBox32.Size = new Size(167, 38);
-            comboBox32.TabIndex = 34;
-            // 
-            // comboBox33
-            // 
-            comboBox33.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox33.FormattingEnabled = true;
-            comboBox33.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
-            comboBox33.Location = new Point(9, 222);
-            comboBox33.Name = "comboBox33";
-            comboBox33.Size = new Size(167, 38);
-            comboBox33.TabIndex = 33;
-            // 
-            // comboBox34
-            // 
-            comboBox34.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox34.FormattingEnabled = true;
-            comboBox34.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
-            comboBox34.Location = new Point(9, 178);
-            comboBox34.Name = "comboBox34";
-            comboBox34.Size = new Size(167, 38);
-            comboBox34.TabIndex = 32;
+            cboxRelicObjectSubAffix1.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboxRelicObjectSubAffix1.FormattingEnabled = true;
+            cboxRelicObjectSubAffix1.Items.AddRange(new object[] { "生命值", "攻击力", "防御力", "生命值（%）", "攻击力（%）", "防御力（%）", "速度", "暴击率", "暴击伤害", "效果命中", "效果抵抗", "击破特攻" });
+            cboxRelicObjectSubAffix1.Location = new Point(9, 178);
+            cboxRelicObjectSubAffix1.Name = "cboxRelicObjectSubAffix1";
+            cboxRelicObjectSubAffix1.Size = new Size(167, 38);
+            cboxRelicObjectSubAffix1.TabIndex = 32;
             // 
             // label77
             // 
@@ -2677,34 +2632,34 @@
             label79.TabIndex = 29;
             label79.Text = "副属性修饰名称";
             // 
-            // label80
+            // lblRelicObjectMainAffixValue
             // 
-            label80.Location = new Point(406, 103);
-            label80.Name = "label80";
-            label80.Size = new Size(90, 30);
-            label80.TabIndex = 28;
-            label80.Text = "0";
-            label80.TextAlign = ContentAlignment.MiddleRight;
+            lblRelicObjectMainAffixValue.Location = new Point(406, 103);
+            lblRelicObjectMainAffixValue.Name = "lblRelicObjectMainAffixValue";
+            lblRelicObjectMainAffixValue.Size = new Size(90, 30);
+            lblRelicObjectMainAffixValue.TabIndex = 28;
+            lblRelicObjectMainAffixValue.Text = "0";
+            lblRelicObjectMainAffixValue.TextAlign = ContentAlignment.MiddleRight;
             // 
-            // comboBox35
+            // cboxRelicObjectLevel
             // 
-            comboBox35.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox35.FormattingEnabled = true;
-            comboBox35.Items.AddRange(new object[] { "Lv.0", "Lv.1", "Lv.2", "Lv.3", "Lv.4", "Lv.5", "Lv.6", "Lv.7", "Lv.8", "Lv.9", "Lv.10", "Lv.11", "Lv.12", "Lv.13", "Lv.14", "Lv.15" });
-            comboBox35.Location = new Point(310, 100);
-            comboBox35.Name = "comboBox35";
-            comboBox35.Size = new Size(90, 38);
-            comboBox35.TabIndex = 27;
+            cboxRelicObjectLevel.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboxRelicObjectLevel.FormattingEnabled = true;
+            cboxRelicObjectLevel.Items.AddRange(new object[] { "Lv.0", "Lv.1", "Lv.2", "Lv.3", "Lv.4", "Lv.5", "Lv.6", "Lv.7", "Lv.8", "Lv.9", "Lv.10", "Lv.11", "Lv.12", "Lv.13", "Lv.14", "Lv.15" });
+            cboxRelicObjectLevel.Location = new Point(310, 100);
+            cboxRelicObjectLevel.Name = "cboxRelicObjectLevel";
+            cboxRelicObjectLevel.Size = new Size(90, 38);
+            cboxRelicObjectLevel.TabIndex = 27;
             // 
-            // comboBox36
+            // cboxRelicObjectMainAffix
             // 
-            comboBox36.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox36.FormattingEnabled = true;
-            comboBox36.Items.AddRange(new object[] { "生命值", "物理属性伤害提高" });
-            comboBox36.Location = new Point(94, 100);
-            comboBox36.Name = "comboBox36";
-            comboBox36.Size = new Size(210, 38);
-            comboBox36.TabIndex = 26;
+            cboxRelicObjectMainAffix.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboxRelicObjectMainAffix.FormattingEnabled = true;
+            cboxRelicObjectMainAffix.Items.AddRange(new object[] { "生命值", "物理属性伤害提高" });
+            cboxRelicObjectMainAffix.Location = new Point(94, 100);
+            cboxRelicObjectMainAffix.Name = "cboxRelicObjectMainAffix";
+            cboxRelicObjectMainAffix.Size = new Size(210, 38);
+            cboxRelicObjectMainAffix.TabIndex = 26;
             // 
             // label81
             // 
@@ -2771,7 +2726,7 @@
             清空后更新角色数据ToolStripMenuItem.Size = new Size(314, 38);
             清空后更新角色数据ToolStripMenuItem.Text = "清空后更新角色数据";
             // 
-            // fMain
+            // MainForm
             // 
             AutoScaleDimensions = new SizeF(11F, 24F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -2781,7 +2736,7 @@
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MainMenuStrip = menuStrip1;
             MaximizeBox = false;
-            Name = "fMain";
+            Name = "MainForm";
             Text = "角色编辑器";
             Load += fMain_Load;
             splitContainer1.Panel1.ResumeLayout(false);
@@ -2821,8 +2776,24 @@
             splitContainer6.ResumeLayout(false);
             groupBox5.ResumeLayout(false);
             groupBox5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHeadSubAffixStep4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHeadSubAffixCnt4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHeadSubAffixStep3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHeadSubAffixCnt3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHeadSubAffixStep2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHeadSubAffixCnt2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHeadSubAffixStep1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHeadSubAffixCnt1).EndInit();
             groupBox6.ResumeLayout(false);
             groupBox6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHandSubAffixStep4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHeadSubAffixCnt14).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHandSubAffixStep3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHeadSubAffixCnt13).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHandSubAffixStep2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHeadSubAffixCnt12).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHandSubAffixStep1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHandSubAffixCnt1).EndInit();
             splitContainer5.Panel1.ResumeLayout(false);
             splitContainer5.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)splitContainer5).EndInit();
@@ -2833,16 +2804,48 @@
             splitContainer7.ResumeLayout(false);
             groupBox7.ResumeLayout(false);
             groupBox7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)nudRelicBodySubAffixStep4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicBodySubAffixCnt4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicBodySubAffixStep3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicBodySubAffixCnt3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicBodySubAffixStep2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicBodySubAffixCnt2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicBodySubAffixStep1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicBodySubAffixCnt1).EndInit();
             groupBox8.ResumeLayout(false);
             groupBox8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)nudRelicFootSubAffixStep4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicFootSubAffixCnt4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicFootSubAffixStep3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicFootSubAffixCnt3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicFootSubAffixStep2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicFootSubAffixCnt2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicFootSubAffixStep1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicFootSubAffixCnt1).EndInit();
             splitContainer8.Panel1.ResumeLayout(false);
             splitContainer8.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)splitContainer8).EndInit();
             splitContainer8.ResumeLayout(false);
             groupBox9.ResumeLayout(false);
             groupBox9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)nudRelicNeckSubAffixStep4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicNeckSubAffixCnt4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicNeckSubAffixStep3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicNeckSubAffixCnt3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicNeckSubAffixStep2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicNeckSubAffixCnt2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicNeckSubAffixStep1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicNeckSubAffixCnt1).EndInit();
             groupBox10.ResumeLayout(false);
             groupBox10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)nudRelicObjectSubAffixStep4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicObjectSubAffixCnt4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicObjectSubAffixStep3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicObjectSubAffixCnt3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicObjectSubAffixStep2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicObjectSubAffixCnt2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicObjectSubAffixStep1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicObjectSubAffixCnt1).EndInit();
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
@@ -2885,15 +2888,6 @@
         private Label label12;
         private Label label11;
         private Label label10;
-        private Label lblEnergyRegenerationRate;
-        private Label lblHealBoost;
-        private Label lblBreakEffect;
-        private Label lblCritDmg;
-        private Label lblCritRate;
-        private Label lblSpd;
-        private Label lblDef;
-        private Label lblAtk;
-        private Label lblHp;
         private Label label31;
         private Label label30;
         private Label label29;
@@ -2903,15 +2897,6 @@
         private Label label25;
         private Label label24;
         private Label label23;
-        private Label lblImaginaryDmgBoost;
-        private Label lblQuantumDmgBoost;
-        private Label lblWindDmgBoost;
-        private Label lblLightningDmgBoost;
-        private Label lblIceDmgBoost;
-        private Label lblFireDmgBoost;
-        private Label lblPhysicalDmgBoost;
-        private Label lblEffectRes;
-        private Label lblEffectHitRate;
         private SplitContainer splitContainer4;
         private SplitContainer splitContainer6;
         private SplitContainer splitContainer5;
@@ -2922,7 +2907,6 @@
         private GroupBox groupBox7;
         private GroupBox groupBox8;
         private GroupBox groupBox9;
-        private GroupBox groupBox10;
         private ComboBox cboxRelicHeadMainAffix;
         private Label label14;
         private ComboBox cboxRelicHeadLevel;
@@ -2934,18 +2918,10 @@
         private ComboBox cboxRelicHeadSubAffix3;
         private ComboBox cboxRelicHeadSubAffix2;
         private ComboBox cboxRelicHeadSubAffix1;
-        private TextBox cboxRelicHeadSubAffixStep4;
-        private TextBox cboxRelicHeadSubAffixStep3;
-        private TextBox cboxRelicHeadSubAffixStep2;
-        private TextBox cboxRelicHeadSubAffixStep1;
-        private TextBox cboxRelicHeadSubAffixCnt4;
-        private TextBox cboxRelicHeadSubAffixCnt3;
-        private TextBox cboxRelicHeadSubAffixCnt2;
-        private TextBox cboxRelicHeadSubAffixCnt1;
-        private Label label21;
-        private Label label20;
-        private Label label19;
-        private Label label18;
+        private Label lblRelicHeadSubAffixValue4;
+        private Label lblRelicHeadSubAffixValue3;
+        private Label lblRelicHeadSubAffixValue2;
+        private Label lblRelicHeadSubAffixValue1;
         private Panel panel1;
         private Panel panel2;
         private Panel panel3;
@@ -2959,60 +2935,44 @@
         private Label label76;
         private ComboBox cboxRelicHandSet;
         private Label label22;
-        private Label label32;
-        private Label label33;
-        private Label label34;
-        private Label label35;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private TextBox textBox6;
-        private TextBox textBox7;
-        private TextBox textBox8;
-        private TextBox textBox9;
-        private TextBox textBox10;
-        private ComboBox comboBox2;
-        private ComboBox comboBox3;
-        private ComboBox comboBox4;
+        private Label lblRelicHandSubAffixValue4;
+        private Label lblRelicHandSubAffixValue3;
+        private Label lblRelicHandSubAffixValue2;
+        private Label lblRelicHandSubAffixValue1;
+        private ComboBox cboxRelicHandSubAffix4;
+        private ComboBox cboxRelicHandSubAffix3;
+        private ComboBox cboxRelicHandSubAffix2;
         private ComboBox cboxRelicHandSubAffix1;
         private Label label36;
         private Label label37;
         private Label label38;
-        private Label label39;
+        private Label lblRelicHandMainAffixValue;
         private ComboBox cboxRelicHandLevel;
         private ComboBox cboxRelicHandMainAffix;
         private Label label40;
-        private ComboBox comboBox8;
+        private ComboBox cboxRelicBodySet;
         private Label label41;
-        private Label label42;
-        private Label label43;
-        private Label label44;
-        private Label label45;
-        private TextBox textBox11;
-        private TextBox textBox12;
-        private TextBox textBox13;
-        private TextBox textBox14;
-        private TextBox textBox15;
-        private TextBox textBox16;
-        private TextBox textBox17;
-        private TextBox textBox18;
-        private ComboBox comboBox9;
-        private ComboBox comboBox10;
-        private ComboBox comboBox11;
-        private ComboBox comboBox12;
+        private Label lblRelicBodySubAffixValue4;
+        private Label lblRelicBodySubAffixValue3;
+        private Label lblRelicBodySubAffixValue2;
+        private Label lblRelicBodySubAffixValue1;
+        private ComboBox cboxRelicBodySubAffix4;
+        private ComboBox cboxRelicBodySubAffix3;
+        private ComboBox cboxRelicBodySubAffix2;
+        private ComboBox cboxRelicBodySubAffix1;
         private Label label46;
         private Label label47;
         private Label label48;
-        private Label label49;
-        private ComboBox comboBox13;
-        private ComboBox comboBox14;
+        private Label lblRelicBodyMainAffixValue;
+        private ComboBox cboxRelicBodyLevel;
+        private ComboBox cboxRelicBodyMainAffix;
         private Label label50;
-        private ComboBox comboBox15;
+        private ComboBox cboxRelicFootSet;
         private Label label51;
-        private Label label52;
-        private Label label53;
-        private Label label54;
-        private Label label55;
+        private Label lblRelicFootSubAffixValue4;
+        private Label lblRelicFootSubAffixValue3;
+        private Label lblRelicFootSubAffixValue2;
+        private Label lblRelicFootSubAffixValue1;
         private TextBox textBox19;
         private TextBox textBox20;
         private TextBox textBox21;
@@ -3021,23 +2981,23 @@
         private TextBox textBox24;
         private TextBox textBox25;
         private TextBox textBox26;
-        private ComboBox comboBox16;
-        private ComboBox comboBox17;
-        private ComboBox comboBox18;
-        private ComboBox comboBox19;
+        private ComboBox cboxRelicFootSubAffix4;
+        private ComboBox cboxRelicFootSubAffix3;
+        private ComboBox cboxRelicFootSubAffix2;
+        private ComboBox cboxRelicFootSubAffix1;
         private Label label56;
         private Label label57;
         private Label label58;
-        private Label label59;
-        private ComboBox comboBox20;
-        private ComboBox comboBox21;
+        private Label lblRelicFootMainAffixValue;
+        private ComboBox cboxRelicFootLevel;
+        private ComboBox cboxRelicFootMainAffix;
         private Label label60;
-        private ComboBox comboBox22;
+        private ComboBox cboxNeckBodySet;
         private Label label61;
-        private Label label62;
-        private Label label63;
-        private Label label64;
-        private Label label65;
+        private Label lblRelicNeckSubAffixValue4;
+        private Label lblRelicNeckSubAffixValue3;
+        private Label lblRelicNeckSubAffixValue2;
+        private Label lblRelicNeckSubAffixValue1;
         private TextBox textBox27;
         private TextBox textBox28;
         private TextBox textBox29;
@@ -3046,23 +3006,17 @@
         private TextBox textBox32;
         private TextBox textBox33;
         private TextBox textBox34;
-        private ComboBox comboBox23;
-        private ComboBox comboBox24;
-        private ComboBox comboBox25;
-        private ComboBox comboBox26;
+        private ComboBox cboxRelicNeckSubAffix4;
+        private ComboBox cboxRelicNeckSubAffix3;
+        private ComboBox cboxRelicNeckSubAffix2;
+        private ComboBox cboxRelicNeckSubAffix1;
         private Label label66;
         private Label label67;
         private Label label68;
-        private Label label69;
-        private ComboBox comboBox27;
-        private ComboBox comboBox28;
+        private Label lblRelicNeckMainAffixValue;
+        private ComboBox cboxRelicNeckLevel;
+        private ComboBox cboxRelicNeckMainAffix;
         private Label label70;
-        private ComboBox comboBox29;
-        private Label label71;
-        private Label label72;
-        private Label label73;
-        private Label label74;
-        private Label label75;
         private TextBox textBox35;
         private TextBox textBox36;
         private TextBox textBox37;
@@ -3071,16 +3025,94 @@
         private TextBox textBox40;
         private TextBox textBox41;
         private TextBox textBox42;
-        private ComboBox comboBox30;
-        private ComboBox comboBox32;
-        private ComboBox comboBox33;
-        private ComboBox comboBox34;
+        public Label lblEnergyRegenerationRate;
+        public Label lblHealBoost;
+        public Label lblBreakEffect;
+        public Label lblCritDmg;
+        public Label lblCritRate;
+        public Label lblSpd;
+        public Label lblDef;
+        public Label lblAtk;
+        public Label lblHp;
+        public Label lblImaginaryDmgBoost;
+        public Label lblQuantumDmgBoost;
+        public Label lblWindDmgBoost;
+        public Label lblLightningDmgBoost;
+        public Label lblIceDmgBoost;
+        public Label lblFireDmgBoost;
+        public Label lblPhysicalDmgBoost;
+        public Label lblEffectRes;
+        public Label lblEffectHitRate;
+        private NumericUpDown nudRelicHeadSubAffixStep4;
+        private NumericUpDown nudRelicHeadSubAffixCnt4;
+        private NumericUpDown nudRelicHeadSubAffixStep3;
+        private NumericUpDown nudRelicHeadSubAffixCnt3;
+        private NumericUpDown nudRelicHeadSubAffixStep2;
+        private NumericUpDown nudRelicHeadSubAffixCnt2;
+        private NumericUpDown numericUpDown2;
+        private NumericUpDown numericUpDown4;
+        private NumericUpDown numericUpDown5;
+        private NumericUpDown numericUpDown6;
+        private NumericUpDown numericUpDown7;
+        private NumericUpDown nudRelicFootSubAffixStep4;
+        private NumericUpDown nudRelicFootSubAffixCnt4;
+        private NumericUpDown nudRelicFootSubAffixStep3;
+        private NumericUpDown nudRelicFootSubAffixCnt3;
+        private NumericUpDown nudRelicFootSubAffixStep2;
+        private NumericUpDown nudRelicFootSubAffixCnt2;
+        private NumericUpDown nudRelicFootSubAffixStep1;
+        private NumericUpDown nudRelicFootSubAffixCnt1;
+        private NumericUpDown nudRelicNeckSubAffixStep4;
+        private NumericUpDown nudRelicNeckSubAffixCnt4;
+        private NumericUpDown nudRelicNeckSubAffixStep3;
+        private NumericUpDown nudRelicNeckSubAffixCnt3;
+        private NumericUpDown nudRelicNeckSubAffixStep2;
+        private NumericUpDown nudRelicNeckSubAffixCnt2;
+        private NumericUpDown nudRelicNeckSubAffixStep1;
+        private NumericUpDown nudRelicNeckSubAffixCnt1;
+        private GroupBox groupBox10;
+        private NumericUpDown nudRelicObjectSubAffixStep4;
+        private NumericUpDown nudRelicObjectSubAffixCnt4;
+        private NumericUpDown nudRelicObjectSubAffixStep3;
+        private NumericUpDown nudRelicObjectSubAffixCnt3;
+        private NumericUpDown nudRelicObjectSubAffixStep2;
+        private NumericUpDown nudRelicObjectSubAffixCnt2;
+        private NumericUpDown nudRelicObjectSubAffixStep1;
+        private NumericUpDown nudRelicObjectSubAffixCnt1;
+        private ComboBox cboxRelicObjectSet;
+        private Label label71;
+        private Label lblRelicObjectSubAffixValue4;
+        private Label lblRelicObjectSubAffixValue3;
+        private Label lblRelicObjectSubAffixValue2;
+        private Label lblRelicObjectSubAffixValue1;
+        private ComboBox cboxRelicObjectSubAffix4;
+        private ComboBox cboxRelicObjectSubAffix3;
+        private ComboBox cboxRelicObjectSubAffix2;
+        private ComboBox cboxRelicObjectSubAffix1;
         private Label label77;
         private Label label78;
         private Label label79;
-        private Label label80;
-        private ComboBox comboBox35;
-        private ComboBox comboBox36;
+        private Label lblRelicObjectMainAffixValue;
+        private ComboBox cboxRelicObjectLevel;
+        private ComboBox cboxRelicObjectMainAffix;
         private Label label81;
+        private NumericUpDown nudRelicHeadSubAffixStep1;
+        private NumericUpDown nudRelicHeadSubAffixCnt1;
+        private NumericUpDown nudRelicHandSubAffixStep4;
+        private NumericUpDown nudRelicHeadSubAffixCnt14;
+        private NumericUpDown nudRelicHandSubAffixStep3;
+        private NumericUpDown nudRelicHeadSubAffixCnt13;
+        private NumericUpDown nudRelicHandSubAffixStep2;
+        private NumericUpDown nudRelicHeadSubAffixCnt12;
+        private NumericUpDown nudRelicHandSubAffixStep1;
+        private NumericUpDown nudRelicHandSubAffixCnt1;
+        private NumericUpDown nudRelicBodySubAffixStep4;
+        private NumericUpDown nudRelicBodySubAffixCnt4;
+        private NumericUpDown nudRelicBodySubAffixStep3;
+        private NumericUpDown nudRelicBodySubAffixCnt3;
+        private NumericUpDown nudRelicBodySubAffixStep2;
+        private NumericUpDown nudRelicBodySubAffixCnt2;
+        private NumericUpDown nudRelicBodySubAffixStep1;
+        private NumericUpDown nudRelicBodySubAffixCnt1;
     }
 }

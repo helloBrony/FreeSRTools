@@ -3,12 +3,16 @@ namespace CharacterConfigurationTool {
         /// <summary>
         ///  The main entry point for the application.
         /// </summary>
+
+        public static MainForm FormMain;
+
         [STAThread]
         static void Main() {
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new fMain());
+            FormMain = new MainForm();
+            Application.Run(FormMain);
         }
     }
 }
