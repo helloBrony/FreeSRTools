@@ -203,7 +203,7 @@
             nudRelicNeckSubAffixCnt2 = new NumericUpDown();
             nudRelicNeckSubAffixStep1 = new NumericUpDown();
             nudRelicNeckSubAffixCnt1 = new NumericUpDown();
-            cboxNeckBodySet = new ComboBox();
+            cboxRelicNeckSet = new ComboBox();
             label61 = new Label();
             lblRelicNeckSubAffixValue4 = new Label();
             lblRelicNeckSubAffixValue3 = new Label();
@@ -247,13 +247,6 @@
             cboxRelicObjectMainAffix = new ComboBox();
             label81 = new Label();
             menuStrip1 = new MenuStrip();
-            菜单ToolStripMenuItem = new ToolStripMenuItem();
-            角色数据ToolStripMenuItem = new ToolStripMenuItem();
-            创建JSON文件ToolStripMenuItem = new ToolStripMenuItem();
-            设置JSON文件位置ToolStripMenuItem = new ToolStripMenuItem();
-            导出ToolStripMenuItem = new ToolStripMenuItem();
-            直接更新角色数据ToolStripMenuItem = new ToolStripMenuItem();
-            清空后更新角色数据ToolStripMenuItem = new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -353,7 +346,6 @@
             ((System.ComponentModel.ISupportInitialize)nudRelicObjectSubAffixCnt2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nudRelicObjectSubAffixStep1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nudRelicObjectSubAffixCnt1).BeginInit();
-            menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // splitContainer1
@@ -1159,11 +1151,12 @@
             cboxRelicHeadSet.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
             cboxRelicHeadSet.AutoCompleteSource = AutoCompleteSource.ListItems;
             cboxRelicHeadSet.FormattingEnabled = true;
-            cboxRelicHeadSet.Items.AddRange(new object[] { "套装1", "套装2", "梦想之地匹诺康尼" });
+            cboxRelicHeadSet.Items.AddRange(new object[] { "未装备" });
             cboxRelicHeadSet.Location = new Point(95, 45);
             cboxRelicHeadSet.Name = "cboxRelicHeadSet";
             cboxRelicHeadSet.Size = new Size(306, 38);
             cboxRelicHeadSet.TabIndex = 24;
+            cboxRelicHeadSet.SelectedIndexChanged += cboxRelicHeadSet_SelectedIndexChanged;
             // 
             // label76
             // 
@@ -1295,16 +1288,18 @@
             cboxRelicHeadLevel.Name = "cboxRelicHeadLevel";
             cboxRelicHeadLevel.Size = new Size(90, 38);
             cboxRelicHeadLevel.TabIndex = 2;
+            cboxRelicHeadLevel.SelectedIndexChanged += cboxRelicHeadLevel_SelectedIndexChanged;
             // 
             // cboxRelicHeadMainAffix
             // 
             cboxRelicHeadMainAffix.DropDownStyle = ComboBoxStyle.DropDownList;
             cboxRelicHeadMainAffix.FormattingEnabled = true;
-            cboxRelicHeadMainAffix.Items.AddRange(new object[] { "生命值", "物理属性伤害提高" });
+            cboxRelicHeadMainAffix.Items.AddRange(new object[] { "生命值" });
             cboxRelicHeadMainAffix.Location = new Point(95, 96);
             cboxRelicHeadMainAffix.Name = "cboxRelicHeadMainAffix";
             cboxRelicHeadMainAffix.Size = new Size(210, 38);
             cboxRelicHeadMainAffix.TabIndex = 1;
+            cboxRelicHeadMainAffix.SelectedIndexChanged += cboxRelicHeadMainAffix_SelectedIndexChanged;
             // 
             // label14
             // 
@@ -1419,11 +1414,12 @@
             cboxRelicHandSet.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
             cboxRelicHandSet.AutoCompleteSource = AutoCompleteSource.ListItems;
             cboxRelicHandSet.FormattingEnabled = true;
-            cboxRelicHandSet.Items.AddRange(new object[] { "套装1", "套装2", "梦想之地匹诺康尼" });
+            cboxRelicHandSet.Items.AddRange(new object[] { "未装备" });
             cboxRelicHandSet.Location = new Point(94, 45);
             cboxRelicHandSet.Name = "cboxRelicHandSet";
             cboxRelicHandSet.Size = new Size(306, 38);
             cboxRelicHandSet.TabIndex = 49;
+            cboxRelicHandSet.SelectedIndexChanged += cboxRelicHandSet_SelectedIndexChanged;
             // 
             // label22
             // 
@@ -1555,16 +1551,18 @@
             cboxRelicHandLevel.Name = "cboxRelicHandLevel";
             cboxRelicHandLevel.Size = new Size(90, 38);
             cboxRelicHandLevel.TabIndex = 27;
+            cboxRelicHandLevel.SelectedIndexChanged += cboxRelicHandLevel_SelectedIndexChanged;
             // 
             // cboxRelicHandMainAffix
             // 
             cboxRelicHandMainAffix.DropDownStyle = ComboBoxStyle.DropDownList;
             cboxRelicHandMainAffix.FormattingEnabled = true;
-            cboxRelicHandMainAffix.Items.AddRange(new object[] { "生命值", "物理属性伤害提高" });
+            cboxRelicHandMainAffix.Items.AddRange(new object[] { "攻击力" });
             cboxRelicHandMainAffix.Location = new Point(94, 96);
             cboxRelicHandMainAffix.Name = "cboxRelicHandMainAffix";
             cboxRelicHandMainAffix.Size = new Size(210, 38);
             cboxRelicHandMainAffix.TabIndex = 26;
+            cboxRelicHandMainAffix.SelectedIndexChanged += cboxRelicHandMainAffix_SelectedIndexChanged;
             // 
             // label40
             // 
@@ -1716,11 +1714,12 @@
             cboxRelicBodySet.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
             cboxRelicBodySet.AutoCompleteSource = AutoCompleteSource.ListItems;
             cboxRelicBodySet.FormattingEnabled = true;
-            cboxRelicBodySet.Items.AddRange(new object[] { "套装1", "套装2", "梦想之地匹诺康尼" });
+            cboxRelicBodySet.Items.AddRange(new object[] { "未装备" });
             cboxRelicBodySet.Location = new Point(95, 57);
             cboxRelicBodySet.Name = "cboxRelicBodySet";
             cboxRelicBodySet.Size = new Size(306, 38);
             cboxRelicBodySet.TabIndex = 49;
+            cboxRelicBodySet.SelectedIndexChanged += cboxRelicBodySet_SelectedIndexChanged;
             // 
             // label41
             // 
@@ -1852,16 +1851,18 @@
             cboxRelicBodyLevel.Name = "cboxRelicBodyLevel";
             cboxRelicBodyLevel.Size = new Size(90, 38);
             cboxRelicBodyLevel.TabIndex = 27;
+            cboxRelicBodyLevel.SelectedIndexChanged += cboxRelicBodyLevel_SelectedIndexChanged;
             // 
             // cboxRelicBodyMainAffix
             // 
             cboxRelicBodyMainAffix.DropDownStyle = ComboBoxStyle.DropDownList;
             cboxRelicBodyMainAffix.FormattingEnabled = true;
-            cboxRelicBodyMainAffix.Items.AddRange(new object[] { "生命值", "物理属性伤害提高" });
+            cboxRelicBodyMainAffix.Items.AddRange(new object[] { "生命值（%）", "攻击力（%）", "防御力（%）", "暴击率", "暴击伤害", "治疗量加成", "效果命中" });
             cboxRelicBodyMainAffix.Location = new Point(95, 108);
             cboxRelicBodyMainAffix.Name = "cboxRelicBodyMainAffix";
             cboxRelicBodyMainAffix.Size = new Size(210, 38);
             cboxRelicBodyMainAffix.TabIndex = 26;
+            cboxRelicBodyMainAffix.SelectedIndexChanged += cboxRelicBodyMainAffix_SelectedIndexChanged;
             // 
             // label50
             // 
@@ -1976,11 +1977,12 @@
             cboxRelicFootSet.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
             cboxRelicFootSet.AutoCompleteSource = AutoCompleteSource.ListItems;
             cboxRelicFootSet.FormattingEnabled = true;
-            cboxRelicFootSet.Items.AddRange(new object[] { "套装1", "套装2", "梦想之地匹诺康尼" });
+            cboxRelicFootSet.Items.AddRange(new object[] { "未装备" });
             cboxRelicFootSet.Location = new Point(94, 55);
             cboxRelicFootSet.Name = "cboxRelicFootSet";
             cboxRelicFootSet.Size = new Size(306, 38);
             cboxRelicFootSet.TabIndex = 49;
+            cboxRelicFootSet.SelectedIndexChanged += cboxRelicFootSet_SelectedIndexChanged;
             // 
             // label51
             // 
@@ -2112,16 +2114,18 @@
             cboxRelicFootLevel.Name = "cboxRelicFootLevel";
             cboxRelicFootLevel.Size = new Size(90, 38);
             cboxRelicFootLevel.TabIndex = 27;
+            cboxRelicFootLevel.SelectedIndexChanged += cboxRelicFootLevel_SelectedIndexChanged;
             // 
             // cboxRelicFootMainAffix
             // 
             cboxRelicFootMainAffix.DropDownStyle = ComboBoxStyle.DropDownList;
             cboxRelicFootMainAffix.FormattingEnabled = true;
-            cboxRelicFootMainAffix.Items.AddRange(new object[] { "生命值", "物理属性伤害提高" });
+            cboxRelicFootMainAffix.Items.AddRange(new object[] { "生命值（%）", "攻击力（%）", "防御力（%）", "速度" });
             cboxRelicFootMainAffix.Location = new Point(94, 106);
             cboxRelicFootMainAffix.Name = "cboxRelicFootMainAffix";
             cboxRelicFootMainAffix.Size = new Size(210, 38);
             cboxRelicFootMainAffix.TabIndex = 26;
+            cboxRelicFootMainAffix.SelectedIndexChanged += cboxRelicFootMainAffix_SelectedIndexChanged;
             // 
             // label60
             // 
@@ -2160,7 +2164,7 @@
             groupBox9.Controls.Add(nudRelicNeckSubAffixCnt2);
             groupBox9.Controls.Add(nudRelicNeckSubAffixStep1);
             groupBox9.Controls.Add(nudRelicNeckSubAffixCnt1);
-            groupBox9.Controls.Add(cboxNeckBodySet);
+            groupBox9.Controls.Add(cboxRelicNeckSet);
             groupBox9.Controls.Add(label61);
             groupBox9.Controls.Add(lblRelicNeckSubAffixValue4);
             groupBox9.Controls.Add(lblRelicNeckSubAffixValue3);
@@ -2249,16 +2253,17 @@
             nudRelicNeckSubAffixCnt1.TabIndex = 50;
             nudRelicNeckSubAffixCnt1.Value = new decimal(new int[] { 1, 0, 0, 0 });
             // 
-            // cboxNeckBodySet
+            // cboxRelicNeckSet
             // 
-            cboxNeckBodySet.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
-            cboxNeckBodySet.AutoCompleteSource = AutoCompleteSource.ListItems;
-            cboxNeckBodySet.FormattingEnabled = true;
-            cboxNeckBodySet.Items.AddRange(new object[] { "套装1", "套装2", "梦想之地匹诺康尼" });
-            cboxNeckBodySet.Location = new Point(95, 51);
-            cboxNeckBodySet.Name = "cboxNeckBodySet";
-            cboxNeckBodySet.Size = new Size(306, 38);
-            cboxNeckBodySet.TabIndex = 49;
+            cboxRelicNeckSet.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            cboxRelicNeckSet.AutoCompleteSource = AutoCompleteSource.ListItems;
+            cboxRelicNeckSet.FormattingEnabled = true;
+            cboxRelicNeckSet.Items.AddRange(new object[] { "未装备" });
+            cboxRelicNeckSet.Location = new Point(95, 51);
+            cboxRelicNeckSet.Name = "cboxRelicNeckSet";
+            cboxRelicNeckSet.Size = new Size(306, 38);
+            cboxRelicNeckSet.TabIndex = 49;
+            cboxRelicNeckSet.SelectedIndexChanged += cboxRelicNeckSet_SelectedIndexChanged;
             // 
             // label61
             // 
@@ -2390,16 +2395,18 @@
             cboxRelicNeckLevel.Name = "cboxRelicNeckLevel";
             cboxRelicNeckLevel.Size = new Size(90, 38);
             cboxRelicNeckLevel.TabIndex = 27;
+            cboxRelicNeckLevel.SelectedIndexChanged += cboxRelicNeckLevel_SelectedIndexChanged;
             // 
             // cboxRelicNeckMainAffix
             // 
             cboxRelicNeckMainAffix.DropDownStyle = ComboBoxStyle.DropDownList;
             cboxRelicNeckMainAffix.FormattingEnabled = true;
-            cboxRelicNeckMainAffix.Items.AddRange(new object[] { "生命值", "物理属性伤害提高" });
+            cboxRelicNeckMainAffix.Items.AddRange(new object[] { "生命值（%）", "攻击力（%）", "防御力（%）", "物理属性伤害提高", "火属性伤害提高", "冰属性伤害提高", "雷属性伤害提高", "风属性伤害提高", "量子属性伤害提高", "虚数属性伤害提高" });
             cboxRelicNeckMainAffix.Location = new Point(95, 102);
             cboxRelicNeckMainAffix.Name = "cboxRelicNeckMainAffix";
             cboxRelicNeckMainAffix.Size = new Size(210, 38);
             cboxRelicNeckMainAffix.TabIndex = 26;
+            cboxRelicNeckMainAffix.SelectedIndexChanged += cboxRelicNeckMainAffix_SelectedIndexChanged;
             // 
             // label70
             // 
@@ -2514,11 +2521,12 @@
             cboxRelicObjectSet.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
             cboxRelicObjectSet.AutoCompleteSource = AutoCompleteSource.ListItems;
             cboxRelicObjectSet.FormattingEnabled = true;
-            cboxRelicObjectSet.Items.AddRange(new object[] { "套装1", "套装2", "梦想之地匹诺康尼" });
+            cboxRelicObjectSet.Items.AddRange(new object[] { "未装备" });
             cboxRelicObjectSet.Location = new Point(94, 49);
             cboxRelicObjectSet.Name = "cboxRelicObjectSet";
             cboxRelicObjectSet.Size = new Size(306, 38);
             cboxRelicObjectSet.TabIndex = 49;
+            cboxRelicObjectSet.SelectedIndexChanged += cboxRelicObjectSet_SelectedIndexChanged;
             // 
             // label71
             // 
@@ -2650,16 +2658,18 @@
             cboxRelicObjectLevel.Name = "cboxRelicObjectLevel";
             cboxRelicObjectLevel.Size = new Size(90, 38);
             cboxRelicObjectLevel.TabIndex = 27;
+            cboxRelicObjectLevel.SelectedIndexChanged += cboxRelicObjectLevel_SelectedIndexChanged;
             // 
             // cboxRelicObjectMainAffix
             // 
             cboxRelicObjectMainAffix.DropDownStyle = ComboBoxStyle.DropDownList;
             cboxRelicObjectMainAffix.FormattingEnabled = true;
-            cboxRelicObjectMainAffix.Items.AddRange(new object[] { "生命值", "物理属性伤害提高" });
+            cboxRelicObjectMainAffix.Items.AddRange(new object[] { "击破特攻", "能量恢复效率", "生命值（%）", "攻击力（%）", "防御力（%）" });
             cboxRelicObjectMainAffix.Location = new Point(94, 100);
             cboxRelicObjectMainAffix.Name = "cboxRelicObjectMainAffix";
             cboxRelicObjectMainAffix.Size = new Size(210, 38);
             cboxRelicObjectMainAffix.TabIndex = 26;
+            cboxRelicObjectMainAffix.SelectedIndexChanged += cboxRelicObjectMainAffix_SelectedIndexChanged;
             // 
             // label81
             // 
@@ -2674,57 +2684,11 @@
             // 
             menuStrip1.Font = new Font("Microsoft YaHei UI", 11F, FontStyle.Regular, GraphicsUnit.Point, 134);
             menuStrip1.ImageScalingSize = new Size(24, 24);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { 菜单ToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(1758, 38);
+            menuStrip1.Size = new Size(1758, 24);
             menuStrip1.TabIndex = 1;
             menuStrip1.Text = "menuStrip1";
-            // 
-            // 菜单ToolStripMenuItem
-            // 
-            菜单ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { 角色数据ToolStripMenuItem, 导出ToolStripMenuItem });
-            菜单ToolStripMenuItem.Name = "菜单ToolStripMenuItem";
-            菜单ToolStripMenuItem.Size = new Size(73, 34);
-            菜单ToolStripMenuItem.Text = "菜单";
-            // 
-            // 角色数据ToolStripMenuItem
-            // 
-            角色数据ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { 创建JSON文件ToolStripMenuItem, 设置JSON文件位置ToolStripMenuItem });
-            角色数据ToolStripMenuItem.Name = "角色数据ToolStripMenuItem";
-            角色数据ToolStripMenuItem.Size = new Size(306, 38);
-            角色数据ToolStripMenuItem.Text = "角色数据JSON文件";
-            // 
-            // 创建JSON文件ToolStripMenuItem
-            // 
-            创建JSON文件ToolStripMenuItem.Name = "创建JSON文件ToolStripMenuItem";
-            创建JSON文件ToolStripMenuItem.Size = new Size(306, 38);
-            创建JSON文件ToolStripMenuItem.Text = "创建JSON文件";
-            // 
-            // 设置JSON文件位置ToolStripMenuItem
-            // 
-            设置JSON文件位置ToolStripMenuItem.Name = "设置JSON文件位置ToolStripMenuItem";
-            设置JSON文件位置ToolStripMenuItem.Size = new Size(306, 38);
-            设置JSON文件位置ToolStripMenuItem.Text = "设置JSON文件位置";
-            // 
-            // 导出ToolStripMenuItem
-            // 
-            导出ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { 直接更新角色数据ToolStripMenuItem, 清空后更新角色数据ToolStripMenuItem });
-            导出ToolStripMenuItem.Name = "导出ToolStripMenuItem";
-            导出ToolStripMenuItem.Size = new Size(306, 38);
-            导出ToolStripMenuItem.Text = "更新";
-            // 
-            // 直接更新角色数据ToolStripMenuItem
-            // 
-            直接更新角色数据ToolStripMenuItem.Name = "直接更新角色数据ToolStripMenuItem";
-            直接更新角色数据ToolStripMenuItem.Size = new Size(314, 38);
-            直接更新角色数据ToolStripMenuItem.Text = "直接更新角色数据";
-            // 
-            // 清空后更新角色数据ToolStripMenuItem
-            // 
-            清空后更新角色数据ToolStripMenuItem.Name = "清空后更新角色数据ToolStripMenuItem";
-            清空后更新角色数据ToolStripMenuItem.Size = new Size(314, 38);
-            清空后更新角色数据ToolStripMenuItem.Text = "清空后更新角色数据";
             // 
             // MainForm
             // 
@@ -2846,8 +2810,6 @@
             ((System.ComponentModel.ISupportInitialize)nudRelicObjectSubAffixCnt2).EndInit();
             ((System.ComponentModel.ISupportInitialize)nudRelicObjectSubAffixStep1).EndInit();
             ((System.ComponentModel.ISupportInitialize)nudRelicObjectSubAffixCnt1).EndInit();
-            menuStrip1.ResumeLayout(false);
-            menuStrip1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -2863,13 +2825,6 @@
         private Label label2;
         private TextBox textBox1;
         private MenuStrip menuStrip1;
-        private ToolStripMenuItem 菜单ToolStripMenuItem;
-        private ToolStripMenuItem 角色数据ToolStripMenuItem;
-        private ToolStripMenuItem 创建JSON文件ToolStripMenuItem;
-        private ToolStripMenuItem 设置JSON文件位置ToolStripMenuItem;
-        private ToolStripMenuItem 导出ToolStripMenuItem;
-        private ToolStripMenuItem 直接更新角色数据ToolStripMenuItem;
-        private ToolStripMenuItem 清空后更新角色数据ToolStripMenuItem;
         private GroupBox groupBox1;
         private GroupBox groupBox2;
         private GroupBox groupBox3;
@@ -2992,7 +2947,7 @@
         private ComboBox cboxRelicFootLevel;
         private ComboBox cboxRelicFootMainAffix;
         private Label label60;
-        private ComboBox cboxNeckBodySet;
+        private ComboBox cboxRelicNeckSet;
         private Label label61;
         private Label lblRelicNeckSubAffixValue4;
         private Label lblRelicNeckSubAffixValue3;

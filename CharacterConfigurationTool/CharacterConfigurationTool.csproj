@@ -24,10 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="resource\character.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="resource\lightcone.json">
+    <None Include="Resource\\**">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

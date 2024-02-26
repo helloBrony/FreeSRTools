@@ -1,9 +1,9 @@
 ﻿namespace CharacterConfigurationTool {
     public static class AttributeCalculator {
-        public static void CalculateDetails() {
-            AttributeDetails.Hp = Character.BaseHp * 7.35f + Character.EquipmentLightcone.BaseHp * 22.05f;
-            AttributeDetails.Atk = Character.BaseAtk * 7.35f + Character.EquipmentLightcone.BaseAtk * 22.05f;
-            AttributeDetails.Def = Character.BaseDef * 7.35f + Character.EquipmentLightcone.BaseDef * 22.05f;
+        public static void DetailsCalculator() {
+            AttributeDetails.Hp = Character.BaseHp * 7.35 + Character.EquipmentLightcone.BaseHp * 22.05;
+            AttributeDetails.Atk = Character.BaseAtk * 7.35 + Character.EquipmentLightcone.BaseAtk * 22.05;
+            AttributeDetails.Def = Character.BaseDef * 7.35 + Character.EquipmentLightcone.BaseDef * 22.05;
             AttributeDetails.Spd = Character.BaseSpd;
 
 
@@ -26,6 +26,21 @@
             Program.FormMain.lblQuantumDmgBoost.Text = (Math.Floor(AttributeDetails.QuantumDmgBoost * 1000) / 10).ToString("0.0") + '%';
             Program.FormMain.lblImaginaryDmgBoost.Text = (Math.Floor(AttributeDetails.ImaginaryDmgBoost * 1000) / 10).ToString("0.0") + '%';
         }
+
+        public static double RelicMainAffixCalculator(uint type, uint id, uint level) {
+            var relicMainAffixDataDict = JsonParser.RelicMainAffixParser();
+            foreach (var kvpType in relicMainAffixDataDict) {
+                if (kvpType.Key == type) {
+                    foreach (var kvpMainAffix in kvpType.Value) {
+                        var relicMainAffixData = kvpMainAffix.Value;
+                        if (kvpMainAffix.Key == id) {
+                            return Math.Round(relicMainAffixData.Base + relicMainAffixData.Add * level, 10);
+                        }
+                    }
+                }
+            }
+            return -1;
+        }
     }
 
     public static class Character {
@@ -35,10 +50,10 @@
         public static uint Rank { get; set; }
         public static Lightcone EquipmentLightcone { get; } = new Lightcone();
         public static List<Relic> RelicList { get; } = new List<Relic>();
-        public static float BaseHp { get; set; }
-        public static float BaseAtk { get; set; }
-        public static float BaseDef { get; set; }
-        public static float BaseSpd { get; set; }
+        public static double BaseHp { get; set; }
+        public static double BaseAtk { get; set; }
+        public static double BaseDef { get; set; }
+        public static double BaseSpd { get; set; }
     }
 
     public class Lightcone {
@@ -46,9 +61,9 @@
         public uint Level { get; set; }
         public uint Promotion { get; set; }
         public uint Rank { get; set; }
-        public float BaseHp { get; set; }
-        public float BaseAtk { get; set; }
-        public float BaseDef { get; set; }
+        public double BaseHp { get; set; }
+        public double BaseAtk { get; set; }
+        public double BaseDef { get; set; }
     }
 
     public class Relic {
@@ -67,24 +82,24 @@
     }
 
     public static class AttributeDetails {
-        public static float Hp { get; set; }
-        public static float Atk { get; set; }
-        public static float Def { get; set; }
-        public static float Spd { get; set; }
-        public static float CritRate { get; set; } = 0.05f;
-        public static float CritDmg { get; set; } = 0.5f;
-        public static float BreakEffect { get; set; }
-        public static float HealBoost { get; set; }
-        public static float EnergyRegenerationRate { get; set; }
-        public static float EffectHitRate { get; set; }
-        public static float EffectRes { get; set; }
-        public static float PhysicalDmgBoost { get; set; }
-        public static float FireDmgBoost { get; set; }
-        public static float IceDmgBoost { get; set; }
-        public static float LightningDmgBoost { get; set; }
-        public static float WindDmgBoost { get; set; }
-        public static float QuantumDmgBoost { get; set; }
-        public static float ImaginaryDmgBoost { get; set; }
+        public static double Hp { get; set; }
+        public static double Atk { get; set; }
+        public static double Def { get; set; }
+        public static double Spd { get; set; }
+        public static double CritRate { get; set; } = 0.05f;
+        public static double CritDmg { get; set; } = 0.5f;
+        public static double BreakEffect { get; set; }
+        public static double HealBoost { get; set; }
+        public static double EnergyRegenerationRate { get; set; }
+        public static double EffectHitRate { get; set; }
+        public static double EffectRes { get; set; }
+        public static double PhysicalDmgBoost { get; set; }
+        public static double FireDmgBoost { get; set; }
+        public static double IceDmgBoost { get; set; }
+        public static double LightningDmgBoost { get; set; }
+        public static double WindDmgBoost { get; set; }
+        public static double QuantumDmgBoost { get; set; }
+        public static double ImaginaryDmgBoost { get; set; }
 
     }
 }
