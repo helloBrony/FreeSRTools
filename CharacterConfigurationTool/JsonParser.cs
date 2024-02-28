@@ -17,10 +17,15 @@ namespace CharacterConfigurationTool {
             var opt = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
             return JsonSerializer.Deserialize<Dictionary<uint, RelicSetModel>>(relicSetJsonStr, opt);
         }
-        public static Dictionary<uint,Dictionary<uint, RelicMainAffixModel>> RelicMainAffixParser() {
+        public static Dictionary<uint, Dictionary<uint, RelicMainAffixModel>> RelicMainAffixParser() {
             string relicMainAffixJsonStr = File.ReadAllText("./Resource/RelicMainAffix.json");
             var opt = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
-            return JsonSerializer.Deserialize<Dictionary<uint, Dictionary<uint, RelicMainAffixModel>>>(relicMainAffixJsonStr);
+            return JsonSerializer.Deserialize<Dictionary<uint, Dictionary<uint, RelicMainAffixModel>>>(relicMainAffixJsonStr, opt);
+        }
+        public static Dictionary<uint, RelicSubAffixModel> RelicSubAffixParser() {
+            string relicSubAffixJsonStr = File.ReadAllText("./Resource/RelicSubAffix.json");
+            var opt = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+            return JsonSerializer.Deserialize<Dictionary<uint, RelicSubAffixModel>>(relicSubAffixJsonStr, opt);
         }
     }
 
@@ -47,5 +52,10 @@ namespace CharacterConfigurationTool {
         public string? Name { get; set; }
         public double Base { get; set; }
         public double Add { get; set; }
+    }
+    public class RelicSubAffixModel {
+        public string? Name { get; set; }
+        public double Base { get; set; }
+        public double Step { get; set; }
     }
 }

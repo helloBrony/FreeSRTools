@@ -115,11 +115,11 @@
             label14 = new Label();
             groupBox6 = new GroupBox();
             nudRelicHandSubAffixStep4 = new NumericUpDown();
-            nudRelicHeadSubAffixCnt14 = new NumericUpDown();
+            nudRelicHandSubAffixCnt4 = new NumericUpDown();
             nudRelicHandSubAffixStep3 = new NumericUpDown();
-            nudRelicHeadSubAffixCnt13 = new NumericUpDown();
+            nudRelicHandSubAffixCnt3 = new NumericUpDown();
             nudRelicHandSubAffixStep2 = new NumericUpDown();
-            nudRelicHeadSubAffixCnt12 = new NumericUpDown();
+            nudRelicHandSubAffixCnt2 = new NumericUpDown();
             nudRelicHandSubAffixStep1 = new NumericUpDown();
             nudRelicHandSubAffixCnt1 = new NumericUpDown();
             cboxRelicHandSet = new ComboBox();
@@ -247,6 +247,7 @@
             cboxRelicObjectMainAffix = new ComboBox();
             label81 = new Label();
             menuStrip1 = new MenuStrip();
+            ExportToolStripMenuItem = new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -291,11 +292,11 @@
             ((System.ComponentModel.ISupportInitialize)nudRelicHeadSubAffixCnt1).BeginInit();
             groupBox6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)nudRelicHandSubAffixStep4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)nudRelicHeadSubAffixCnt14).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHandSubAffixCnt4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nudRelicHandSubAffixStep3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)nudRelicHeadSubAffixCnt13).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHandSubAffixCnt3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nudRelicHandSubAffixStep2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)nudRelicHeadSubAffixCnt12).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHandSubAffixCnt2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nudRelicHandSubAffixStep1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nudRelicHandSubAffixCnt1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)splitContainer5).BeginInit();
@@ -346,6 +347,7 @@
             ((System.ComponentModel.ISupportInitialize)nudRelicObjectSubAffixCnt2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nudRelicObjectSubAffixStep1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nudRelicObjectSubAffixCnt1).BeginInit();
+            menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // splitContainer1
@@ -1088,6 +1090,7 @@
             nudRelicHeadSubAffixStep4.Name = "nudRelicHeadSubAffixStep4";
             nudRelicHeadSubAffixStep4.Size = new Size(101, 35);
             nudRelicHeadSubAffixStep4.TabIndex = 30;
+            nudRelicHeadSubAffixStep4.ValueChanged += nudRelicHeadSubAffixStep4_ValueChanged;
             // 
             // nudRelicHeadSubAffixCnt4
             // 
@@ -1097,6 +1100,7 @@
             nudRelicHeadSubAffixCnt4.Size = new Size(101, 35);
             nudRelicHeadSubAffixCnt4.TabIndex = 29;
             nudRelicHeadSubAffixCnt4.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicHeadSubAffixCnt4.ValueChanged += nudRelicHeadSubAffixCnt4_ValueChanged;
             // 
             // nudRelicHeadSubAffixStep3
             // 
@@ -1104,6 +1108,7 @@
             nudRelicHeadSubAffixStep3.Name = "nudRelicHeadSubAffixStep3";
             nudRelicHeadSubAffixStep3.Size = new Size(101, 35);
             nudRelicHeadSubAffixStep3.TabIndex = 28;
+            nudRelicHeadSubAffixStep3.ValueChanged += nudRelicHeadSubAffixStep3_ValueChanged;
             // 
             // nudRelicHeadSubAffixCnt3
             // 
@@ -1113,6 +1118,7 @@
             nudRelicHeadSubAffixCnt3.Size = new Size(101, 35);
             nudRelicHeadSubAffixCnt3.TabIndex = 27;
             nudRelicHeadSubAffixCnt3.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicHeadSubAffixCnt3.ValueChanged += nudRelicHeadSubAffixCnt3_ValueChanged;
             // 
             // nudRelicHeadSubAffixStep2
             // 
@@ -1120,6 +1126,7 @@
             nudRelicHeadSubAffixStep2.Name = "nudRelicHeadSubAffixStep2";
             nudRelicHeadSubAffixStep2.Size = new Size(101, 35);
             nudRelicHeadSubAffixStep2.TabIndex = 26;
+            nudRelicHeadSubAffixStep2.ValueChanged += nudRelicHeadSubAffixStep2_ValueChanged;
             // 
             // nudRelicHeadSubAffixCnt2
             // 
@@ -1129,6 +1136,7 @@
             nudRelicHeadSubAffixCnt2.Size = new Size(101, 35);
             nudRelicHeadSubAffixCnt2.TabIndex = 25;
             nudRelicHeadSubAffixCnt2.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicHeadSubAffixCnt2.ValueChanged += nudRelicHeadSubAffixCnt2_ValueChanged;
             // 
             // nudRelicHeadSubAffixStep1
             // 
@@ -1136,6 +1144,7 @@
             nudRelicHeadSubAffixStep1.Name = "nudRelicHeadSubAffixStep1";
             nudRelicHeadSubAffixStep1.Size = new Size(101, 35);
             nudRelicHeadSubAffixStep1.TabIndex = 11;
+            nudRelicHeadSubAffixStep1.ValueChanged += nudRelicHeadSubAffixStep1_ValueChanged;
             // 
             // nudRelicHeadSubAffixCnt1
             // 
@@ -1145,6 +1154,7 @@
             nudRelicHeadSubAffixCnt1.Size = new Size(101, 35);
             nudRelicHeadSubAffixCnt1.TabIndex = 10;
             nudRelicHeadSubAffixCnt1.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicHeadSubAffixCnt1.ValueChanged += nudRelicHeadSubAffixCnt1_ValueChanged;
             // 
             // cboxRelicHeadSet
             // 
@@ -1212,6 +1222,7 @@
             cboxRelicHeadSubAffix4.Name = "cboxRelicHeadSubAffix4";
             cboxRelicHeadSubAffix4.Size = new Size(167, 38);
             cboxRelicHeadSubAffix4.TabIndex = 10;
+            cboxRelicHeadSubAffix4.SelectedIndexChanged += cboxRelicHeadSubAffix4_SelectedIndexChanged;
             // 
             // cboxRelicHeadSubAffix3
             // 
@@ -1222,6 +1233,7 @@
             cboxRelicHeadSubAffix3.Name = "cboxRelicHeadSubAffix3";
             cboxRelicHeadSubAffix3.Size = new Size(167, 38);
             cboxRelicHeadSubAffix3.TabIndex = 9;
+            cboxRelicHeadSubAffix3.SelectedIndexChanged += cboxRelicHeadSubAffix3_SelectedIndexChanged;
             // 
             // cboxRelicHeadSubAffix2
             // 
@@ -1232,6 +1244,7 @@
             cboxRelicHeadSubAffix2.Name = "cboxRelicHeadSubAffix2";
             cboxRelicHeadSubAffix2.Size = new Size(167, 38);
             cboxRelicHeadSubAffix2.TabIndex = 8;
+            cboxRelicHeadSubAffix2.SelectedIndexChanged += cboxRelicHeadSubAffix2_SelectedIndexChanged;
             // 
             // cboxRelicHeadSubAffix1
             // 
@@ -1242,6 +1255,7 @@
             cboxRelicHeadSubAffix1.Name = "cboxRelicHeadSubAffix1";
             cboxRelicHeadSubAffix1.Size = new Size(167, 38);
             cboxRelicHeadSubAffix1.TabIndex = 7;
+            cboxRelicHeadSubAffix1.SelectedIndexChanged += cboxRelicHeadSubAffix1_SelectedIndexChanged;
             // 
             // label17
             // 
@@ -1313,11 +1327,11 @@
             // groupBox6
             // 
             groupBox6.Controls.Add(nudRelicHandSubAffixStep4);
-            groupBox6.Controls.Add(nudRelicHeadSubAffixCnt14);
+            groupBox6.Controls.Add(nudRelicHandSubAffixCnt4);
             groupBox6.Controls.Add(nudRelicHandSubAffixStep3);
-            groupBox6.Controls.Add(nudRelicHeadSubAffixCnt13);
+            groupBox6.Controls.Add(nudRelicHandSubAffixCnt3);
             groupBox6.Controls.Add(nudRelicHandSubAffixStep2);
-            groupBox6.Controls.Add(nudRelicHeadSubAffixCnt12);
+            groupBox6.Controls.Add(nudRelicHandSubAffixCnt2);
             groupBox6.Controls.Add(nudRelicHandSubAffixStep1);
             groupBox6.Controls.Add(nudRelicHandSubAffixCnt1);
             groupBox6.Controls.Add(cboxRelicHandSet);
@@ -1351,15 +1365,17 @@
             nudRelicHandSubAffixStep4.Name = "nudRelicHandSubAffixStep4";
             nudRelicHandSubAffixStep4.Size = new Size(101, 35);
             nudRelicHandSubAffixStep4.TabIndex = 57;
+            nudRelicHandSubAffixStep4.ValueChanged += nudRelicHandSubAffixStep4_ValueChanged;
             // 
-            // nudRelicHeadSubAffixCnt14
+            // nudRelicHandSubAffixCnt4
             // 
-            nudRelicHeadSubAffixCnt14.Location = new Point(187, 309);
-            nudRelicHeadSubAffixCnt14.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
-            nudRelicHeadSubAffixCnt14.Name = "nudRelicHeadSubAffixCnt14";
-            nudRelicHeadSubAffixCnt14.Size = new Size(101, 35);
-            nudRelicHeadSubAffixCnt14.TabIndex = 56;
-            nudRelicHeadSubAffixCnt14.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicHandSubAffixCnt4.Location = new Point(187, 309);
+            nudRelicHandSubAffixCnt4.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicHandSubAffixCnt4.Name = "nudRelicHandSubAffixCnt4";
+            nudRelicHandSubAffixCnt4.Size = new Size(101, 35);
+            nudRelicHandSubAffixCnt4.TabIndex = 56;
+            nudRelicHandSubAffixCnt4.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicHandSubAffixCnt4.ValueChanged += nudRelicHandSubAffixCnt4_ValueChanged;
             // 
             // nudRelicHandSubAffixStep3
             // 
@@ -1367,15 +1383,17 @@
             nudRelicHandSubAffixStep3.Name = "nudRelicHandSubAffixStep3";
             nudRelicHandSubAffixStep3.Size = new Size(101, 35);
             nudRelicHandSubAffixStep3.TabIndex = 55;
+            nudRelicHandSubAffixStep3.ValueChanged += nudRelicHandSubAffixStep3_ValueChanged;
             // 
-            // nudRelicHeadSubAffixCnt13
+            // nudRelicHandSubAffixCnt3
             // 
-            nudRelicHeadSubAffixCnt13.Location = new Point(187, 265);
-            nudRelicHeadSubAffixCnt13.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
-            nudRelicHeadSubAffixCnt13.Name = "nudRelicHeadSubAffixCnt13";
-            nudRelicHeadSubAffixCnt13.Size = new Size(101, 35);
-            nudRelicHeadSubAffixCnt13.TabIndex = 54;
-            nudRelicHeadSubAffixCnt13.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicHandSubAffixCnt3.Location = new Point(187, 265);
+            nudRelicHandSubAffixCnt3.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicHandSubAffixCnt3.Name = "nudRelicHandSubAffixCnt3";
+            nudRelicHandSubAffixCnt3.Size = new Size(101, 35);
+            nudRelicHandSubAffixCnt3.TabIndex = 54;
+            nudRelicHandSubAffixCnt3.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicHandSubAffixCnt3.ValueChanged += nudRelicHandSubAffixCnt3_ValueChanged;
             // 
             // nudRelicHandSubAffixStep2
             // 
@@ -1383,15 +1401,17 @@
             nudRelicHandSubAffixStep2.Name = "nudRelicHandSubAffixStep2";
             nudRelicHandSubAffixStep2.Size = new Size(101, 35);
             nudRelicHandSubAffixStep2.TabIndex = 53;
+            nudRelicHandSubAffixStep2.ValueChanged += nudRelicHandSubAffixStep2_ValueChanged;
             // 
-            // nudRelicHeadSubAffixCnt12
+            // nudRelicHandSubAffixCnt2
             // 
-            nudRelicHeadSubAffixCnt12.Location = new Point(187, 221);
-            nudRelicHeadSubAffixCnt12.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
-            nudRelicHeadSubAffixCnt12.Name = "nudRelicHeadSubAffixCnt12";
-            nudRelicHeadSubAffixCnt12.Size = new Size(101, 35);
-            nudRelicHeadSubAffixCnt12.TabIndex = 52;
-            nudRelicHeadSubAffixCnt12.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicHandSubAffixCnt2.Location = new Point(187, 221);
+            nudRelicHandSubAffixCnt2.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicHandSubAffixCnt2.Name = "nudRelicHandSubAffixCnt2";
+            nudRelicHandSubAffixCnt2.Size = new Size(101, 35);
+            nudRelicHandSubAffixCnt2.TabIndex = 52;
+            nudRelicHandSubAffixCnt2.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicHandSubAffixCnt2.ValueChanged += nudRelicHandSubAffixCnt2_ValueChanged;
             // 
             // nudRelicHandSubAffixStep1
             // 
@@ -1399,6 +1419,7 @@
             nudRelicHandSubAffixStep1.Name = "nudRelicHandSubAffixStep1";
             nudRelicHandSubAffixStep1.Size = new Size(101, 35);
             nudRelicHandSubAffixStep1.TabIndex = 51;
+            nudRelicHandSubAffixStep1.ValueChanged += nudRelicHandSubAffixStep1_ValueChanged;
             // 
             // nudRelicHandSubAffixCnt1
             // 
@@ -1408,6 +1429,7 @@
             nudRelicHandSubAffixCnt1.Size = new Size(101, 35);
             nudRelicHandSubAffixCnt1.TabIndex = 50;
             nudRelicHandSubAffixCnt1.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicHandSubAffixCnt1.ValueChanged += nudRelicHandSubAffixCnt1_ValueChanged;
             // 
             // cboxRelicHandSet
             // 
@@ -1475,6 +1497,7 @@
             cboxRelicHandSubAffix4.Name = "cboxRelicHandSubAffix4";
             cboxRelicHandSubAffix4.Size = new Size(167, 38);
             cboxRelicHandSubAffix4.TabIndex = 35;
+            cboxRelicHandSubAffix4.SelectedIndexChanged += cboxRelicHandSubAffix4_SelectedIndexChanged;
             // 
             // cboxRelicHandSubAffix3
             // 
@@ -1485,6 +1508,7 @@
             cboxRelicHandSubAffix3.Name = "cboxRelicHandSubAffix3";
             cboxRelicHandSubAffix3.Size = new Size(167, 38);
             cboxRelicHandSubAffix3.TabIndex = 34;
+            cboxRelicHandSubAffix3.SelectedIndexChanged += cboxRelicHandSubAffix3_SelectedIndexChanged;
             // 
             // cboxRelicHandSubAffix2
             // 
@@ -1495,6 +1519,7 @@
             cboxRelicHandSubAffix2.Name = "cboxRelicHandSubAffix2";
             cboxRelicHandSubAffix2.Size = new Size(167, 38);
             cboxRelicHandSubAffix2.TabIndex = 33;
+            cboxRelicHandSubAffix2.SelectedIndexChanged += cboxRelicHandSubAffix2_SelectedIndexChanged;
             // 
             // cboxRelicHandSubAffix1
             // 
@@ -1505,6 +1530,7 @@
             cboxRelicHandSubAffix1.Name = "cboxRelicHandSubAffix1";
             cboxRelicHandSubAffix1.Size = new Size(167, 38);
             cboxRelicHandSubAffix1.TabIndex = 32;
+            cboxRelicHandSubAffix1.SelectedIndexChanged += cboxRelicHandSubAffix1_SelectedIndexChanged;
             // 
             // label36
             // 
@@ -1651,6 +1677,7 @@
             nudRelicBodySubAffixStep4.Name = "nudRelicBodySubAffixStep4";
             nudRelicBodySubAffixStep4.Size = new Size(101, 35);
             nudRelicBodySubAffixStep4.TabIndex = 57;
+            nudRelicBodySubAffixStep4.ValueChanged += nudRelicBodySubAffixStep4_ValueChanged;
             // 
             // nudRelicBodySubAffixCnt4
             // 
@@ -1660,6 +1687,7 @@
             nudRelicBodySubAffixCnt4.Size = new Size(101, 35);
             nudRelicBodySubAffixCnt4.TabIndex = 56;
             nudRelicBodySubAffixCnt4.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicBodySubAffixCnt4.ValueChanged += nudRelicBodySubAffixCnt4_ValueChanged;
             // 
             // nudRelicBodySubAffixStep3
             // 
@@ -1667,6 +1695,7 @@
             nudRelicBodySubAffixStep3.Name = "nudRelicBodySubAffixStep3";
             nudRelicBodySubAffixStep3.Size = new Size(101, 35);
             nudRelicBodySubAffixStep3.TabIndex = 55;
+            nudRelicBodySubAffixStep3.ValueChanged += nudRelicBodySubAffixStep3_ValueChanged;
             // 
             // nudRelicBodySubAffixCnt3
             // 
@@ -1676,6 +1705,7 @@
             nudRelicBodySubAffixCnt3.Size = new Size(101, 35);
             nudRelicBodySubAffixCnt3.TabIndex = 54;
             nudRelicBodySubAffixCnt3.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicBodySubAffixCnt3.ValueChanged += nudRelicBodySubAffixCnt3_ValueChanged;
             // 
             // nudRelicBodySubAffixStep2
             // 
@@ -1683,6 +1713,7 @@
             nudRelicBodySubAffixStep2.Name = "nudRelicBodySubAffixStep2";
             nudRelicBodySubAffixStep2.Size = new Size(101, 35);
             nudRelicBodySubAffixStep2.TabIndex = 53;
+            nudRelicBodySubAffixStep2.ValueChanged += nudRelicBodySubAffixStep2_ValueChanged;
             // 
             // nudRelicBodySubAffixCnt2
             // 
@@ -1692,6 +1723,7 @@
             nudRelicBodySubAffixCnt2.Size = new Size(101, 35);
             nudRelicBodySubAffixCnt2.TabIndex = 52;
             nudRelicBodySubAffixCnt2.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicBodySubAffixCnt2.ValueChanged += nudRelicBodySubAffixCnt2_ValueChanged;
             // 
             // nudRelicBodySubAffixStep1
             // 
@@ -1699,6 +1731,7 @@
             nudRelicBodySubAffixStep1.Name = "nudRelicBodySubAffixStep1";
             nudRelicBodySubAffixStep1.Size = new Size(101, 35);
             nudRelicBodySubAffixStep1.TabIndex = 51;
+            nudRelicBodySubAffixStep1.ValueChanged += nudRelicBodySubAffixStep1_ValueChanged;
             // 
             // nudRelicBodySubAffixCnt1
             // 
@@ -1708,6 +1741,7 @@
             nudRelicBodySubAffixCnt1.Size = new Size(101, 35);
             nudRelicBodySubAffixCnt1.TabIndex = 50;
             nudRelicBodySubAffixCnt1.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicBodySubAffixCnt1.ValueChanged += nudRelicBodySubAffixCnt1_ValueChanged;
             // 
             // cboxRelicBodySet
             // 
@@ -1775,6 +1809,7 @@
             cboxRelicBodySubAffix4.Name = "cboxRelicBodySubAffix4";
             cboxRelicBodySubAffix4.Size = new Size(167, 38);
             cboxRelicBodySubAffix4.TabIndex = 35;
+            cboxRelicBodySubAffix4.SelectedIndexChanged += cboxRelicBodySubAffix4_SelectedIndexChanged;
             // 
             // cboxRelicBodySubAffix3
             // 
@@ -1785,6 +1820,7 @@
             cboxRelicBodySubAffix3.Name = "cboxRelicBodySubAffix3";
             cboxRelicBodySubAffix3.Size = new Size(167, 38);
             cboxRelicBodySubAffix3.TabIndex = 34;
+            cboxRelicBodySubAffix3.SelectedIndexChanged += cboxRelicBodySubAffix3_SelectedIndexChanged;
             // 
             // cboxRelicBodySubAffix2
             // 
@@ -1795,6 +1831,7 @@
             cboxRelicBodySubAffix2.Name = "cboxRelicBodySubAffix2";
             cboxRelicBodySubAffix2.Size = new Size(167, 38);
             cboxRelicBodySubAffix2.TabIndex = 33;
+            cboxRelicBodySubAffix2.SelectedIndexChanged += cboxRelicBodySubAffix2_SelectedIndexChanged;
             // 
             // cboxRelicBodySubAffix1
             // 
@@ -1805,6 +1842,7 @@
             cboxRelicBodySubAffix1.Name = "cboxRelicBodySubAffix1";
             cboxRelicBodySubAffix1.Size = new Size(167, 38);
             cboxRelicBodySubAffix1.TabIndex = 32;
+            cboxRelicBodySubAffix1.SelectedIndexChanged += cboxRelicBodySubAffix1_SelectedIndexChanged;
             // 
             // label46
             // 
@@ -1914,6 +1952,7 @@
             nudRelicFootSubAffixStep4.Name = "nudRelicFootSubAffixStep4";
             nudRelicFootSubAffixStep4.Size = new Size(101, 35);
             nudRelicFootSubAffixStep4.TabIndex = 57;
+            nudRelicFootSubAffixStep4.ValueChanged += nudRelicFootSubAffixStep4_ValueChanged;
             // 
             // nudRelicFootSubAffixCnt4
             // 
@@ -1923,6 +1962,7 @@
             nudRelicFootSubAffixCnt4.Size = new Size(101, 35);
             nudRelicFootSubAffixCnt4.TabIndex = 56;
             nudRelicFootSubAffixCnt4.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicFootSubAffixCnt4.ValueChanged += nudRelicFootSubAffixCnt4_ValueChanged;
             // 
             // nudRelicFootSubAffixStep3
             // 
@@ -1930,6 +1970,7 @@
             nudRelicFootSubAffixStep3.Name = "nudRelicFootSubAffixStep3";
             nudRelicFootSubAffixStep3.Size = new Size(101, 35);
             nudRelicFootSubAffixStep3.TabIndex = 55;
+            nudRelicFootSubAffixStep3.ValueChanged += nudRelicFootSubAffixStep3_ValueChanged;
             // 
             // nudRelicFootSubAffixCnt3
             // 
@@ -1939,6 +1980,7 @@
             nudRelicFootSubAffixCnt3.Size = new Size(101, 35);
             nudRelicFootSubAffixCnt3.TabIndex = 54;
             nudRelicFootSubAffixCnt3.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicFootSubAffixCnt3.ValueChanged += nudRelicFootSubAffixCnt3_ValueChanged;
             // 
             // nudRelicFootSubAffixStep2
             // 
@@ -1946,6 +1988,7 @@
             nudRelicFootSubAffixStep2.Name = "nudRelicFootSubAffixStep2";
             nudRelicFootSubAffixStep2.Size = new Size(101, 35);
             nudRelicFootSubAffixStep2.TabIndex = 53;
+            nudRelicFootSubAffixStep2.ValueChanged += nudRelicFootSubAffixStep2_ValueChanged;
             // 
             // nudRelicFootSubAffixCnt2
             // 
@@ -1955,6 +1998,7 @@
             nudRelicFootSubAffixCnt2.Size = new Size(101, 35);
             nudRelicFootSubAffixCnt2.TabIndex = 52;
             nudRelicFootSubAffixCnt2.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicFootSubAffixCnt2.ValueChanged += nudRelicFootSubAffixCnt2_ValueChanged;
             // 
             // nudRelicFootSubAffixStep1
             // 
@@ -1962,6 +2006,7 @@
             nudRelicFootSubAffixStep1.Name = "nudRelicFootSubAffixStep1";
             nudRelicFootSubAffixStep1.Size = new Size(101, 35);
             nudRelicFootSubAffixStep1.TabIndex = 51;
+            nudRelicFootSubAffixStep1.ValueChanged += nudRelicFootSubAffixStep1_ValueChanged;
             // 
             // nudRelicFootSubAffixCnt1
             // 
@@ -1971,6 +2016,7 @@
             nudRelicFootSubAffixCnt1.Size = new Size(101, 35);
             nudRelicFootSubAffixCnt1.TabIndex = 50;
             nudRelicFootSubAffixCnt1.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicFootSubAffixCnt1.ValueChanged += nudRelicFootSubAffixCnt1_ValueChanged;
             // 
             // cboxRelicFootSet
             // 
@@ -2038,6 +2084,7 @@
             cboxRelicFootSubAffix4.Name = "cboxRelicFootSubAffix4";
             cboxRelicFootSubAffix4.Size = new Size(167, 38);
             cboxRelicFootSubAffix4.TabIndex = 35;
+            cboxRelicFootSubAffix4.SelectedIndexChanged += cboxRelicFootSubAffix4_SelectedIndexChanged;
             // 
             // cboxRelicFootSubAffix3
             // 
@@ -2048,6 +2095,7 @@
             cboxRelicFootSubAffix3.Name = "cboxRelicFootSubAffix3";
             cboxRelicFootSubAffix3.Size = new Size(167, 38);
             cboxRelicFootSubAffix3.TabIndex = 34;
+            cboxRelicFootSubAffix3.SelectedIndexChanged += cboxRelicFootSubAffix3_SelectedIndexChanged;
             // 
             // cboxRelicFootSubAffix2
             // 
@@ -2058,6 +2106,7 @@
             cboxRelicFootSubAffix2.Name = "cboxRelicFootSubAffix2";
             cboxRelicFootSubAffix2.Size = new Size(167, 38);
             cboxRelicFootSubAffix2.TabIndex = 33;
+            cboxRelicFootSubAffix2.SelectedIndexChanged += cboxRelicFootSubAffix2_SelectedIndexChanged;
             // 
             // cboxRelicFootSubAffix1
             // 
@@ -2068,6 +2117,7 @@
             cboxRelicFootSubAffix1.Name = "cboxRelicFootSubAffix1";
             cboxRelicFootSubAffix1.Size = new Size(167, 38);
             cboxRelicFootSubAffix1.TabIndex = 32;
+            cboxRelicFootSubAffix1.SelectedIndexChanged += cboxRelicFootSubAffix1_SelectedIndexChanged;
             // 
             // label56
             // 
@@ -2195,6 +2245,7 @@
             nudRelicNeckSubAffixStep4.Name = "nudRelicNeckSubAffixStep4";
             nudRelicNeckSubAffixStep4.Size = new Size(101, 35);
             nudRelicNeckSubAffixStep4.TabIndex = 57;
+            nudRelicNeckSubAffixStep4.ValueChanged += nudRelicNeckSubAffixStep4_ValueChanged;
             // 
             // nudRelicNeckSubAffixCnt4
             // 
@@ -2204,6 +2255,7 @@
             nudRelicNeckSubAffixCnt4.Size = new Size(101, 35);
             nudRelicNeckSubAffixCnt4.TabIndex = 56;
             nudRelicNeckSubAffixCnt4.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicNeckSubAffixCnt4.ValueChanged += nudRelicNeckSubAffixCnt4_ValueChanged;
             // 
             // nudRelicNeckSubAffixStep3
             // 
@@ -2211,6 +2263,7 @@
             nudRelicNeckSubAffixStep3.Name = "nudRelicNeckSubAffixStep3";
             nudRelicNeckSubAffixStep3.Size = new Size(101, 35);
             nudRelicNeckSubAffixStep3.TabIndex = 55;
+            nudRelicNeckSubAffixStep3.ValueChanged += nudRelicNeckSubAffixStep3_ValueChanged;
             // 
             // nudRelicNeckSubAffixCnt3
             // 
@@ -2220,6 +2273,7 @@
             nudRelicNeckSubAffixCnt3.Size = new Size(101, 35);
             nudRelicNeckSubAffixCnt3.TabIndex = 54;
             nudRelicNeckSubAffixCnt3.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicNeckSubAffixCnt3.ValueChanged += nudRelicNeckSubAffixCnt3_ValueChanged;
             // 
             // nudRelicNeckSubAffixStep2
             // 
@@ -2227,6 +2281,7 @@
             nudRelicNeckSubAffixStep2.Name = "nudRelicNeckSubAffixStep2";
             nudRelicNeckSubAffixStep2.Size = new Size(101, 35);
             nudRelicNeckSubAffixStep2.TabIndex = 53;
+            nudRelicNeckSubAffixStep2.ValueChanged += nudRelicNeckSubAffixStep2_ValueChanged;
             // 
             // nudRelicNeckSubAffixCnt2
             // 
@@ -2236,6 +2291,7 @@
             nudRelicNeckSubAffixCnt2.Size = new Size(101, 35);
             nudRelicNeckSubAffixCnt2.TabIndex = 52;
             nudRelicNeckSubAffixCnt2.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicNeckSubAffixCnt2.ValueChanged += nudRelicNeckSubAffixCnt2_ValueChanged;
             // 
             // nudRelicNeckSubAffixStep1
             // 
@@ -2243,6 +2299,7 @@
             nudRelicNeckSubAffixStep1.Name = "nudRelicNeckSubAffixStep1";
             nudRelicNeckSubAffixStep1.Size = new Size(101, 35);
             nudRelicNeckSubAffixStep1.TabIndex = 51;
+            nudRelicNeckSubAffixStep1.ValueChanged += nudRelicNeckSubAffixStep1_ValueChanged;
             // 
             // nudRelicNeckSubAffixCnt1
             // 
@@ -2252,6 +2309,7 @@
             nudRelicNeckSubAffixCnt1.Size = new Size(101, 35);
             nudRelicNeckSubAffixCnt1.TabIndex = 50;
             nudRelicNeckSubAffixCnt1.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicNeckSubAffixCnt1.ValueChanged += nudRelicNeckSubAffixCnt1_ValueChanged;
             // 
             // cboxRelicNeckSet
             // 
@@ -2319,6 +2377,7 @@
             cboxRelicNeckSubAffix4.Name = "cboxRelicNeckSubAffix4";
             cboxRelicNeckSubAffix4.Size = new Size(167, 38);
             cboxRelicNeckSubAffix4.TabIndex = 35;
+            cboxRelicNeckSubAffix4.SelectedIndexChanged += cboxRelicNeckSubAffix4_SelectedIndexChanged;
             // 
             // cboxRelicNeckSubAffix3
             // 
@@ -2329,6 +2388,7 @@
             cboxRelicNeckSubAffix3.Name = "cboxRelicNeckSubAffix3";
             cboxRelicNeckSubAffix3.Size = new Size(167, 38);
             cboxRelicNeckSubAffix3.TabIndex = 34;
+            cboxRelicNeckSubAffix3.SelectedIndexChanged += cboxRelicNeckSubAffix3_SelectedIndexChanged;
             // 
             // cboxRelicNeckSubAffix2
             // 
@@ -2339,6 +2399,7 @@
             cboxRelicNeckSubAffix2.Name = "cboxRelicNeckSubAffix2";
             cboxRelicNeckSubAffix2.Size = new Size(167, 38);
             cboxRelicNeckSubAffix2.TabIndex = 33;
+            cboxRelicNeckSubAffix2.SelectedIndexChanged += cboxRelicNeckSubAffix2_SelectedIndexChanged;
             // 
             // cboxRelicNeckSubAffix1
             // 
@@ -2349,6 +2410,7 @@
             cboxRelicNeckSubAffix1.Name = "cboxRelicNeckSubAffix1";
             cboxRelicNeckSubAffix1.Size = new Size(167, 38);
             cboxRelicNeckSubAffix1.TabIndex = 32;
+            cboxRelicNeckSubAffix1.SelectedIndexChanged += cboxRelicNeckSubAffix1_SelectedIndexChanged;
             // 
             // label66
             // 
@@ -2458,6 +2520,7 @@
             nudRelicObjectSubAffixStep4.Name = "nudRelicObjectSubAffixStep4";
             nudRelicObjectSubAffixStep4.Size = new Size(101, 35);
             nudRelicObjectSubAffixStep4.TabIndex = 57;
+            nudRelicObjectSubAffixStep4.ValueChanged += nudRelicObjectSubAffixStep4_ValueChanged;
             // 
             // nudRelicObjectSubAffixCnt4
             // 
@@ -2467,6 +2530,7 @@
             nudRelicObjectSubAffixCnt4.Size = new Size(101, 35);
             nudRelicObjectSubAffixCnt4.TabIndex = 56;
             nudRelicObjectSubAffixCnt4.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicObjectSubAffixCnt4.ValueChanged += nudRelicObjectSubAffixCnt4_ValueChanged;
             // 
             // nudRelicObjectSubAffixStep3
             // 
@@ -2474,6 +2538,7 @@
             nudRelicObjectSubAffixStep3.Name = "nudRelicObjectSubAffixStep3";
             nudRelicObjectSubAffixStep3.Size = new Size(101, 35);
             nudRelicObjectSubAffixStep3.TabIndex = 55;
+            nudRelicObjectSubAffixStep3.ValueChanged += nudRelicObjectSubAffixStep3_ValueChanged;
             // 
             // nudRelicObjectSubAffixCnt3
             // 
@@ -2483,6 +2548,7 @@
             nudRelicObjectSubAffixCnt3.Size = new Size(101, 35);
             nudRelicObjectSubAffixCnt3.TabIndex = 54;
             nudRelicObjectSubAffixCnt3.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicObjectSubAffixCnt3.ValueChanged += nudRelicObjectSubAffixCnt3_ValueChanged;
             // 
             // nudRelicObjectSubAffixStep2
             // 
@@ -2490,6 +2556,7 @@
             nudRelicObjectSubAffixStep2.Name = "nudRelicObjectSubAffixStep2";
             nudRelicObjectSubAffixStep2.Size = new Size(101, 35);
             nudRelicObjectSubAffixStep2.TabIndex = 53;
+            nudRelicObjectSubAffixStep2.ValueChanged += nudRelicObjectSubAffixStep2_ValueChanged;
             // 
             // nudRelicObjectSubAffixCnt2
             // 
@@ -2499,6 +2566,7 @@
             nudRelicObjectSubAffixCnt2.Size = new Size(101, 35);
             nudRelicObjectSubAffixCnt2.TabIndex = 52;
             nudRelicObjectSubAffixCnt2.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicObjectSubAffixCnt2.ValueChanged += nudRelicObjectSubAffixCnt2_ValueChanged;
             // 
             // nudRelicObjectSubAffixStep1
             // 
@@ -2506,6 +2574,7 @@
             nudRelicObjectSubAffixStep1.Name = "nudRelicObjectSubAffixStep1";
             nudRelicObjectSubAffixStep1.Size = new Size(101, 35);
             nudRelicObjectSubAffixStep1.TabIndex = 51;
+            nudRelicObjectSubAffixStep1.ValueChanged += nudRelicObjectSubAffixStep1_ValueChanged;
             // 
             // nudRelicObjectSubAffixCnt1
             // 
@@ -2515,6 +2584,7 @@
             nudRelicObjectSubAffixCnt1.Size = new Size(101, 35);
             nudRelicObjectSubAffixCnt1.TabIndex = 50;
             nudRelicObjectSubAffixCnt1.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            nudRelicObjectSubAffixCnt1.ValueChanged += nudRelicObjectSubAffixCnt1_ValueChanged;
             // 
             // cboxRelicObjectSet
             // 
@@ -2582,6 +2652,7 @@
             cboxRelicObjectSubAffix4.Name = "cboxRelicObjectSubAffix4";
             cboxRelicObjectSubAffix4.Size = new Size(167, 38);
             cboxRelicObjectSubAffix4.TabIndex = 35;
+            cboxRelicObjectSubAffix4.SelectedIndexChanged += cboxRelicObjectSubAffix4_SelectedIndexChanged;
             // 
             // cboxRelicObjectSubAffix3
             // 
@@ -2592,6 +2663,7 @@
             cboxRelicObjectSubAffix3.Name = "cboxRelicObjectSubAffix3";
             cboxRelicObjectSubAffix3.Size = new Size(167, 38);
             cboxRelicObjectSubAffix3.TabIndex = 34;
+            cboxRelicObjectSubAffix3.SelectedIndexChanged += cboxRelicObjectSubAffix3_SelectedIndexChanged;
             // 
             // cboxRelicObjectSubAffix2
             // 
@@ -2602,6 +2674,7 @@
             cboxRelicObjectSubAffix2.Name = "cboxRelicObjectSubAffix2";
             cboxRelicObjectSubAffix2.Size = new Size(167, 38);
             cboxRelicObjectSubAffix2.TabIndex = 33;
+            cboxRelicObjectSubAffix2.SelectedIndexChanged += cboxRelicObjectSubAffix2_SelectedIndexChanged;
             // 
             // cboxRelicObjectSubAffix1
             // 
@@ -2612,6 +2685,7 @@
             cboxRelicObjectSubAffix1.Name = "cboxRelicObjectSubAffix1";
             cboxRelicObjectSubAffix1.Size = new Size(167, 38);
             cboxRelicObjectSubAffix1.TabIndex = 32;
+            cboxRelicObjectSubAffix1.SelectedIndexChanged += cboxRelicObjectSubAffix1_SelectedIndexChanged;
             // 
             // label77
             // 
@@ -2684,11 +2758,19 @@
             // 
             menuStrip1.Font = new Font("Microsoft YaHei UI", 11F, FontStyle.Regular, GraphicsUnit.Point, 134);
             menuStrip1.ImageScalingSize = new Size(24, 24);
+            menuStrip1.Items.AddRange(new ToolStripItem[] { ExportToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(1758, 24);
+            menuStrip1.Size = new Size(1758, 38);
             menuStrip1.TabIndex = 1;
             menuStrip1.Text = "menuStrip1";
+            // 
+            // ExportToolStripMenuItem
+            // 
+            ExportToolStripMenuItem.Name = "ExportToolStripMenuItem";
+            ExportToolStripMenuItem.Size = new Size(73, 34);
+            ExportToolStripMenuItem.Text = "导出";
+            ExportToolStripMenuItem.Click += ExportToolStripMenuItem_Click;
             // 
             // MainForm
             // 
@@ -2751,11 +2833,11 @@
             groupBox6.ResumeLayout(false);
             groupBox6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)nudRelicHandSubAffixStep4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)nudRelicHeadSubAffixCnt14).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHandSubAffixCnt4).EndInit();
             ((System.ComponentModel.ISupportInitialize)nudRelicHandSubAffixStep3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)nudRelicHeadSubAffixCnt13).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHandSubAffixCnt3).EndInit();
             ((System.ComponentModel.ISupportInitialize)nudRelicHandSubAffixStep2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)nudRelicHeadSubAffixCnt12).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudRelicHandSubAffixCnt2).EndInit();
             ((System.ComponentModel.ISupportInitialize)nudRelicHandSubAffixStep1).EndInit();
             ((System.ComponentModel.ISupportInitialize)nudRelicHandSubAffixCnt1).EndInit();
             splitContainer5.Panel1.ResumeLayout(false);
@@ -2810,6 +2892,8 @@
             ((System.ComponentModel.ISupportInitialize)nudRelicObjectSubAffixCnt2).EndInit();
             ((System.ComponentModel.ISupportInitialize)nudRelicObjectSubAffixStep1).EndInit();
             ((System.ComponentModel.ISupportInitialize)nudRelicObjectSubAffixCnt1).EndInit();
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -3054,11 +3138,11 @@
         private NumericUpDown nudRelicHeadSubAffixStep1;
         private NumericUpDown nudRelicHeadSubAffixCnt1;
         private NumericUpDown nudRelicHandSubAffixStep4;
-        private NumericUpDown nudRelicHeadSubAffixCnt14;
+        private NumericUpDown nudRelicHandSubAffixCnt4;
         private NumericUpDown nudRelicHandSubAffixStep3;
-        private NumericUpDown nudRelicHeadSubAffixCnt13;
+        private NumericUpDown nudRelicHandSubAffixCnt3;
         private NumericUpDown nudRelicHandSubAffixStep2;
-        private NumericUpDown nudRelicHeadSubAffixCnt12;
+        private NumericUpDown nudRelicHandSubAffixCnt2;
         private NumericUpDown nudRelicHandSubAffixStep1;
         private NumericUpDown nudRelicHandSubAffixCnt1;
         private NumericUpDown nudRelicBodySubAffixStep4;
@@ -3069,5 +3153,6 @@
         private NumericUpDown nudRelicBodySubAffixCnt2;
         private NumericUpDown nudRelicBodySubAffixStep1;
         private NumericUpDown nudRelicBodySubAffixCnt1;
+        private ToolStripMenuItem ExportToolStripMenuItem;
     }
 }
